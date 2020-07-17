@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata type can store environment specific details</description>
+    <fields>
+        <fullName>Papyrus_URL__c</fullName>
+        <description>References the URL for Papyrus reference document</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Papyrus URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>Salesforce Environment Setting</label>
+    <pluralLabel>SalesforceEnvironmentSettings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order Event Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Order Event Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- EBS ORDER TYPE --></label>
+        <name>EBS_ORDER_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FUSION ORDER TYPE --></label>
+        <name>FUSION_ORDER_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC ORDER TYPE --></label>
+        <name>SFDC_ORDER_TYPE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC RECORD TYPE --></label>
+        <name>SFDC_RECORD_TYPE__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

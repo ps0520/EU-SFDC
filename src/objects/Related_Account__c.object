@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Jagan 04/25/2017 - Object holds many to many relationship between Accounts.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Child_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field holds the child account (Prescriber) information</description>
+        <externalId>false</externalId>
+        <label>Child Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>contains</operation>
+                <value>Prescriber, Facility, Pharmacy</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Parent Accounts</relationshipLabel>
+        <relationshipName>Related_Child_Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Child_Relation_Type__c</fullName>
+        <description>Record type corresponding to the Child Account in the relationship.</description>
+        <externalId>false</externalId>
+        <formula>MID(Child_Account__r.RecordType.Name, 4, LEN(Child_Account__r.RecordType.Name))</formula>
+        <label>Child Relation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IQVIA_OneKeyId__c</fullName>
+        <description>OneKey - Records OneKey Id</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>OneKey ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OK_Fax__c</fullName>
+        <description>OneKey - Records Fax number</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Fax</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>OK_Phone__c</fullName>
+        <description>OneKey - Records Phone number</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>OK_Relation_End_Date__c</fullName>
+        <description>OneKey - Relation end date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Relation End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OK_Relation_Start_Date__c</fullName>
+        <description>OneKey - Relation start date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Relation Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OK_Relation_Type__c</fullName>
+        <description>OneKey - Relationship Type</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Relation Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OK_Relationship_Link__c</fullName>
+        <description>OneKey - Relationship Link</description>
+        <externalId>false</externalId>
+        <label>Relationship Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Belongs to Practice house</fullName>
+                    <default>false</default>
+                    <label>Belongs to Practice house</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Medical equipment group</fullName>
+                    <default>false</default>
+                    <label>Belongs to Medical equipment group</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Practice / MVZ</fullName>
+                    <default>false</default>
+                    <label>Belongs to Practice / MVZ</label>
+                </value>
+                <value>
+                    <fullName>Is duplicate of</fullName>
+                    <default>false</default>
+                    <label>Is duplicate of</label>
+                </value>
+                <value>
+                    <fullName>Supplied by - DRK -</fullName>
+                    <default>false</default>
+                    <label>Supplied by - DRK -</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Buying Group - medical</fullName>
+                    <default>false</default>
+                    <label>Belongs to Buying Group - medical</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Buying Group - pharma</fullName>
+                    <default>false</default>
+                    <label>Belongs to Buying Group - pharma</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Buying Group - sanitary</fullName>
+                    <default>false</default>
+                    <label>Belongs to Buying Group - sanitary</label>
+                </value>
+                <value>
+                    <fullName>Is affiliate of</fullName>
+                    <default>false</default>
+                    <label>Is affiliate of</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Franchise company</fullName>
+                    <default>false</default>
+                    <label>Belongs to Franchise company</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Hospital Group - GRP -</fullName>
+                    <default>false</default>
+                    <label>Belongs to Hospital Group - GRP -</label>
+                </value>
+                <value>
+                    <fullName>Is managed by</fullName>
+                    <default>false</default>
+                    <label>Is managed by</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Hospitals - KLI -</fullName>
+                    <default>false</default>
+                    <label>Belongs to Hospitals - KLI -</label>
+                </value>
+                <value>
+                    <fullName>Is affiliated to hospitals</fullName>
+                    <default>false</default>
+                    <label>Is affiliated to hospitals</label>
+                </value>
+                <value>
+                    <fullName>Has for main workplace</fullName>
+                    <default>false</default>
+                    <label>Has for main workplace</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Group of practices</fullName>
+                    <default>false</default>
+                    <label>Belongs to Group of practices</label>
+                </value>
+                <value>
+                    <fullName>Is relocated to</fullName>
+                    <default>false</default>
+                    <label>Is relocated to</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Service center</fullName>
+                    <default>false</default>
+                    <label>Belongs to Service center</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Management company</fullName>
+                    <default>false</default>
+                    <label>Belongs to Management company</label>
+                </value>
+                <value>
+                    <fullName>Belongs to Interlocational union</fullName>
+                    <default>false</default>
+                    <label>Belongs to Interlocational union</label>
+                </value>
+                <value>
+                    <fullName>Supplied by - VAB -</fullName>
+                    <default>false</default>
+                    <label>Supplied by - VAB -</label>
+                </value>
+                <value>
+                    <fullName>Supplied by - VAS -</fullName>
+                    <default>false</default>
+                    <label>Supplied by - VAS -</label>
+                </value>
+                <value>
+                    <fullName>Supplied by - VER -</fullName>
+                    <default>false</default>
+                    <label>Supplied by - VER -</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OK_Role_1__c</fullName>
+        <description>OneKey - Records Role 2</description>
+        <externalId>false</externalId>
+        <label>Role 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consulting Physician</fullName>
+                    <default>false</default>
+                    <label>Consulting Physician</label>
+                </value>
+                <value>
+                    <fullName>Head of Public Health Department</fullName>
+                    <default>false</default>
+                    <label>Head of Public Health Department</label>
+                </value>
+                <value>
+                    <fullName>Head of office (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head of office (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Nursing Director (deputy)</fullName>
+                    <default>false</default>
+                    <label>Nursing Director (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Kitchen Manager</fullName>
+                    <default>false</default>
+                    <label>Kitchen Manager</label>
+                </value>
+                <value>
+                    <fullName>Head of housing</fullName>
+                    <default>false</default>
+                    <label>Head of housing</label>
+                </value>
+                <value>
+                    <fullName>Freelancer</fullName>
+                    <default>false</default>
+                    <label>Freelancer</label>
+                </value>
+                <value>
+                    <fullName>Pharmacie Staff</fullName>
+                    <default>false</default>
+                    <label>Pharmacie Staff</label>
+                </value>
+                <value>
+                    <fullName>Admiral Doctor</fullName>
+                    <default>false</default>
+                    <label>Admiral Doctor</label>
+                </value>
+                <value>
+                    <fullName>Admiral Colonel medical officer</fullName>
+                    <default>false</default>
+                    <label>Admiral Colonel medical officer</label>
+                </value>
+                <value>
+                    <fullName>Admiral Medical officer</fullName>
+                    <default>false</default>
+                    <label>Admiral Medical officer</label>
+                </value>
+                <value>
+                    <fullName>Medical head</fullName>
+                    <default>false</default>
+                    <label>Medical head</label>
+                </value>
+                <value>
+                    <fullName>Fleet doctor</fullName>
+                    <default>false</default>
+                    <label>Fleet doctor</label>
+                </value>
+                <value>
+                    <fullName>Flotila doctor</fullName>
+                    <default>false</default>
+                    <label>Flotila doctor</label>
+                </value>
+                <value>
+                    <fullName>Doctor General</fullName>
+                    <default>false</default>
+                    <label>Doctor General</label>
+                </value>
+                <value>
+                    <fullName>Field-grade pharmacist (Military)</fullName>
+                    <default>false</default>
+                    <label>Field-grade pharmacist (Military)</label>
+                </value>
+                <value>
+                    <fullName>Field-grade physician (Military)</fullName>
+                    <default>false</default>
+                    <label>Field-grade physician (Military)</label>
+                </value>
+                <value>
+                    <fullName>Colonel  Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Colonel  Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Training Doctor</fullName>
+                    <default>false</default>
+                    <label>Training Doctor</label>
+                </value>
+                <value>
+                    <fullName>Pharmacist (Military)</fullName>
+                    <default>false</default>
+                    <label>Pharmacist (Military)</label>
+                </value>
+                <value>
+                    <fullName>Medical Director (deputy)</fullName>
+                    <default>false</default>
+                    <label>Medical Director (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Medical head (deputy)</fullName>
+                    <default>false</default>
+                    <label>Medical head (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Director of administration</fullName>
+                    <default>false</default>
+                    <label>Director of administration</label>
+                </value>
+                <value>
+                    <fullName>Fee-based physician</fullName>
+                    <default>false</default>
+                    <label>Fee-based physician</label>
+                </value>
+                <value>
+                    <fullName>Dean</fullName>
+                    <default>false</default>
+                    <label>Dean</label>
+                </value>
+                <value>
+                    <fullName>Professor</fullName>
+                    <default>false</default>
+                    <label>Professor</label>
+                </value>
+                <value>
+                    <fullName>Secretary general</fullName>
+                    <default>false</default>
+                    <label>Secretary general</label>
+                </value>
+                <value>
+                    <fullName>Chairmann (deputy)</fullName>
+                    <default>false</default>
+                    <label>Chairmann (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Manager (deputy)</fullName>
+                    <default>false</default>
+                    <label>Manager (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Operations Head (deputy)</fullName>
+                    <default>false</default>
+                    <label>Operations Head (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Chief hospital pharmacist</fullName>
+                    <default>false</default>
+                    <label>Chief hospital pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Head Physician</fullName>
+                    <default>false</default>
+                    <label>Head Physician</label>
+                </value>
+                <value>
+                    <fullName>Head physician (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head physician (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Leading physician</fullName>
+                    <default>false</default>
+                    <label>Leading physician</label>
+                </value>
+                <value>
+                    <fullName>Senior physician</fullName>
+                    <default>false</default>
+                    <label>Senior physician</label>
+                </value>
+                <value>
+                    <fullName>Assistant doctor</fullName>
+                    <default>false</default>
+                    <label>Assistant doctor</label>
+                </value>
+                <value>
+                    <fullName>Lead Assistant</fullName>
+                    <default>false</default>
+                    <label>Lead Assistant</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>Vice Director</fullName>
+                    <default>false</default>
+                    <label>Vice Director</label>
+                </value>
+                <value>
+                    <fullName>Public Health Officer</fullName>
+                    <default>false</default>
+                    <label>Public Health Officer</label>
+                </value>
+                <value>
+                    <fullName>Lead Consultant</fullName>
+                    <default>false</default>
+                    <label>Lead Consultant</label>
+                </value>
+                <value>
+                    <fullName>Medicine Director</fullName>
+                    <default>false</default>
+                    <label>Medicine Director</label>
+                </value>
+                <value>
+                    <fullName>Medical Director</fullName>
+                    <default>false</default>
+                    <label>Medical Director</label>
+                </value>
+                <value>
+                    <fullName>Company Doctor</fullName>
+                    <default>false</default>
+                    <label>Company Doctor</label>
+                </value>
+                <value>
+                    <fullName>Medical officer (Military)</fullName>
+                    <default>false</default>
+                    <label>Medical officer (Military)</label>
+                </value>
+                <value>
+                    <fullName>Ward physician</fullName>
+                    <default>false</default>
+                    <label>Ward physician</label>
+                </value>
+                <value>
+                    <fullName>Medical Council</fullName>
+                    <default>false</default>
+                    <label>Medical Council</label>
+                </value>
+                <value>
+                    <fullName>Colonel medical officer</fullName>
+                    <default>false</default>
+                    <label>Colonel medical officer</label>
+                </value>
+                <value>
+                    <fullName>Sanitary Council</fullName>
+                    <default>false</default>
+                    <label>Sanitary Council</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy Owner</fullName>
+                    <default>false</default>
+                    <label>Pharmacy Owner</label>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                    <label>Manager</label>
+                </value>
+                <value>
+                    <fullName>Leader</fullName>
+                    <default>false</default>
+                    <label>Leader</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department Pharmacy</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department Clinic</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department Clinic</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department VVA</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department VVA</label>
+                </value>
+                <value>
+                    <fullName>Leaseholder</fullName>
+                    <default>false</default>
+                    <label>Leaseholder</label>
+                </value>
+                <value>
+                    <fullName>Head of Nursing</fullName>
+                    <default>false</default>
+                    <label>Head of Nursing</label>
+                </value>
+                <value>
+                    <fullName>Nursing staff</fullName>
+                    <default>false</default>
+                    <label>Nursing staff</label>
+                </value>
+                <value>
+                    <fullName>Employed Doctor</fullName>
+                    <default>false</default>
+                    <label>Employed Doctor</label>
+                </value>
+                <value>
+                    <fullName>Practice Owner</fullName>
+                    <default>false</default>
+                    <label>Practice Owner</label>
+                </value>
+                <value>
+                    <fullName>Practice owner (deputy)</fullName>
+                    <default>false</default>
+                    <label>Practice owner (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Other Staff Member/Official</fullName>
+                    <default>false</default>
+                    <label>Other Staff Member/Official</label>
+                </value>
+                <value>
+                    <fullName>Other Position</fullName>
+                    <default>false</default>
+                    <label>Other Position</label>
+                </value>
+                <value>
+                    <fullName>Other Hospital staff</fullName>
+                    <default>false</default>
+                    <label>Other Hospital staff</label>
+                </value>
+                <value>
+                    <fullName>Administrator</fullName>
+                    <default>false</default>
+                    <label>Administrator</label>
+                </value>
+                <value>
+                    <fullName>Head of administration</fullName>
+                    <default>false</default>
+                    <label>Head of administration</label>
+                </value>
+                <value>
+                    <fullName>Administrative Staff</fullName>
+                    <default>false</default>
+                    <label>Administrative Staff</label>
+                </value>
+                <value>
+                    <fullName>Guest doctor</fullName>
+                    <default>false</default>
+                    <label>Guest doctor</label>
+                </value>
+                <value>
+                    <fullName>Head Homebound</fullName>
+                    <default>false</default>
+                    <label>Head Homebound</label>
+                </value>
+                <value>
+                    <fullName>Head of ward</fullName>
+                    <default>false</default>
+                    <label>Head of ward</label>
+                </value>
+                <value>
+                    <fullName>Head OP</fullName>
+                    <default>false</default>
+                    <label>Head OP</label>
+                </value>
+                <value>
+                    <fullName>Head of Repository</fullName>
+                    <default>false</default>
+                    <label>Head of Repository</label>
+                </value>
+                <value>
+                    <fullName>Head of the home economics department</fullName>
+                    <default>false</default>
+                    <label>Head of the home economics department</label>
+                </value>
+                <value>
+                    <fullName>Major Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Major Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Colonel doctor</fullName>
+                    <default>false</default>
+                    <label>Colonel doctor</label>
+                </value>
+                <value>
+                    <fullName>Director of Nursing</fullName>
+                    <default>false</default>
+                    <label>Director of Nursing</label>
+                </value>
+                <value>
+                    <fullName>Head of administrative staff (practice)</fullName>
+                    <default>false</default>
+                    <label>Head of administrative staff (practice)</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy Council</fullName>
+                    <default>false</default>
+                    <label>Pharmacy Council</label>
+                </value>
+                <value>
+                    <fullName>President</fullName>
+                    <default>false</default>
+                    <label>President</label>
+                </value>
+                <value>
+                    <fullName>Management</fullName>
+                    <default>false</default>
+                    <label>Management</label>
+                </value>
+                <value>
+                    <fullName>Head of Nursing (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head of Nursing (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Technical Manager</fullName>
+                    <default>false</default>
+                    <label>Technical Manager</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OK_Role_2__c</fullName>
+        <description>OneKey - Records Role 1</description>
+        <externalId>false</externalId>
+        <label>Role 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consulting Physician</fullName>
+                    <default>false</default>
+                    <label>Consulting Physician</label>
+                </value>
+                <value>
+                    <fullName>Head of Public Health Department</fullName>
+                    <default>false</default>
+                    <label>Head of Public Health Department</label>
+                </value>
+                <value>
+                    <fullName>Head of office (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head of office (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Nursing Director (deputy)</fullName>
+                    <default>false</default>
+                    <label>Nursing Director (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Kitchen Manager</fullName>
+                    <default>false</default>
+                    <label>Kitchen Manager</label>
+                </value>
+                <value>
+                    <fullName>Head of housing</fullName>
+                    <default>false</default>
+                    <label>Head of housing</label>
+                </value>
+                <value>
+                    <fullName>Freelancer</fullName>
+                    <default>false</default>
+                    <label>Freelancer</label>
+                </value>
+                <value>
+                    <fullName>Pharmacie Staff</fullName>
+                    <default>false</default>
+                    <label>Pharmacie Staff</label>
+                </value>
+                <value>
+                    <fullName>Admiral Doctor</fullName>
+                    <default>false</default>
+                    <label>Admiral Doctor</label>
+                </value>
+                <value>
+                    <fullName>Admiral Colonel medical officer</fullName>
+                    <default>false</default>
+                    <label>Admiral Colonel medical officer</label>
+                </value>
+                <value>
+                    <fullName>Admiral Medical officer</fullName>
+                    <default>false</default>
+                    <label>Admiral Medical officer</label>
+                </value>
+                <value>
+                    <fullName>Medical head</fullName>
+                    <default>false</default>
+                    <label>Medical head</label>
+                </value>
+                <value>
+                    <fullName>Fleet doctor</fullName>
+                    <default>false</default>
+                    <label>Fleet doctor</label>
+                </value>
+                <value>
+                    <fullName>Flotila doctor</fullName>
+                    <default>false</default>
+                    <label>Flotila doctor</label>
+                </value>
+                <value>
+                    <fullName>Doctor General</fullName>
+                    <default>false</default>
+                    <label>Doctor General</label>
+                </value>
+                <value>
+                    <fullName>Field-grade pharmacist (Military)</fullName>
+                    <default>false</default>
+                    <label>Field-grade pharmacist (Military)</label>
+                </value>
+                <value>
+                    <fullName>Field-grade physician (Military)</fullName>
+                    <default>false</default>
+                    <label>Field-grade physician (Military)</label>
+                </value>
+                <value>
+                    <fullName>Colonel  Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Colonel  Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Training Doctor</fullName>
+                    <default>false</default>
+                    <label>Training Doctor</label>
+                </value>
+                <value>
+                    <fullName>Pharmacist (Military)</fullName>
+                    <default>false</default>
+                    <label>Pharmacist (Military)</label>
+                </value>
+                <value>
+                    <fullName>Medical Director (deputy)</fullName>
+                    <default>false</default>
+                    <label>Medical Director (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Medical head (deputy)</fullName>
+                    <default>false</default>
+                    <label>Medical head (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Director of administration</fullName>
+                    <default>false</default>
+                    <label>Director of administration</label>
+                </value>
+                <value>
+                    <fullName>Fee-based physician</fullName>
+                    <default>false</default>
+                    <label>Fee-based physician</label>
+                </value>
+                <value>
+                    <fullName>Dean</fullName>
+                    <default>false</default>
+                    <label>Dean</label>
+                </value>
+                <value>
+                    <fullName>Professor</fullName>
+                    <default>false</default>
+                    <label>Professor</label>
+                </value>
+                <value>
+                    <fullName>Secretary general</fullName>
+                    <default>false</default>
+                    <label>Secretary general</label>
+                </value>
+                <value>
+                    <fullName>Chairmann (deputy)</fullName>
+                    <default>false</default>
+                    <label>Chairmann (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Manager (deputy)</fullName>
+                    <default>false</default>
+                    <label>Manager (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Operations Head (deputy)</fullName>
+                    <default>false</default>
+                    <label>Operations Head (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Chief hospital pharmacist</fullName>
+                    <default>false</default>
+                    <label>Chief hospital pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Head Physician</fullName>
+                    <default>false</default>
+                    <label>Head Physician</label>
+                </value>
+                <value>
+                    <fullName>Head physician (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head physician (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Leading physician</fullName>
+                    <default>false</default>
+                    <label>Leading physician</label>
+                </value>
+                <value>
+                    <fullName>Senior physician</fullName>
+                    <default>false</default>
+                    <label>Senior physician</label>
+                </value>
+                <value>
+                    <fullName>Assistant doctor</fullName>
+                    <default>false</default>
+                    <label>Assistant doctor</label>
+                </value>
+                <value>
+                    <fullName>Lead Assistant</fullName>
+                    <default>false</default>
+                    <label>Lead Assistant</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>Vice Director</fullName>
+                    <default>false</default>
+                    <label>Vice Director</label>
+                </value>
+                <value>
+                    <fullName>Public Health Officer</fullName>
+                    <default>false</default>
+                    <label>Public Health Officer</label>
+                </value>
+                <value>
+                    <fullName>Lead Consultant</fullName>
+                    <default>false</default>
+                    <label>Lead Consultant</label>
+                </value>
+                <value>
+                    <fullName>Medicine Director</fullName>
+                    <default>false</default>
+                    <label>Medicine Director</label>
+                </value>
+                <value>
+                    <fullName>Medical Director</fullName>
+                    <default>false</default>
+                    <label>Medical Director</label>
+                </value>
+                <value>
+                    <fullName>Company Doctor</fullName>
+                    <default>false</default>
+                    <label>Company Doctor</label>
+                </value>
+                <value>
+                    <fullName>Medical officer (Military)</fullName>
+                    <default>false</default>
+                    <label>Medical officer (Military)</label>
+                </value>
+                <value>
+                    <fullName>Ward physician</fullName>
+                    <default>false</default>
+                    <label>Ward physician</label>
+                </value>
+                <value>
+                    <fullName>Medical Council</fullName>
+                    <default>false</default>
+                    <label>Medical Council</label>
+                </value>
+                <value>
+                    <fullName>Colonel medical officer</fullName>
+                    <default>false</default>
+                    <label>Colonel medical officer</label>
+                </value>
+                <value>
+                    <fullName>Sanitary Council</fullName>
+                    <default>false</default>
+                    <label>Sanitary Council</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy Owner</fullName>
+                    <default>false</default>
+                    <label>Pharmacy Owner</label>
+                </value>
+                <value>
+                    <fullName>Manager</fullName>
+                    <default>false</default>
+                    <label>Manager</label>
+                </value>
+                <value>
+                    <fullName>Leader</fullName>
+                    <default>false</default>
+                    <label>Leader</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department Pharmacy</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department Clinic</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department Clinic</label>
+                </value>
+                <value>
+                    <fullName>Purchaser Department VVA</fullName>
+                    <default>false</default>
+                    <label>Purchaser Department VVA</label>
+                </value>
+                <value>
+                    <fullName>Leaseholder</fullName>
+                    <default>false</default>
+                    <label>Leaseholder</label>
+                </value>
+                <value>
+                    <fullName>Head of Nursing</fullName>
+                    <default>false</default>
+                    <label>Head of Nursing</label>
+                </value>
+                <value>
+                    <fullName>Nursing staff</fullName>
+                    <default>false</default>
+                    <label>Nursing staff</label>
+                </value>
+                <value>
+                    <fullName>Employed Doctor</fullName>
+                    <default>false</default>
+                    <label>Employed Doctor</label>
+                </value>
+                <value>
+                    <fullName>Practice Owner</fullName>
+                    <default>false</default>
+                    <label>Practice Owner</label>
+                </value>
+                <value>
+                    <fullName>Practice owner (deputy)</fullName>
+                    <default>false</default>
+                    <label>Practice owner (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Other Staff Member/Official</fullName>
+                    <default>false</default>
+                    <label>Other Staff Member/Official</label>
+                </value>
+                <value>
+                    <fullName>Other Position</fullName>
+                    <default>false</default>
+                    <label>Other Position</label>
+                </value>
+                <value>
+                    <fullName>Other Hospital staff</fullName>
+                    <default>false</default>
+                    <label>Other Hospital staff</label>
+                </value>
+                <value>
+                    <fullName>Administrator</fullName>
+                    <default>false</default>
+                    <label>Administrator</label>
+                </value>
+                <value>
+                    <fullName>Head of administration</fullName>
+                    <default>false</default>
+                    <label>Head of administration</label>
+                </value>
+                <value>
+                    <fullName>Administrative Staff</fullName>
+                    <default>false</default>
+                    <label>Administrative Staff</label>
+                </value>
+                <value>
+                    <fullName>Guest doctor</fullName>
+                    <default>false</default>
+                    <label>Guest doctor</label>
+                </value>
+                <value>
+                    <fullName>Head Homebound</fullName>
+                    <default>false</default>
+                    <label>Head Homebound</label>
+                </value>
+                <value>
+                    <fullName>Head of ward</fullName>
+                    <default>false</default>
+                    <label>Head of ward</label>
+                </value>
+                <value>
+                    <fullName>Head OP</fullName>
+                    <default>false</default>
+                    <label>Head OP</label>
+                </value>
+                <value>
+                    <fullName>Head of Repository</fullName>
+                    <default>false</default>
+                    <label>Head of Repository</label>
+                </value>
+                <value>
+                    <fullName>Head of the home economics department</fullName>
+                    <default>false</default>
+                    <label>Head of the home economics department</label>
+                </value>
+                <value>
+                    <fullName>Major Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Major Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>Colonel doctor</fullName>
+                    <default>false</default>
+                    <label>Colonel doctor</label>
+                </value>
+                <value>
+                    <fullName>Director of Nursing</fullName>
+                    <default>false</default>
+                    <label>Director of Nursing</label>
+                </value>
+                <value>
+                    <fullName>Head of administrative staff (practice)</fullName>
+                    <default>false</default>
+                    <label>Head of administrative staff (practice)</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy Council</fullName>
+                    <default>false</default>
+                    <label>Pharmacy Council</label>
+                </value>
+                <value>
+                    <fullName>President</fullName>
+                    <default>false</default>
+                    <label>President</label>
+                </value>
+                <value>
+                    <fullName>Management</fullName>
+                    <default>false</default>
+                    <label>Management</label>
+                </value>
+                <value>
+                    <fullName>Head of Nursing (deputy)</fullName>
+                    <default>false</default>
+                    <label>Head of Nursing (deputy)</label>
+                </value>
+                <value>
+                    <fullName>Technical Manager</fullName>
+                    <default>false</default>
+                    <label>Technical Manager</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OK_Status_State__c</fullName>
+        <description>OneKey - Picklist Code = STE</description>
+        <externalId>false</externalId>
+        <label>Status State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Deceased</fullName>
+                    <default>false</default>
+                    <label>Deceased</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Maternity Leave</fullName>
+                    <default>false</default>
+                    <label>Maternity Leave</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Is.opening</fullName>
+                    <default>false</default>
+                    <label>Is.opening</label>
+                </value>
+                <value>
+                    <fullName>Reduced Activity</fullName>
+                    <default>false</default>
+                    <label>Reduced Activity</label>
+                </value>
+                <value>
+                    <fullName>Retired</fullName>
+                    <default>false</default>
+                    <label>Retired</label>
+                </value>
+                <value>
+                    <fullName>Temp. Closed</fullName>
+                    <default>false</default>
+                    <label>Temp. Closed</label>
+                </value>
+                <value>
+                    <fullName>Temp. Inactive</fullName>
+                    <default>false</default>
+                    <label>Temp. Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OK_Status__c</fullName>
+        <description>OneKey - Status like Valid, Invalid, Provisional</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Provisional</fullName>
+                    <default>false</default>
+                    <label>Provisional</label>
+                </value>
+                <value>
+                    <fullName>Valid</fullName>
+                    <default>false</default>
+                    <label>Valid</label>
+                </value>
+                <value>
+                    <fullName>Invalid</fullName>
+                    <default>false</default>
+                    <label>Invalid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OK_Working_Status__c</fullName>
+        <description>OneKey - Records working status</description>
+        <externalId>false</externalId>
+        <label>Working Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Full Time</fullName>
+                    <default>false</default>
+                    <label>Full Time</label>
+                </value>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>Part Time</fullName>
+                    <default>false</default>
+                    <label>Part Time</label>
+                </value>
+                <value>
+                    <fullName>Market Access</fullName>
+                    <default>false</default>
+                    <label>Market Access</label>
+                </value>
+                <value>
+                    <fullName>Regular Substitute</fullName>
+                    <default>false</default>
+                    <label>Regular Substitute</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field holds the parent account information</description>
+        <externalId>false</externalId>
+        <label>Parent Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>contains</operation>
+                <value>Facility, Hospital, Payor, Pharmacy</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Child Accounts</relationshipLabel>
+        <relationshipName>Related_Parent_Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Relation_Type__c</fullName>
+        <description>Record type corresponding to the Parent Account in the relationship.</description>
+        <externalId>false</externalId>
+        <formula>MID(Parent_Account__r.RecordType.Name, 4, LEN(Parent_Account__r.RecordType.Name))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Relation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payor_Billing_Address_Full_Text__c</fullName>
+        <description>Displays the full text of the address</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Payor_Billing_Address__c)), (Payor_Billing_Address__r.Address_Line_1__c &amp; &apos;, &apos; &amp; Payor_Billing_Address__r.City__c &amp; &apos;, &apos; &amp; Payor_Billing_Address__r.Postal_Code__c &amp; &apos;, &apos; &amp; Text(Payor_Billing_Address__r.Country__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payor Billing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payor_Billing_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Billing address tied to the Payor</description>
+        <externalId>false</externalId>
+        <label>Payor Billing Address</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Address__c.Account__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Parent_Account__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Address__c.Type__c</field>
+                <operation>equals</operation>
+                <value>Bill To</value>
+            </filterItems>
+            <infoMessage>Address does not belong to the Payor.</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Address__c</referenceTo>
+        <relationshipLabel>Related Accounts</relationshipLabel>
+        <relationshipName>Related_Account_Payor_Address</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Email__c</fullName>
+        <description>This field will track the preferred email</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Preferred Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prescriber_Operations_Site_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Account__r.Facility_Number__c</formula>
+        <label>Prescriber Operations Site Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Tracks the primary association</description>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Related Account</label>
+    <nameField>
+        <displayFormat>RA-{00000}</displayFormat>
+        <label>Relation Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Related Accounts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Check_If_Both_Med_Fac_Prescriber_Exist</fullName>
+        <active>true</active>
+        <description>Rule checks if both Medical Facility and Prescriber information are filled in before saving the record.</description>
+        <errorConditionFormula>OR(
+ISBLANK( Parent_Account__c ),
+ISBLANK( Child_Account__c )
+)</errorConditionFormula>
+        <errorMessage>Medical Facility and Prescriber Information are Required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_If_Both_Parent_Child_Exist</fullName>
+        <active>true</active>
+        <description>Rule checks if both Parent and Child accounts are filled in before saving the record.</description>
+        <errorConditionFormula>OR( 
+ISBLANK( Parent_Account__c ), 
+ISBLANK( Child_Account__c ) 
+)</errorConditionFormula>
+        <errorMessage>Parent and Child Accounts must be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_If_Parent_Child_Are_Same</fullName>
+        <active>true</active>
+        <description>Both child and parent accounts cannot be one and the same</description>
+        <errorConditionFormula>Child_Account__c =  Parent_Account__c</errorConditionFormula>
+        <errorMessage>Both Parent and Child accounts cannot be one and the same.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Parent_Child_Country</fullName>
+        <active>true</active>
+        <description>Parent and Child account country should be the same.</description>
+        <errorConditionFormula>TEXT(Child_Account__r.Country__c) !=  TEXT(Parent_Account__r.Country__c)</errorConditionFormula>
+        <errorMessage>Parent and Child accounts should belong to the same country.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Payor_Billing_Address_Fill</fullName>
+        <active>true</active>
+        <description>Payor Billing address can be selected only when there is a payor association</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK( Payor_Billing_Address__c )),
+Parent_Relation_Type__c != &apos;Payor&apos;,
+Parent_Relation_Type__c != &apos;Pharmacy&apos;
+)</errorConditionFormula>
+        <errorMessage>Payor Billing Address can only be selected when there is a Payor association.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Pharmacy_To_Pharmacy_Assoc</fullName>
+        <active>true</active>
+        <description>Pharmacy can be associated to only Pharmacy</description>
+        <errorConditionFormula>OR(
+AND 
+(Child_Relation_Type__c = &apos;Pharmacy&apos;,
+ NOT(Parent_Relation_Type__c = &apos;Pharmacy&apos;)),
+AND 
+(NOT(Child_Relation_Type__c = &apos;Pharmacy&apos;),
+ Parent_Relation_Type__c = &apos;Pharmacy&apos;)
+)</errorConditionFormula>
+        <errorMessage>Pharmacy can be associated to only Pharmacy accounts.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Prescriber_To_Payor_Assoc</fullName>
+        <active>true</active>
+        <description>Prescriber cannot be associated to Payor directly</description>
+        <errorConditionFormula>AND 
+(Child_Relation_Type__c = &apos;Prescriber&apos;,
+ Parent_Relation_Type__c = &apos;Payor&apos;
+)</errorConditionFormula>
+        <errorMessage>Prescriber can be related to only Medical Facility or a Hospital.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

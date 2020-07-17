@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Finance Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Finance Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Finance Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Name --></label>
+        <name>Bank_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>Bank_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Id --></label>
+        <name>Bank_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Identifier Code --></label>
+        <name>Bank_Identifier_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Name --></label>
+        <name>Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Address --></label>
+        <name>CC_Address__c</name>
+        <relationshipLabel><!-- Finance Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CC CUR --></label>
+        <name>CC_CUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card Type --></label>
+        <name>Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>AMEX</masterLabel>
+            <translation><!-- AMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation><!-- American Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mastercard</masterLabel>
+            <translation><!-- Mastercard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation><!-- Visa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiry Date --></label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Type --></label>
+        <name>Finance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit Card</masterLabel>
+            <translation><!-- Debit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- InActive? --></label>
+        <name>InActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Bank Account Number --></label>
+        <name>International_Bank_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last 4 Digits --></label>
+        <name>Last_4_Digits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last 4 Digits --></label>
+        <name>Last_4_Digits_of_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name on Account --></label>
+        <name>Name_on_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card Token --></label>
+        <name>Token__c</name>
+    </fields>
+    <layouts>
+        <layout>Finance Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Bank --></label>
+        <name>Bank</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Credit Card --></label>
+        <name>Credit_Card</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-p-top_x-small">
+        <lightning-card title="Return Products" icon-name="standard:orders">
+            <lightning-datatable
+                        key-field="id"
+                        show-row-number-column
+                        hide-checkbox-column
+                        data={data}
+                        columns={columns}
+                        is-loading={tableLoadingState}
+                        onsave={handleSave}
+                        draft-values={draftValues}>
+            </lightning-datatable>            
+        </lightning-card>        
+    </div>
+</template>

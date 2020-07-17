@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SSIP Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SSIP Rule</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account 18 Digit Id --></label>
+        <name>Account_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective PO Number --></label>
+        <name>Effective_PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Payor --></label>
+        <name>Effective_Payor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Tax Exempt Flag --></label>
+        <name>Effective_Tax_Exempt_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Tax Registration Number --></label>
+        <name>Effective_Tax_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Order --></label>
+        <name>First_Order__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lead days for the first shipment --></help>
+        <label><!-- First Repeat Order Lead Days --></label>
+        <name>First_Repeat_Order_Lead_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Shipment Date --></label>
+        <name>First_Shipment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency (In Days) --></label>
+        <name>Frequency_In_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should be marked true if the Order has Fund association. Fund associated to the customer account will be used for the Order. --></help>
+        <label><!-- Is there a Fund? --></label>
+        <name>Is_Funded__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This value will be associated to the Order. If the Order is Funded, the PO Number associated to the Fund will be chose when Order is created. --></help>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Term --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is there a Payor? --></label>
+        <name>Payor_Exist__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PriceBookEntryId --></label>
+        <name>PriceBookEntryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Book --></label>
+        <name>Price_Book__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Date --></label>
+        <name>Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule End Date --></label>
+        <name>Rule_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Re-schedule Date --></label>
+        <name>Rule_Re_schedule_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Start Date --></label>
+        <name>Rule_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund --></label>
+        <name>SSIP_Fund__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payor to be associated to the Order. If the Order is Funded, the Payor associated to the Fund will be chose when Order is created. --></help>
+        <label><!-- Payor --></label>
+        <name>SSIP_Payor__c</name>
+        <relationshipLabel><!-- SSIP Rule (SSIP Payor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SSIP Re-schedule --></label>
+        <name>SSIP_Re_schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Count --></label>
+        <name>Schedule_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>Shipping_Address__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>Unit_Price__c</name>
+    </fields>
+    <layouts>
+        <layout>SSIP Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AT SSIP Rule --></label>
+        <name>AT_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CA SSIP Rule --></label>
+        <name>CA_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule Recordtype for CH --></description>
+        <label><!-- CH SSIP Rule --></label>
+        <name>CH_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule for GB --></description>
+        <label><!-- GB SSIP Rule --></label>
+        <name>GB_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule for IE --></description>
+        <label><!-- IE SSIP Rule --></label>
+        <name>IE_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SI SSIP Rule for Slovenia --></description>
+        <label><!-- SI SSIP Rule --></label>
+        <name>SI_SSIP_Rule</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Product is not changeable. You should cancel SSIP Rule and create new one for new Product. --></errorMessage>
+        <name>Product_Change_is_not_allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

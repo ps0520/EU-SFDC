@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <fields>
+        <label>Verordner</label>
+        <name>Child_Account__c</name>
+        <relationshipLabel>Medizinische Einrichtungen &amp; Krankenhäuser</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Child Relation Type --></label>
+        <name>Child_Relation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- OneKey ID --></label>
+        <name>IQVIA_OneKeyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>OK_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>OK_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relation End Date --></label>
+        <name>OK_Relation_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relation Start Date --></label>
+        <name>OK_Relation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relation Type --></label>
+        <name>OK_Relation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Link --></label>
+        <name>OK_Relationship_Link__c</name>
+        <picklistValues>
+            <masterLabel>Belongs to Buying Group - medical</masterLabel>
+            <translation><!-- Belongs to Buying Group - medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Buying Group - pharma</masterLabel>
+            <translation><!-- Belongs to Buying Group - pharma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Buying Group - sanitary</masterLabel>
+            <translation><!-- Belongs to Buying Group - sanitary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Franchise company</masterLabel>
+            <translation><!-- Belongs to Franchise company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Group of practices</masterLabel>
+            <translation><!-- Belongs to Group of practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Hospital Group - GRP -</masterLabel>
+            <translation><!-- Belongs to Hospital Group - GRP - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Hospitals - KLI -</masterLabel>
+            <translation><!-- Belongs to Hospitals - KLI - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Interlocational union</masterLabel>
+            <translation><!-- Belongs to Interlocational union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Management company</masterLabel>
+            <translation><!-- Belongs to Management company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Medical equipment group</masterLabel>
+            <translation><!-- Belongs to Medical equipment group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Practice / MVZ</masterLabel>
+            <translation><!-- Belongs to Practice / MVZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Practice house</masterLabel>
+            <translation><!-- Belongs to Practice house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belongs to Service center</masterLabel>
+            <translation><!-- Belongs to Service center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Has for main workplace</masterLabel>
+            <translation><!-- Has for main workplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is affiliate of</masterLabel>
+            <translation><!-- Is affiliate of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is affiliated to hospitals</masterLabel>
+            <translation><!-- Is affiliated to hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is duplicate of</masterLabel>
+            <translation><!-- Is duplicate of --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is managed by</masterLabel>
+            <translation><!-- Is managed by --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is relocated to</masterLabel>
+            <translation><!-- Is relocated to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplied by - DRK -</masterLabel>
+            <translation><!-- Supplied by - DRK - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplied by - VAB -</masterLabel>
+            <translation><!-- Supplied by - VAB - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplied by - VAS -</masterLabel>
+            <translation><!-- Supplied by - VAS - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplied by - VER -</masterLabel>
+            <translation><!-- Supplied by - VER - --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role 1 --></label>
+        <name>OK_Role_1__c</name>
+        <picklistValues>
+            <masterLabel>Administrative Staff</masterLabel>
+            <translation><!-- Administrative Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrator</masterLabel>
+            <translation><!-- Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Colonel medical officer</masterLabel>
+            <translation><!-- Admiral Colonel medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Doctor</masterLabel>
+            <translation><!-- Admiral Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Medical officer</masterLabel>
+            <translation><!-- Admiral Medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assistant doctor</masterLabel>
+            <translation><!-- Assistant doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chairmann (deputy)</masterLabel>
+            <translation><!-- Chairmann (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief hospital pharmacist</masterLabel>
+            <translation><!-- Chief hospital pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel  Pharmacist</masterLabel>
+            <translation><!-- Colonel  Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel doctor</masterLabel>
+            <translation><!-- Colonel doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel medical officer</masterLabel>
+            <translation><!-- Colonel medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Doctor</masterLabel>
+            <translation><!-- Company Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting Physician</masterLabel>
+            <translation><!-- Consulting Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean</masterLabel>
+            <translation><!-- Dean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director of Nursing</masterLabel>
+            <translation><!-- Director of Nursing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director of administration</masterLabel>
+            <translation><!-- Director of administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor General</masterLabel>
+            <translation><!-- Doctor General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employed Doctor</masterLabel>
+            <translation><!-- Employed Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee-based physician</masterLabel>
+            <translation><!-- Fee-based physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field-grade pharmacist (Military)</masterLabel>
+            <translation><!-- Field-grade pharmacist (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field-grade physician (Military)</masterLabel>
+            <translation><!-- Field-grade physician (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet doctor</masterLabel>
+            <translation><!-- Fleet doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flotila doctor</masterLabel>
+            <translation><!-- Flotila doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freelancer</masterLabel>
+            <translation><!-- Freelancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest doctor</masterLabel>
+            <translation><!-- Guest doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Homebound</masterLabel>
+            <translation><!-- Head Homebound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head OP</masterLabel>
+            <translation><!-- Head OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Physician</masterLabel>
+            <translation><!-- Head Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Nursing</masterLabel>
+            <translation><!-- Head of Nursing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Nursing (deputy)</masterLabel>
+            <translation><!-- Head of Nursing (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Public Health Department</masterLabel>
+            <translation><!-- Head of Public Health Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Repository</masterLabel>
+            <translation><!-- Head of Repository --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of administration</masterLabel>
+            <translation><!-- Head of administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of administrative staff (practice)</masterLabel>
+            <translation><!-- Head of administrative staff (practice) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of housing</masterLabel>
+            <translation><!-- Head of housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of office (deputy)</masterLabel>
+            <translation><!-- Head of office (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of the home economics department</masterLabel>
+            <translation><!-- Head of the home economics department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of ward</masterLabel>
+            <translation><!-- Head of ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head physician (deputy)</masterLabel>
+            <translation><!-- Head physician (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchen Manager</masterLabel>
+            <translation><!-- Kitchen Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Assistant</masterLabel>
+            <translation><!-- Lead Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Consultant</masterLabel>
+            <translation><!-- Lead Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leader</masterLabel>
+            <translation><!-- Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leading physician</masterLabel>
+            <translation><!-- Leading physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaseholder</masterLabel>
+            <translation><!-- Leaseholder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Pharmacist</masterLabel>
+            <translation><!-- Major Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation><!-- Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager (deputy)</masterLabel>
+            <translation><!-- Manager (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Council</masterLabel>
+            <translation><!-- Medical Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Director</masterLabel>
+            <translation><!-- Medical Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Director (deputy)</masterLabel>
+            <translation><!-- Medical Director (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical head</masterLabel>
+            <translation><!-- Medical head --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical head (deputy)</masterLabel>
+            <translation><!-- Medical head (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical officer (Military)</masterLabel>
+            <translation><!-- Medical officer (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine Director</masterLabel>
+            <translation><!-- Medicine Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing Director (deputy)</masterLabel>
+            <translation><!-- Nursing Director (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing staff</masterLabel>
+            <translation><!-- Nursing staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Head (deputy)</masterLabel>
+            <translation><!-- Operations Head (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Hospital staff</masterLabel>
+            <translation><!-- Other Hospital staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Position</masterLabel>
+            <translation><!-- Other Position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Staff Member/Official</masterLabel>
+            <translation><!-- Other Staff Member/Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacie Staff</masterLabel>
+            <translation><!-- Pharmacie Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist (Military)</masterLabel>
+            <translation><!-- Pharmacist (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Council</masterLabel>
+            <translation><!-- Pharmacy Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Owner</masterLabel>
+            <translation><!-- Pharmacy Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Owner</masterLabel>
+            <translation><!-- Practice Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice owner (deputy)</masterLabel>
+            <translation><!-- Practice owner (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professor</masterLabel>
+            <translation><!-- Professor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Health Officer</masterLabel>
+            <translation><!-- Public Health Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department Clinic</masterLabel>
+            <translation><!-- Purchaser Department Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department Pharmacy</masterLabel>
+            <translation><!-- Purchaser Department Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department VVA</masterLabel>
+            <translation><!-- Purchaser Department VVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sanitary Council</masterLabel>
+            <translation><!-- Sanitary Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary general</masterLabel>
+            <translation><!-- Secretary general --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior physician</masterLabel>
+            <translation><!-- Senior physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Manager</masterLabel>
+            <translation><!-- Technical Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Doctor</masterLabel>
+            <translation><!-- Training Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice Director</masterLabel>
+            <translation><!-- Vice Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ward physician</masterLabel>
+            <translation><!-- Ward physician --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role 2 --></label>
+        <name>OK_Role_2__c</name>
+        <picklistValues>
+            <masterLabel>Administrative Staff</masterLabel>
+            <translation><!-- Administrative Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrator</masterLabel>
+            <translation><!-- Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Colonel medical officer</masterLabel>
+            <translation><!-- Admiral Colonel medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Doctor</masterLabel>
+            <translation><!-- Admiral Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admiral Medical officer</masterLabel>
+            <translation><!-- Admiral Medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assistant doctor</masterLabel>
+            <translation><!-- Assistant doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chairmann (deputy)</masterLabel>
+            <translation><!-- Chairmann (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief hospital pharmacist</masterLabel>
+            <translation><!-- Chief hospital pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel  Pharmacist</masterLabel>
+            <translation><!-- Colonel  Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel doctor</masterLabel>
+            <translation><!-- Colonel doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonel medical officer</masterLabel>
+            <translation><!-- Colonel medical officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Doctor</masterLabel>
+            <translation><!-- Company Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting Physician</masterLabel>
+            <translation><!-- Consulting Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean</masterLabel>
+            <translation><!-- Dean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director of Nursing</masterLabel>
+            <translation><!-- Director of Nursing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director of administration</masterLabel>
+            <translation><!-- Director of administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor General</masterLabel>
+            <translation><!-- Doctor General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employed Doctor</masterLabel>
+            <translation><!-- Employed Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee-based physician</masterLabel>
+            <translation><!-- Fee-based physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field-grade pharmacist (Military)</masterLabel>
+            <translation><!-- Field-grade pharmacist (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field-grade physician (Military)</masterLabel>
+            <translation><!-- Field-grade physician (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet doctor</masterLabel>
+            <translation><!-- Fleet doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flotila doctor</masterLabel>
+            <translation><!-- Flotila doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freelancer</masterLabel>
+            <translation><!-- Freelancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest doctor</masterLabel>
+            <translation><!-- Guest doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Homebound</masterLabel>
+            <translation><!-- Head Homebound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head OP</masterLabel>
+            <translation><!-- Head OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Physician</masterLabel>
+            <translation><!-- Head Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Nursing</masterLabel>
+            <translation><!-- Head of Nursing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Nursing (deputy)</masterLabel>
+            <translation><!-- Head of Nursing (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Public Health Department</masterLabel>
+            <translation><!-- Head of Public Health Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Repository</masterLabel>
+            <translation><!-- Head of Repository --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of administration</masterLabel>
+            <translation><!-- Head of administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of administrative staff (practice)</masterLabel>
+            <translation><!-- Head of administrative staff (practice) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of housing</masterLabel>
+            <translation><!-- Head of housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of office (deputy)</masterLabel>
+            <translation><!-- Head of office (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of the home economics department</masterLabel>
+            <translation><!-- Head of the home economics department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of ward</masterLabel>
+            <translation><!-- Head of ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head physician (deputy)</masterLabel>
+            <translation><!-- Head physician (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchen Manager</masterLabel>
+            <translation><!-- Kitchen Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Assistant</masterLabel>
+            <translation><!-- Lead Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Consultant</masterLabel>
+            <translation><!-- Lead Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leader</masterLabel>
+            <translation><!-- Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leading physician</masterLabel>
+            <translation><!-- Leading physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaseholder</masterLabel>
+            <translation><!-- Leaseholder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Pharmacist</masterLabel>
+            <translation><!-- Major Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation><!-- Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager (deputy)</masterLabel>
+            <translation><!-- Manager (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Council</masterLabel>
+            <translation><!-- Medical Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Director</masterLabel>
+            <translation><!-- Medical Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Director (deputy)</masterLabel>
+            <translation><!-- Medical Director (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical head</masterLabel>
+            <translation><!-- Medical head --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical head (deputy)</masterLabel>
+            <translation><!-- Medical head (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical officer (Military)</masterLabel>
+            <translation><!-- Medical officer (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine Director</masterLabel>
+            <translation><!-- Medicine Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing Director (deputy)</masterLabel>
+            <translation><!-- Nursing Director (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing staff</masterLabel>
+            <translation><!-- Nursing staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Head (deputy)</masterLabel>
+            <translation><!-- Operations Head (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Hospital staff</masterLabel>
+            <translation><!-- Other Hospital staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Position</masterLabel>
+            <translation><!-- Other Position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Staff Member/Official</masterLabel>
+            <translation><!-- Other Staff Member/Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacie Staff</masterLabel>
+            <translation><!-- Pharmacie Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist (Military)</masterLabel>
+            <translation><!-- Pharmacist (Military) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Council</masterLabel>
+            <translation><!-- Pharmacy Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Owner</masterLabel>
+            <translation><!-- Pharmacy Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Owner</masterLabel>
+            <translation><!-- Practice Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice owner (deputy)</masterLabel>
+            <translation><!-- Practice owner (deputy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professor</masterLabel>
+            <translation><!-- Professor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Health Officer</masterLabel>
+            <translation><!-- Public Health Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department Clinic</masterLabel>
+            <translation><!-- Purchaser Department Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department Pharmacy</masterLabel>
+            <translation><!-- Purchaser Department Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchaser Department VVA</masterLabel>
+            <translation><!-- Purchaser Department VVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sanitary Council</masterLabel>
+            <translation><!-- Sanitary Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary general</masterLabel>
+            <translation><!-- Secretary general --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior physician</masterLabel>
+            <translation><!-- Senior physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Manager</masterLabel>
+            <translation><!-- Technical Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Doctor</masterLabel>
+            <translation><!-- Training Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice Director</masterLabel>
+            <translation><!-- Vice Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ward physician</masterLabel>
+            <translation><!-- Ward physician --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status State --></label>
+        <name>OK_Status_State__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deceased</masterLabel>
+            <translation><!-- Deceased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is.opening</masterLabel>
+            <translation><!-- Is.opening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maternity Leave</masterLabel>
+            <translation><!-- Maternity Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced Activity</masterLabel>
+            <translation><!-- Reduced Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp. Closed</masterLabel>
+            <translation><!-- Temp. Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp. Inactive</masterLabel>
+            <translation><!-- Temp. Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>OK_Status__c</name>
+        <picklistValues>
+            <masterLabel>Invalid</masterLabel>
+            <translation><!-- Invalid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provisional</masterLabel>
+            <translation><!-- Provisional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valid</masterLabel>
+            <translation><!-- Valid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Working Status --></label>
+        <name>OK_Working_Status__c</name>
+        <picklistValues>
+            <masterLabel>Full Time</masterLabel>
+            <translation><!-- Full Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Access</masterLabel>
+            <translation><!-- Market Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time</masterLabel>
+            <translation><!-- Part Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Substitute</masterLabel>
+            <translation><!-- Regular Substitute --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Medizinische Einrichtung</label>
+        <name>Parent_Account__c</name>
+        <relationshipLabel>Verordner</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Relation Type --></label>
+        <name>Parent_Relation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address_Full_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address__c</name>
+        <relationshipLabel><!-- Related Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preferred Email --></label>
+        <name>Preferred_Email__c</name>
+    </fields>
+    <fields>
+        <label>Betriebsstättennummer</label>
+        <name>Prescriber_Operations_Site_Number__c</name>
+    </fields>
+    <fields>
+        <label>Hauptaccount</label>
+        <name>Primary_Flag__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Related Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- OneKey Information --></label>
+            <section>OneKey Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Relation Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Informationen zur Medizinischen Einrichtung und zum Verordner werden benötigt</errorMessage>
+        <name>Check_If_Both_Med_Fac_Prescriber_Exist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent and Child Accounts must be selected. --></errorMessage>
+        <name>Check_If_Both_Parent_Child_Exist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Both Parent and Child accounts cannot be one and the same. --></errorMessage>
+        <name>Check_If_Parent_Child_Are_Same</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent and Child accounts should belong to the same country. --></errorMessage>
+        <name>Check_Parent_Child_Country</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payor Billing Address can only be selected when there is a Payor association. --></errorMessage>
+        <name>Check_Payor_Billing_Address_Fill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pharmacy can be associated to only Pharmacy accounts. --></errorMessage>
+        <name>Check_Pharmacy_To_Pharmacy_Assoc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Prescriber can be related to only Medical Facility or a Hospital. --></errorMessage>
+        <name>Check_Prescriber_To_Payor_Assoc</name>
+    </validationRules>
+</CustomObjectTranslation>

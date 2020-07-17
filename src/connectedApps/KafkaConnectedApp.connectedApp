@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>itcrmsalesforce@Dexcom.com</contactEmail>
+    <description>Connected app for Kafka Integrations</description>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/Salesforce/logo.png</iconUrl>
+    <label>KafkaConnectedApp</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/Salesforce/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9ZPHiJTk7yFyo2kgZvLTvps8sEqwyiCqqtvY5DqDY3LpVq9o.afMaoFVZs6.W_2D6z341DcOPEGG7z4oA</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

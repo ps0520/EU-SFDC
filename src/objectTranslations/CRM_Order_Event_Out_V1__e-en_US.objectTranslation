@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CRM Order Event V1 - Out</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CRM_Order_Events_V1 - Out</value>
+    </caseValues>
+    <fields>
+        <label><!-- Line Items --></label>
+        <name>Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- accountID --></label>
+        <name>accountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- action --></label>
+        <name>action__c</name>
+    </fields>
+    <fields>
+        <label><!-- author --></label>
+        <name>author__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankAccountName --></label>
+        <name>bankAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankAccountNumber --></label>
+        <name>bankAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankCountryCode --></label>
+        <name>bankCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankCurrencyCode --></label>
+        <name>bankCurrencyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankID --></label>
+        <name>bankID__c</name>
+    </fields>
+    <fields>
+        <label><!-- bankName --></label>
+        <name>bankName__c</name>
+    </fields>
+    <fields>
+        <label><!-- bic --></label>
+        <name>bic__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddress1 --></label>
+        <name>billingAddress1__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddress2 --></label>
+        <name>billingAddress2__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddress3 --></label>
+        <name>billingAddress3__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressAccountID --></label>
+        <name>billingAddressAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressBusinessName --></label>
+        <name>billingAddressBusinessName__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressCity --></label>
+        <name>billingAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressCountryCode --></label>
+        <name>billingAddressCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressCountry --></label>
+        <name>billingAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressFirstName --></label>
+        <name>billingAddressFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressID --></label>
+        <name>billingAddressID__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressIsLocked --></label>
+        <name>billingAddressIsLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressIsPrimary --></label>
+        <name>billingAddressIsPrimary__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressLastName --></label>
+        <name>billingAddressLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressPostalCode --></label>
+        <name>billingAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressPrimaryPhone --></label>
+        <name>billingAddressPrimaryPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingAddressStateProvince --></label>
+        <name>billingAddressStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingTaxExempt --></label>
+        <name>billingTaxExempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- billingtaxRegistrationNumber --></label>
+        <name>billingtaxRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- branchName --></label>
+        <name>branchName__c</name>
+    </fields>
+    <fields>
+        <label><!-- countryCode --></label>
+        <name>countryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardAuthorizationCode --></label>
+        <name>creditCardAuthorizationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardExpirationDate --></label>
+        <name>creditCardExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardID --></label>
+        <name>creditCardID__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardToken --></label>
+        <name>creditCardToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardTransactionID --></label>
+        <name>creditCardTransactionID__c</name>
+    </fields>
+    <fields>
+        <label><!-- creditCardType --></label>
+        <name>creditCardType__c</name>
+    </fields>
+    <fields>
+        <label><!-- currencyCode --></label>
+        <name>currencyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- deliveryTerm --></label>
+        <name>deliveryTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- entityType --></label>
+        <name>entityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventDate --></label>
+        <name>eventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventSourceID --></label>
+        <name>eventSourceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventSource --></label>
+        <name>eventSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- iban --></label>
+        <name>iban__c</name>
+    </fields>
+    <fields>
+        <label><!-- invoiceDate --></label>
+        <name>invoiceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- invoiceNumber --></label>
+        <name>invoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- isSignatureRequired --></label>
+        <name>isSignatureRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- metadata --></label>
+        <name>metadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- operation --></label>
+        <name>operation__c</name>
+    </fields>
+    <fields>
+        <label><!-- orderNumber --></label>
+        <name>orderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- orderType --></label>
+        <name>orderType__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentSystemOfOriginID --></label>
+        <name>parentSystemOfOriginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- paymentMethod --></label>
+        <name>paymentMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- paymentTerm --></label>
+        <name>paymentTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- poNumber --></label>
+        <name>poNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- pricebookName --></label>
+        <name>pricebookName__c</name>
+    </fields>
+    <fields>
+        <label><!-- rgaNumber --></label>
+        <name>rgaNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- scheduledShipDate --></label>
+        <name>scheduledShipDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddress1 --></label>
+        <name>shippingAddress1__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddress2 --></label>
+        <name>shippingAddress2__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddress3 --></label>
+        <name>shippingAddress3__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressAccountID --></label>
+        <name>shippingAddressAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressBusinessName --></label>
+        <name>shippingAddressBusinessName__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressCity --></label>
+        <name>shippingAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressCountryCode --></label>
+        <name>shippingAddressCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressCountry --></label>
+        <name>shippingAddressCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressFirstName --></label>
+        <name>shippingAddressFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressID --></label>
+        <name>shippingAddressID__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressIsLocked --></label>
+        <name>shippingAddressIsLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressIsPrimary --></label>
+        <name>shippingAddressIsPrimary__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressLastName --></label>
+        <name>shippingAddressLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressPostalCode --></label>
+        <name>shippingAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressPrimaryPhone --></label>
+        <name>shippingAddressPrimaryPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAddressStateProvince --></label>
+        <name>shippingAddressStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingAmount --></label>
+        <name>shippingAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingEmail --></label>
+        <name>shippingEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingMethod --></label>
+        <name>shippingMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingNotes --></label>
+        <name>shippingNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingTaxExempt --></label>
+        <name>shippingTaxExempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingtaxRegistrationNumber --></label>
+        <name>shippingtaxRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- stage --></label>
+        <name>stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- statusMessage --></label>
+        <name>statusMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- status --></label>
+        <name>status__c</name>
+    </fields>
+    <fields>
+        <label><!-- studyID --></label>
+        <name>studyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- systemOfOriginID --></label>
+        <name>systemOfOriginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- systemOfOrigin --></label>
+        <name>systemOfOrigin__c</name>
+    </fields>
+    <fields>
+        <label><!-- tax --></label>
+        <name>tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- totalAmount --></label>
+        <name>totalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- version --></label>
+        <name>version__c</name>
+    </fields>
+    <fields>
+        <label><!-- warehouse --></label>
+        <name>warehouse__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

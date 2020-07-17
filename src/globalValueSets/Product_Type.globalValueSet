@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>System</fullName>
+        <default>false</default>
+        <label>System</label>
+    </customValue>
+    <customValue>
+        <fullName>Sensor</fullName>
+        <default>false</default>
+        <label>Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>Transmitter</fullName>
+        <default>false</default>
+        <label>Transmitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Receiver</fullName>
+        <default>false</default>
+        <label>Receiver</label>
+    </customValue>
+    <customValue>
+        <fullName>Virtual</fullName>
+        <default>false</default>
+        <label>Virtual</label>
+    </customValue>
+    <description>Tracks the dexcom product types</description>
+    <masterLabel>Product Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

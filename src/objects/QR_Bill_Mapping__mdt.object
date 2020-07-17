@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Mapping for Invoking the QR Bill API</description>
+    <fields>
+        <fullName>API_Token__c</fullName>
+        <description>Token to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>API Token</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Boundary_Line_Scissors__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Boundary Line Scissors</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Boundary_Line_Separation_Text__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Boundary Line Separation Text</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Boundary_Lines__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Boundary Lines</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Font_Family__c</fullName>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Font Family</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Page_Size__c</fullName>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Page Size</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <description>Parameter to invoke the API</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Resolution</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <description>URL EndPoint</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>QR Bill API Mapping</label>
+    <pluralLabel>QR Bill API Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

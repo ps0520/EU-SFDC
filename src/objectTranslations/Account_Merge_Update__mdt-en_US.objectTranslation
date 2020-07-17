@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Merge Update</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Merge Update</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+        <picklistValues>
+            <masterLabel>Address__c</masterLabel>
+            <translation><!-- Address__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference Field API Name --></label>
+        <name>Reference_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Field API Name --></label>
+        <name>Target_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Field Data Type --></label>
+        <name>Target_Field_Data_Type__c</name>
+        <picklistValues>
+            <masterLabel>Checkbox</masterLabel>
+            <translation><!-- Checkbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text(255)</masterLabel>
+            <translation><!-- Text(255) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Field Value --></label>
+        <name>Target_Field_Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Merge Update Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

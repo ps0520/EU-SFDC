@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Source</value>
+        </caseValues>
+        <name>case_origin</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Originator</value>
+        </caseValues>
+        <name>case_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Discussion/Resolution</value>
+        </caseValues>
+        <name>description_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Country --></label>
+        <name>Account_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answers Troubleshooting Questions --></label>
+        <name>Answers_Troubleshooting_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Awareness Date --></label>
+        <name>Awareness_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Number --></label>
+        <name>Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause of Death --></label>
+        <name>Cause_of_Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person within the Facility --></label>
+        <name>Contact_Person_within_the_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correction Reason DXCM --></label>
+        <name>Correction_Reason_DXCM__c</name>
+        <picklistValues>
+            <masterLabel>Documents</masterLabel>
+            <translation><!-- Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Verification</masterLabel>
+            <translation><!-- Invoice Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payor</masterLabel>
+            <translation><!-- Payor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Period (Lump Sum)</masterLabel>
+            <translation><!-- Supply Period (Lump Sum) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Period (Others)</masterLabel>
+            <translation><!-- Supply Period (Others) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapy Demolition</masterLabel>
+            <translation><!-- Therapy Demolition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Correction Reason DZH --></label>
+        <name>Correction_Reason_DZH__c</name>
+        <picklistValues>
+            <masterLabel>Documents</masterLabel>
+            <translation><!-- Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Verification</masterLabel>
+            <translation><!-- Invoice Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payor</masterLabel>
+            <translation><!-- Payor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Period (Lump Sum)</masterLabel>
+            <translation><!-- Supply Period (Lump Sum) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Period (Others)</masterLabel>
+            <translation><!-- Supply Period (Others) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapy Demolition</masterLabel>
+            <translation><!-- Therapy Demolition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Condition Of Patient --></label>
+        <name>Current_Condition_Of_Patient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Device Status --></label>
+        <name>Current_Device_Status__c</name>
+        <picklistValues>
+            <masterLabel>Currently in use</masterLabel>
+            <translation><!-- Currently in use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No longer using</masterLabel>
+            <translation><!-- No longer using --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Download (If Applicable) --></label>
+        <name>Data_Download__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation><!-- Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Of Birth --></label>
+        <name>Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Event Known? --></label>
+        <name>Date_Of_Event_Known__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Of Issue --></label>
+        <name>Date_Of_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Medical Intervention --></label>
+        <name>Date_Of_Medical_Intervention__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sensor Inserted --></label>
+        <name>Date_Sensor_Inserted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Warranty Expired --></label>
+        <name>Date_Warranty_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Death CGM Related --></label>
+        <name>Death_CGM_Related__c</name>
+        <picklistValues>
+            <masterLabel>No (if no Death related questions will not be answered)</masterLabel>
+            <translation><!-- No (if no Death related questions will not be answered) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undetermined</masterLabel>
+            <translation><!-- Undetermined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description Of Failure/Issue Scenario --></label>
+        <name>Description_Of_Failure_Issue_Scenario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description of Intervention --></label>
+        <name>Description_of_Intervention__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dexcom Account Username --></label>
+        <name>Dexcom_Account_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dexcom App Software Version --></label>
+        <name>Dexcom_App_Software_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Did User/Patient Get Readings? --></label>
+        <name>Did_User_Patient_Get_Readings__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Provided</masterLabel>
+            <translation><!-- Not Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discussion/Resolution --></label>
+        <name>Discussion_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Download Identifier --></label>
+        <name>Download_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration Of Signal Loss (If Applicable) --></label>
+        <name>Duration_Of_Signal_Loss__c</name>
+        <picklistValues>
+            <masterLabel>1 hour or less</masterLabel>
+            <translation><!-- 1 hour or less --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 hours or more</masterLabel>
+            <translation><!-- 3 hours or more --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater than 1 hour but less than 3 hours</masterLabel>
+            <translation><!-- Greater than 1 hour but less than 3 hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NI</masterLabel>
+            <translation><!-- NI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extent of Injury --></label>
+        <name>Extent_of_Injury__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inquiry Code and Summary --></label>
+        <name>Inquiry_Code_and_Summary__c</name>
+        <relationshipLabel><!-- Cases (Inquiry Code and Severity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Integration Executed Date/Time --></label>
+        <name>Integration_Executed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Executed --></label>
+        <name>Integration_Executed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integration Issue? --></label>
+        <name>Integration_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number (If Applicable) --></label>
+        <name>Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical/Caregiver Intervention --></label>
+        <name>Medical_Caregiver_Intervention__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility Address --></label>
+        <name>Medical_Facility_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility Country --></label>
+        <name>Medical_Facility_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility Email --></label>
+        <name>Medical_Facility_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility Phone --></label>
+        <name>Medical_Facility_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility --></label>
+        <name>Medical_Facility__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- No RGA Explanation --></label>
+        <name>No_RGA_Explanation__c</name>
+        <picklistValues>
+            <masterLabel>Patient unavailable</masterLabel>
+            <translation><!-- Patient unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Unavailable</masterLabel>
+            <translation><!-- Product Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refused</masterLabel>
+            <translation><!-- Refused --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved in Troubleshooting - PT decided to keep product</masterLabel>
+            <translation><!-- Resolved in Troubleshooting - PT decided to keep product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Medications --></label>
+        <name>Other_Medications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paracetamol Use --></label>
+        <name>Paracetamol_Use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Provided</masterLabel>
+            <translation><!-- Not Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Was the User/Patient using the device at the time of incident? --></help>
+        <label><!-- Patient Using The Device At Incident? --></label>
+        <name>Patient_Using_The_Device_At_Incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Provided</masterLabel>
+            <translation><!-- Not Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Person Email --></label>
+        <name>Person_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Home Phone --></label>
+        <name>Person_Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physician name of Time of death --></label>
+        <name>Physician_name_of_Time_of_death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Physician name --></label>
+        <name>Primary_Physician_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem Code And Summary --></label>
+        <name>Problem_Code_And_Summary__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>MT20655 USB A to USB Micro B, 3FT, 24AWG Power Wires</masterLabel>
+            <translation><!-- MT20655 USB A to USB Micro B, 3FT, 24AWG Power Wires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT21190 Bundle, Dexcom Studio</masterLabel>
+            <translation><!-- MT21190 Bundle, Dexcom Studio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT21255 USB Power Supply (Charger) with USB-A Receptacle, 5V 1A, US Connector</masterLabel>
+            <translation><!-- MT21255 USB Power Supply (Charger) with USB-A Receptacle, 5V 1A, US Connector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT21294 Global Receiver Carrying Case</masterLabel>
+            <translation><!-- MT21294 Global Receiver Carrying Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT21307 Pairing/Warranty Insert, Dexcom G4 Transmitter OUS</masterLabel>
+            <translation><!-- MT21307 Pairing/Warranty Insert, Dexcom G4 Transmitter OUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT21561 AC Power Adapter for International use</masterLabel>
+            <translation><!-- MT21561 AC Power Adapter for International use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22018 Tutorial Disc, Dexcom G4 Platinum System OUS</masterLabel>
+            <translation><!-- MT22018 Tutorial Disc, Dexcom G4 Platinum System OUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22098 IFU Bundle, Dexcom G4 PLATINUM System OUS German mmol/L</masterLabel>
+            <translation><!-- MT22098 IFU Bundle, Dexcom G4 PLATINUM System OUS German mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22124 IFU Bundle, Dexcom G4 Platinum System OUS German mg/dL</masterLabel>
+            <translation><!-- MT22124 IFU Bundle, Dexcom G4 Platinum System OUS German mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22754	SCOUT, PROTECTIVE CASE</masterLabel>
+            <translation><!-- MT22754	SCOUT, PROTECTIVE CASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22754-BLU	SCOUT CASE, BLUE</masterLabel>
+            <translation><!-- MT22754-BLU	SCOUT CASE, BLUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT22754-PNK SCOUT CASE, PINK</masterLabel>
+            <translation><!-- MT22754-PNK SCOUT CASE, PINK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23205 Getting Started Tutorial G5 USB</masterLabel>
+            <translation><!-- MT23205 Getting Started Tutorial G5 USB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23390 IFU Bundle, Dexcom G5 Mobile CGM System OUS French mmol/L</masterLabel>
+            <translation><!-- MT23390 IFU Bundle, Dexcom G5 Mobile CGM System OUS French mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23402 IFU Bundle, Dexcom G5 Mobile CGM System OUS Italian mmol/L</masterLabel>
+            <translation><!-- MT23402 IFU Bundle, Dexcom G5 Mobile CGM System OUS Italian mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23417 IFU Bundle, Dexcom G5 Mobile CGM System OUS German mg/dL</masterLabel>
+            <translation><!-- MT23417 IFU Bundle, Dexcom G5 Mobile CGM System OUS German mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23420 IFU Bundle, Dexcom G5 Mobile CGM System OUS German mmol/L</masterLabel>
+            <translation><!-- MT23420 IFU Bundle, Dexcom G5 Mobile CGM System OUS German mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23518 User Manual, Share Follow OUS German</masterLabel>
+            <translation><!-- MT23518 User Manual, Share Follow OUS German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT23681 USB Charger for Scout receiver</masterLabel>
+            <translation><!-- MT23681 USB Charger for Scout receiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT25123	Dexcom Receiver (Touchscreen)- Seal shield 4 Pack Bundle</masterLabel>
+            <translation><!-- MT25123	Dexcom Receiver (Touchscreen)- Seal shield 4 Pack Bundle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT25128	OUS Overpatch (9834), 10-Pack</masterLabel>
+            <translation><!-- MT25128	OUS Overpatch (9834), 10-Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT25313	IFU Bundle, G6, OUS, German, mg/dL</masterLabel>
+            <translation><!-- MT25313	IFU Bundle, G6, OUS, German, mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT25314	IFU Bundle, G6, OUS, DE, mmol/L</masterLabel>
+            <translation><!-- MT25314	IFU Bundle, G6, OUS, DE, mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA - Product Not Applicable</masterLabel>
+            <translation><!-- NA - Product Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GF-010 German mg/dL, G5 Mobile Receiver Kit</masterLabel>
+            <translation><!-- STK-GF-010 German mg/dL, G5 Mobile Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GF-013 mg/dL, G5 Mobile Receiver Kit</masterLabel>
+            <translation><!-- STK-GF-013 mg/dL, G5 Mobile Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GF-108 German mmol/L, G5 Mobile Receiver Kit</masterLabel>
+            <translation><!-- STK-GF-108 German mmol/L, G5 Mobile Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GF-109 English mmol/L, G5 Mobile Receiver Kit</masterLabel>
+            <translation><!-- STK-GF-109 English mmol/L, G5 Mobile Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GF-109 mmol/L, G5 Mobile Receiver Kit</masterLabel>
+            <translation><!-- STK-GF-109 mmol/L, G5 Mobile Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GL-005 Dexcom G4 Receiver Kit MG/DL German-Arabic</masterLabel>
+            <translation><!-- STK-GL-005 Dexcom G4 Receiver Kit MG/DL German-Arabic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GL-010 Dexcom G4 Platinum Receiver Kit-German mg/dl</masterLabel>
+            <translation><!-- STK-GL-010 Dexcom G4 Platinum Receiver Kit-German mg/dl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GL-108 Dexcom G4 Platinum Receiver Kit-German mmol/L</masterLabel>
+            <translation><!-- STK-GL-108 Dexcom G4 Platinum Receiver Kit-German mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GS-013 G6 OUS Receiver Kit mg/dL</masterLabel>
+            <translation><!-- STK-GS-013 G6 OUS Receiver Kit mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STK-GS-109 G6 OUS Receiver Kit mmol/L</masterLabel>
+            <translation><!-- STK-GS-109 G6 OUS Receiver Kit mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GF-004 G5 OUS mg/dL Replacement Receiver Kit</masterLabel>
+            <translation><!-- STR-GF-004 G5 OUS mg/dL Replacement Receiver Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GF-102 OUS MMOL/L G5 OUS Replacement Receiver kit</masterLabel>
+            <translation><!-- STR-GF-102 OUS MMOL/L G5 OUS Replacement Receiver kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GL-004 Dexcom G4 Platinum Replacement Receiver mg/dl</masterLabel>
+            <translation><!-- STR-GL-004 Dexcom G4 Platinum Replacement Receiver mg/dl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GL-102 Dexcom G4 Platinum Replacement Receiver Kit- mmol/L</masterLabel>
+            <translation><!-- STR-GL-102 Dexcom G4 Platinum Replacement Receiver Kit- mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GS-004 G6 OUS Replacement Receiver Kit mg/dL</masterLabel>
+            <translation><!-- STR-GS-004 G6 OUS Replacement Receiver Kit mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR-GS-102 G6 OUS Replacement Receiver Kit mmol/L</masterLabel>
+            <translation><!-- STR-GS-102 G6 OUS Replacement Receiver Kit mmol/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GF-001 OUS G5 Mobile/G4 PLATINUM, -Sensor</masterLabel>
+            <translation><!-- STS-GF-001 OUS G5 Mobile/G4 PLATINUM, -Sensor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GF-001 OUS G5 Mobile/G4 PLATINUM, Sensor Kit-1 Pack</masterLabel>
+            <translation><!-- STS-GF-001 OUS G5 Mobile/G4 PLATINUM, Sensor Kit-1 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GF-004 OUS G5 Mobile/G4 PLATINUM - Sensor Kit</masterLabel>
+            <translation><!-- STS-GF-004 OUS G5 Mobile/G4 PLATINUM - Sensor Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GF-004 OUS G5 Mobile/G4 PLATINUM, Sensor Kit-4 Pack</masterLabel>
+            <translation><!-- STS-GF-004 OUS G5 Mobile/G4 PLATINUM, Sensor Kit-4 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GL-005 Dexcom G4 Platinum Sensor-1 Pack</masterLabel>
+            <translation><!-- STS-GL-005 Dexcom G4 Platinum Sensor-1 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GL-006 Dexcom G4 PLATINUM Sensor - OUS 4 Pack</masterLabel>
+            <translation><!-- STS-GL-006 Dexcom G4 PLATINUM Sensor - OUS 4 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GS-002 G6 OUS Sensor Kit 1-pack</masterLabel>
+            <translation><!-- STS-GS-002 G6 OUS Sensor Kit 1-pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STS-GS-003 G6 OUS Sensor Kit 3-pack</masterLabel>
+            <translation><!-- STS-GS-003 G6 OUS Sensor Kit 3-pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STT-GF-004 Dexcom G5 Platinum Transmitter</masterLabel>
+            <translation><!-- STT-GF-004 Dexcom G5 Platinum Transmitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STT-GL-004 Dexcom G4 PLATINUM Transmitter Kit-OUS</masterLabel>
+            <translation><!-- STT-GL-004 Dexcom G4 PLATINUM Transmitter Kit-OUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STT-GS-003 G6 OUS Transmitter Kit</masterLabel>
+            <translation><!-- STT-GS-003 G6 OUS Transmitter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW-350-0011 - Clarity App (Web-based &amp; iOS)</masterLabel>
+            <translation><!-- SW-350-0011 - Clarity App (Web-based &amp; iOS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10497 - Follow App (iOS)</masterLabel>
+            <translation><!-- SW10497 - Follow App (iOS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10611 - G5 Mobile App (iOS)</masterLabel>
+            <translation><!-- SW10611 - G5 Mobile App (iOS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10841 G5 OUS Mobile iOS CGM App (mg/dL)</masterLabel>
+            <translation><!-- SW10841 G5 OUS Mobile iOS CGM App (mg/dL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10842 G5 OUS Mobile iOS CGM App (mmol/L)</masterLabel>
+            <translation><!-- SW10842 G5 OUS Mobile iOS CGM App (mmol/L) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10846 OUS Dexcom Follow App for iOS (mg/dL)</masterLabel>
+            <translation><!-- SW10846 OUS Dexcom Follow App for iOS (mg/dL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10847 OUS Dexcom Follow App for iOS (mmol/L)</masterLabel>
+            <translation><!-- SW10847 OUS Dexcom Follow App for iOS (mmol/L) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10920 OUS Dexcom Follow App for Android (mg/dL)</masterLabel>
+            <translation><!-- SW10920 OUS Dexcom Follow App for Android (mg/dL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10930 OUS Dexcom Follow App for Android (mmol/L)</masterLabel>
+            <translation><!-- SW10930 OUS Dexcom Follow App for Android (mmol/L) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11170 - G5 Mobile App OUS (Android, mg/dL)</masterLabel>
+            <translation><!-- SW11170 - G5 Mobile App OUS (Android, mg/dL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11170 G5 OUS Mobile Android App mg/dL</masterLabel>
+            <translation><!-- SW11170 G5 OUS Mobile Android App mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11171 - G5 Mobile App OUS (Android, mmol/L)</masterLabel>
+            <translation><!-- SW11171 - G5 Mobile App OUS (Android, mmol/L) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11585 G6 OUS IOS CGM mg/dL App</masterLabel>
+            <translation><!-- SW11585 G6 OUS IOS CGM mg/dL App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11586 G6 OUS IOS CGM mmol App</masterLabel>
+            <translation><!-- SW11586 G6 OUS IOS CGM mmol App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11587 G6 OUS Android CGM mg/dL App</masterLabel>
+            <translation><!-- SW11587 G6 OUS Android CGM mg/dL App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW11588 G6 OUS Android CGM mmol App</masterLabel>
+            <translation><!-- SW11588 G6 OUS Android CGM mmol App --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Warranty --></label>
+        <name>Product_Warranty__c</name>
+        <picklistValues>
+            <masterLabel>In Warranty</masterLabel>
+            <translation><!-- In Warranty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOW</masterLabel>
+            <translation><!-- OOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undetermined</masterLabel>
+            <translation><!-- Undetermined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RGA Created --></label>
+        <name>RGA_Created__c</name>
+        <picklistValues>
+            <masterLabel>NA (Reference # and Explanation do not apply)</masterLabel>
+            <translation><!-- NA (Reference # and Explanation do not apply) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receiver SW Rev --></label>
+        <name>Receiver_SW_Rev__c</name>
+        <picklistValues>
+            <masterLabel>2.0.1.104</masterLabel>
+            <translation><!-- 2.0.1.104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1.158</masterLabel>
+            <translation><!-- 2.0.1.158 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1.185</masterLabel>
+            <translation><!-- 2.0.1.185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1.192</masterLabel>
+            <translation><!-- 2.0.1.192 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1.230</masterLabel>
+            <translation><!-- 2.0.1.230 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0.1.231</masterLabel>
+            <translation><!-- 2.0.1.231 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0.1.026</masterLabel>
+            <translation><!-- 3.0.1.026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0.1.030</masterLabel>
+            <translation><!-- 3.0.1.030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0.1.030</masterLabel>
+            <translation><!-- 4.0.1.030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0.1.048</masterLabel>
+            <translation><!-- 4.0.1.048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0.1.035</masterLabel>
+            <translation><!-- 5.0.1.035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NI</masterLabel>
+            <translation><!-- NI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receiver SW# --></label>
+        <name>Receiver_SW__c</name>
+        <picklistValues>
+            <masterLabel>NI</masterLabel>
+            <translation><!-- NI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10050</masterLabel>
+            <translation><!-- SW10050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10324</masterLabel>
+            <translation><!-- SW10324 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10325</masterLabel>
+            <translation><!-- SW10325 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10505</masterLabel>
+            <translation><!-- SW10505 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10542</masterLabel>
+            <translation><!-- SW10542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10557</masterLabel>
+            <translation><!-- SW10557 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10586</masterLabel>
+            <translation><!-- SW10586 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10617</masterLabel>
+            <translation><!-- SW10617 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10751</masterLabel>
+            <translation><!-- SW10751 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10829</masterLabel>
+            <translation><!-- SW10829 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10830</masterLabel>
+            <translation><!-- SW10830 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW10940</masterLabel>
+            <translation><!-- SW10940 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relationship To Patient/User --></label>
+        <name>Relationship_To_Patient_User__c</name>
+        <picklistValues>
+            <masterLabel>Administrator/Supervisor</masterLabel>
+            <translation><!-- Administrator/Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caretaker</masterLabel>
+            <translation><!-- Caretaker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic</masterLabel>
+            <translation><!-- Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentist</masterLabel>
+            <translation><!-- Dentist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse</masterLabel>
+            <translation><!-- Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist</masterLabel>
+            <translation><!-- Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation><!-- Sibling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable/Unwilling to Answer</masterLabel>
+            <translation><!-- Unable/Unwilling to Answer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If different from user --></help>
+        <label><!-- Reporter Address --></label>
+        <name>Reporter_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- If different from user --></help>
+        <label><!-- Reporter Name --></label>
+        <name>Reporter_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter phone #/ Email --></label>
+        <name>Reporter_phone_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retracted Amount --></label>
+        <name>Retracted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retraction Processing Queue --></label>
+        <name>Retraction_Processing_Queue__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSR</masterLabel>
+            <translation><!-- CSR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIS</masterLabel>
+            <translation><!-- HIS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return Requested Date --></label>
+        <name>Return_Requested_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Requested? --></label>
+        <name>Return_Requested__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sensor Insertion Site --></label>
+        <name>Sensor_Insertion_Site__c</name>
+        <picklistValues>
+            <masterLabel>Abdomen</masterLabel>
+            <translation><!-- Abdomen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arm</masterLabel>
+            <translation><!-- Arm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Back</masterLabel>
+            <translation><!-- Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leg</masterLabel>
+            <translation><!-- Leg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NI</masterLabel>
+            <translation><!-- NI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other – See discussion/resolution</masterLabel>
+            <translation><!-- Other – See discussion/resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thigh</masterLabel>
+            <translation><!-- Thigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable / Unwilling to Answer</masterLabel>
+            <translation><!-- Unable / Unwilling to Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper Buttocks</masterLabel>
+            <translation><!-- Upper Buttocks --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receiver Serial Number --></label>
+        <name>Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity Level --></label>
+        <name>Severity_Level__c</name>
+        <picklistValues>
+            <masterLabel>Inquiry</masterLabel>
+            <translation><!-- Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life-Threatening</masterLabel>
+            <translation><!-- Life-Threatening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negligible</masterLabel>
+            <translation><!-- Negligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Complaint</masterLabel>
+            <translation><!-- Non-Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severe</masterLabel>
+            <translation><!-- Severe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Smart Device OS Version --></label>
+        <name>Smart_Device_OS_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Device --></label>
+        <name>Smart_Device__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Pixel</masterLabel>
+            <translation><!-- Google Pixel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Pixel 2</masterLabel>
+            <translation><!-- Google Pixel 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Pixel 2 XL</masterLabel>
+            <translation><!-- Google Pixel 2 XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Pixel XL</masterLabel>
+            <translation><!-- Google Pixel XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTC One M8</masterLabel>
+            <translation><!-- HTC One M8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG G4</masterLabel>
+            <translation><!-- LG G4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG G5</masterLabel>
+            <translation><!-- LG G5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG G6</masterLabel>
+            <translation><!-- LG G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nexus 6</masterLabel>
+            <translation><!-- Nexus 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S5</masterLabel>
+            <translation><!-- Samsung Galaxy S5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S6</masterLabel>
+            <translation><!-- Samsung Galaxy S6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S6 Edge</masterLabel>
+            <translation><!-- Samsung Galaxy S6 Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S7 Edge</masterLabel>
+            <translation><!-- Samsung Galaxy S7 Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S7 </masterLabel>
+            <translation><!-- Samsung Galaxy S7  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S8</masterLabel>
+            <translation><!-- Samsung Galaxy S8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samsung Galaxy S8 Plus</masterLabel>
+            <translation><!-- Samsung Galaxy S8 Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sony Xperia Z3</masterLabel>
+            <translation><!-- Sony Xperia Z3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable/Unwilling</masterLabel>
+            <translation><!-- Unable/Unwilling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown Smart Device</masterLabel>
+            <translation><!-- Unknown Smart Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad</masterLabel>
+            <translation><!-- iPad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad 2</masterLabel>
+            <translation><!-- iPad 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad 3</masterLabel>
+            <translation><!-- iPad 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad 4</masterLabel>
+            <translation><!-- iPad 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Air</masterLabel>
+            <translation><!-- iPad Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Air 2</masterLabel>
+            <translation><!-- iPad Air 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Mini</masterLabel>
+            <translation><!-- iPad Mini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Mini 2</masterLabel>
+            <translation><!-- iPad Mini 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Mini 3</masterLabel>
+            <translation><!-- iPad Mini 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Mini 4</masterLabel>
+            <translation><!-- iPad Mini 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad Pro</masterLabel>
+            <translation><!-- iPad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone</masterLabel>
+            <translation><!-- iPhone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 4S</masterLabel>
+            <translation><!-- iPhone 4S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 5</masterLabel>
+            <translation><!-- iPhone 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 5C</masterLabel>
+            <translation><!-- iPhone 5C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 5S</masterLabel>
+            <translation><!-- iPhone 5S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 6</masterLabel>
+            <translation><!-- iPhone 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 6 Plus</masterLabel>
+            <translation><!-- iPhone 6 Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 6S</masterLabel>
+            <translation><!-- iPhone 6S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 6S Plus</masterLabel>
+            <translation><!-- iPhone 6S Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 7</masterLabel>
+            <translation><!-- iPhone 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone 7 Plus</masterLabel>
+            <translation><!-- iPhone 7 Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone SE</masterLabel>
+            <translation><!-- iPhone SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPod Touch</masterLabel>
+            <translation><!-- iPod Touch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPod Touch 5th Gen</masterLabel>
+            <translation><!-- iPod Touch 5th Gen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPod Touch 6th Gen</masterLabel>
+            <translation><!-- iPod Touch 6th Gen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Sub-Component Part Number --></label>
+        <name>Transmitter_Sub_Component_Part_Number__c</name>
+        <picklistValues>
+            <masterLabel>G4 Transmitter Double Board: 9438-01</masterLabel>
+            <translation><!-- G4 Transmitter Double Board: 9438-01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4 Transmitter Single Board: 9438-05</masterLabel>
+            <translation><!-- G4 Transmitter Single Board: 9438-05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4 Transmitter: Model Unknown</masterLabel>
+            <translation><!-- G4 Transmitter: Model Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 009)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 009) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 010)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 010) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 011)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 011) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 012)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 012) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 013)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 013) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter 1.2 (MT10103 Rev 014)</masterLabel>
+            <translation><!-- G5 Transmitter 1.2 (MT10103 Rev 014) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter Double Board: 9438-06</masterLabel>
+            <translation><!-- G5 Transmitter Double Board: 9438-06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Transmitter: Model Unknown</masterLabel>
+            <translation><!-- G5 Transmitter: Model Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6 Transmitter: 9445-02</masterLabel>
+            <translation><!-- G6 Transmitter: 9445-02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6 Transmitter: Model Unknown</masterLabel>
+            <translation><!-- G6 Transmitter: Model Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NI</masterLabel>
+            <translation><!-- NI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable / Unwilling to Answer</masterLabel>
+            <translation><!-- Unable / Unwilling to Answer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <layouts>
+        <layout>DE Case Complaint</layout>
+        <sections>
+            <label><!-- Complaint Information --></label>
+            <section>Complaint Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+        <sections>
+            <label><!-- IGNORE --></label>
+            <section>IGNORE</section>
+        </sections>
+        <sections>
+            <label><!-- Incident Information --></label>
+            <section>Incident Information</section>
+        </sections>
+        <sections>
+            <label><!-- Mobile Device Information --></label>
+            <section>Mobile Device Information</section>
+        </sections>
+        <sections>
+            <label><!-- Patient Information --></label>
+            <section>Patient Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reportable Malfunction / Adverse Events Information --></label>
+            <section>Reportable Malfunction / Adverse Events Information</section>
+        </sections>
+        <sections>
+            <label><!-- Reporter Information --></label>
+            <section>Reporter Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Case Inquiry</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+        <sections>
+            <label><!-- IGNORE --></label>
+            <section>IGNORE</section>
+        </sections>
+        <sections>
+            <label><!-- Incident Information --></label>
+            <section>Incident Information</section>
+        </sections>
+        <sections>
+            <label><!-- Inquiry Information --></label>
+            <section>Inquiry Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_DE_Tech_Support_Order_For_Case</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Case Record for cases of type complaints --></description>
+        <label><!-- DE Case Complaint --></label>
+        <name>DE_Case_Complaint</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case record type for Germany Inquiry support --></description>
+        <label><!-- DE Case Inquiry --></label>
+        <name>DE_Case_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for Order Retraction Cases --></description>
+        <label><!-- DE Case Retraction --></label>
+        <name>DE_Case_Retraction</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Awareness Date cannot be a future date --></errorMessage>
+        <name>Awareness_Date_Cannot_Be_Future_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Retraction case cannot be created as the Order is not in Closed status. --></errorMessage>
+        <name>Chk_Retraction_Case_Based_On_Odr_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is already an open Retraction Case tied to this Order. --></errorMessage>
+        <name>Chk_Retraction_Case_Based_On_Open_Cnt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Following fields are required
+Answers Questions
+Discussion/Resolution
+Download Identifier
+Date of Issue
+Medical/Caregiver Intervention
+Problem Code and Summary
+Product Line
+Relationship To Patient/User
+RGA Created
+Severity Level
+Tx SubComponent --></errorMessage>
+        <name>Complaints_Fields_Req_Before_Send_To_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Of Issue cannot be future date or later than Awareness Date. --></errorMessage>
+        <name>Date_Of_Issue_Cannot_Be_Future_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Sensor Inserted cannot be a future date OR later than Date Of Issue. --></errorMessage>
+        <name>Date_Sensor_Inserted_Cannot_Be_Future_Dt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter value for &quot;Date of Medical Intervention&quot; field --></errorMessage>
+        <name>Date_of_Medical_Intervention</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Medical Intervention cannot be a future date. --></errorMessage>
+        <name>Date_of_Medical_Intervention_No_FutureDt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Following fields needs to be filled in 
+1) Inquiry Codes and Summary
+2) Product Line(s)
+3) Severity Level
+4) Discussion/Resolution --></errorMessage>
+        <name>Inquiry_Fields_Req_Before_Send_To_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Description Field should not contain more then 8000 characters. --></errorMessage>
+        <name>Limit_To_Description_Character</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case is Locked. You cannot edit the case. --></errorMessage>
+        <name>Lock_Case_when_Status_is_Send_To_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Patient Using Device At Incident?&quot; value required when status is &quot;Send To QA&quot; --></errorMessage>
+        <name>Patient_Using_Device_Req_At_Send_To_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please update the Weight on Account before updating Status to &quot;Send To QA&quot; --></errorMessage>
+        <name>Weight_Required_Before_Send_To_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please update the Weight on Account before saving the case. --></errorMessage>
+        <name>Weight_Required_For_Inquiry_Cases</name>
+    </validationRules>
+</CustomObjectTranslation>

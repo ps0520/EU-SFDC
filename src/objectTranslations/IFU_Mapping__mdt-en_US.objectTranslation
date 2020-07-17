@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IFU Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IFUs Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- IFU --></label>
+        <name>IFU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricebook --></label>
+        <name>Pricebook__c</name>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SKU --></label>
+        <name>SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>CH STANDARD</masterLabel>
+            <translation><!-- CH STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIST SALES SAMPLE</masterLabel>
+            <translation><!-- DIST SALES SAMPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIST STANDARD</masterLabel>
+            <translation><!-- DIST STANDARD --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>IFU Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Diet and Exercise</fullName>
+        <default>false</default>
+        <label>Diet and Exercise</label>
+    </customValue>
+    <customValue>
+        <fullName>Insulin using Pump therapy</fullName>
+        <default>false</default>
+        <label>Insulin using Pump therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Insulin using multiple daily injections</fullName>
+        <default>false</default>
+        <label>Insulin using multiple daily injections</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Insulin Injections</fullName>
+        <default>false</default>
+        <label>Non-Insulin Injections</label>
+    </customValue>
+    <customValue>
+        <fullName>Pills</fullName>
+        <default>false</default>
+        <label>Pills</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>Insulin Therapy Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>salesforce_website_alerts@Dexcom.com</contactEmail>
+    <label>SFCCEcommerceApp</label>
+    <oauthConfig>
+        <callbackUrl>https://www.dexcom.com/salesforce/oauth_callback</callbackUrl>
+        <consumerKey>3MVG9ZPHiJTk7yFxwnXEfuERLxGEFJuCHSIsVQ8fjDRSuokF084i1VXIDk_K6JsR2QGF48NfDlZ15yxxXiOHU</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

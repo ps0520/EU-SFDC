@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Refresh My OneKey Statistics --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Refresh My OneKey Statistics --></value>
+    </caseValues>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Refresh My OneKey Statitistics Name --></nameFieldLabel>
+</CustomObjectTranslation>

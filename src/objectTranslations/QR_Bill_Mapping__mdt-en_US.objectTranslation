@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QR Bill API Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QR Bill API Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- API Token --></label>
+        <name>API_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boundary Line Scissors --></label>
+        <name>Boundary_Line_Scissors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boundary Line Separation Text --></label>
+        <name>Boundary_Line_Separation_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boundary Lines --></label>
+        <name>Boundary_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Font Family --></label>
+        <name>Font_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Size --></label>
+        <name>Page_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

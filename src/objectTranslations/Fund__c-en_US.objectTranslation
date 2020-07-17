@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fund</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fund</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount Limit --></label>
+        <name>Amount_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Remaining --></label>
+        <name>Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Used --></label>
+        <name>Amount_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth End Date --></label>
+        <name>Auth_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth Start Date --></label>
+        <name>Auth_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email --></label>
+        <name>Invoice_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Fund Active? --></label>
+        <name>Is_Fund_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limit Type --></label>
+        <name>Limit_Type__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation><!-- Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation><!-- Quantity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PO Reference Number --></label>
+        <name>PO_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor --></label>
+        <name>Payor__c</name>
+        <relationshipLabel><!-- Fund (Payor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receiver Qty Limit --></label>
+        <name>Receiver_Qty_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiver Qty Remaining --></label>
+        <name>Receiver_Qty_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiver Qty Used --></label>
+        <name>Receiver_Qty_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensor Qty Limit --></label>
+        <name>Sensor_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensor Qty Remaining --></label>
+        <name>Sensor_Qty_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensor Qty Used --></label>
+        <name>Sensor_Qty_Used__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the Study Id for Clinincal Studies and is used in Clinical Orders. --></help>
+        <label><!-- Study Id --></label>
+        <name>Study_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Qty Limit --></label>
+        <name>Transmitter_Qty_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Qty Remaining --></label>
+        <name>Transmitter_Qty_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Qty Used --></label>
+        <name>Transmitter_Qty_Used__c</name>
+    </fields>
+    <layouts>
+        <layout>Clinical Study Fund Layout</layout>
+        <sections>
+            <label><!-- Authorization Information --></label>
+            <section>Authorization Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fund Layout</layout>
+        <sections>
+            <label><!-- Authorization Information --></label>
+            <section>Authorization Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Fund used for Clinical Studies --></description>
+        <label><!-- Clinical Studies Fund --></label>
+        <name>Clinical_Studies_Fund</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Purchase Order Recordtype to track the Funds --></description>
+        <label><!-- Purchase Order --></label>
+        <name>Purchase_Order</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

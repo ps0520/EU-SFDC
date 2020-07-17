@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PDoc To Opportunity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PDoc To Opportunity</value>
+    </caseValues>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- PDoc To Opportunity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient Document --></label>
+        <name>Patient_Document__c</name>
+        <relationshipLabel><!-- PDoc To Opportunity --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
