@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assigned Profile --></label>
+        <name>Assigned_Profiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Direction --></label>
+        <name>Call_Direction__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation><!-- Outbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Call Reason --></label>
+        <name>Call_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Ablehnung Krankenkasse</masterLabel>
+            <translation><!-- Ablehnung Krankenkasse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adressänderung</masterLabel>
+            <translation><!-- Adressänderung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allgemeiner Ablauf</masterLabel>
+            <translation><!-- Allgemeiner Ablauf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 1 DEXCOM Service</masterLabel>
+            <translation><!-- Beschwerde Stufe 1 DEXCOM Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 1 Produkte allgemein</masterLabel>
+            <translation><!-- Beschwerde Stufe 1 Produkte allgemein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 1 Service Lieferant</masterLabel>
+            <translation><!-- Beschwerde Stufe 1 Service Lieferant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 2 DEXCOM Service</masterLabel>
+            <translation><!-- Beschwerde Stufe 2 DEXCOM Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 2 Produkte allgemein</masterLabel>
+            <translation><!-- Beschwerde Stufe 2 Produkte allgemein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 2 Service Lieferant</masterLabel>
+            <translation><!-- Beschwerde Stufe 2 Service Lieferant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 3 DEXCOM Service</masterLabel>
+            <translation><!-- Beschwerde Stufe 3 DEXCOM Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 3 Produkte allgemein</masterLabel>
+            <translation><!-- Beschwerde Stufe 3 Produkte allgemein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beschwerde Stufe 3 Service Lieferant</masterLabel>
+            <translation><!-- Beschwerde Stufe 3 Service Lieferant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Briefe von DEXCOM</masterLabel>
+            <translation><!-- Briefe von DEXCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data protection</masterLabel>
+            <translation>Datenschutzerklärung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FollowUp</masterLabel>
+            <translation><!-- FollowUp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6</masterLabel>
+            <translation><!-- G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kassenrückfragen Kostenvoranschlag</masterLabel>
+            <translation><!-- Kassenrückfragen Kostenvoranschlag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kassenrückfragen Sonstige</masterLabel>
+            <translation><!-- Kassenrückfragen Sonstige --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kassenrückfragen Versorgungszeitraum</masterLabel>
+            <translation><!-- Kassenrückfragen Versorgungszeitraum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lieferung, Lieferumfang</masterLabel>
+            <translation><!-- Lieferung, Lieferumfang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketingaktionen</masterLabel>
+            <translation><!-- Marketingaktionen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produktfragen</masterLabel>
+            <translation><!-- Produktfragen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechnung</masterLabel>
+            <translation><!-- Rechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retoure</masterLabel>
+            <translation><!-- Retoure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstige (Notiz erforderlich)</masterLabel>
+            <translation><!-- Sonstige (Notiz erforderlich) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technischer Support</masterLabel>
+            <translation><!-- Technischer Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versorgung allgemein</masterLabel>
+            <translation><!-- Versorgung allgemein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Land</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Message Key --></label>
+        <name>EGEKO_Message_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non CH Person --></label>
+        <name>Non_CH_Person__c</name>
+    </fields>
+    <fields>
+        <label><!-- PCS Reason Code --></label>
+        <name>PCS_Reason_Code__c</name>
+        <picklistValues>
+            <masterLabel>Accuracy and Calibration training</masterLabel>
+            <translation><!-- Accuracy and Calibration training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Education for Retention</masterLabel>
+            <translation><!-- Advanced Education for Retention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auth Code Update</masterLabel>
+            <translation><!-- Auth Code Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarity Full Training</masterLabel>
+            <translation><!-- Clarity Full Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connectivity</masterLabel>
+            <translation><!-- Connectivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contraindications</masterLabel>
+            <translation><!-- Contraindications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Training- Getting Started Education</masterLabel>
+            <translation><!-- Feature Training- Getting Started Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Training</masterLabel>
+            <translation><!-- Full Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 to G6 Feature Training</masterLabel>
+            <translation><!-- G5 to G6 Feature Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intro to Dexcom Care</masterLabel>
+            <translation><!-- Intro to Dexcom Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Care outreach, left voicemail</masterLabel>
+            <translation><!-- Patient Care outreach, left voicemail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiver/ phone set up</masterLabel>
+            <translation><!-- Receiver/ phone set up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ref to other department, non- education</masterLabel>
+            <translation><!-- Ref to other department, non- education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer to CS, non-education</masterLabel>
+            <translation><!-- Refer to CS, non-education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refer to TS, non-education</masterLabel>
+            <translation><!-- Refer to TS, non-education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensor Insertion, transmitter &amp; Starting session</masterLabel>
+            <translation><!-- Sensor Insertion, transmitter &amp; Starting session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skin prep &amp; adhesive tape training</masterLabel>
+            <translation><!-- Skin prep &amp; adhesive tape training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Training</masterLabel>
+            <translation><!-- Software Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop sensor training</masterLabel>
+            <translation><!-- Stop sensor training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System component training</masterLabel>
+            <translation><!-- System component training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology and apps</masterLabel>
+            <translation><!-- Technology and apps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training on treatment decisions</masterLabel>
+            <translation><!-- Training on treatment decisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred to PCS, education</masterLabel>
+            <translation><!-- Transferred to PCS, education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred to PCS, non-education</masterLabel>
+            <translation><!-- Transferred to PCS, non-education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel info</masterLabel>
+            <translation><!-- Travel info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value of CGM and what to expect</masterLabel>
+            <translation><!-- Value of CGM and what to expect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water resistance</masterLabel>
+            <translation><!-- Water resistance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vorgestellte Produkte</label>
+        <name>Product_Discussed__c</name>
+        <picklistValues>
+            <masterLabel>Accessories</masterLabel>
+            <translation><!-- Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Android App</masterLabel>
+            <translation><!-- Android App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarity</masterLabel>
+            <translation><!-- Clarity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dexcom Store</masterLabel>
+            <translation><!-- Dexcom Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4</masterLabel>
+            <translation><!-- G4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5</masterLabel>
+            <translation><!-- G5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6</masterLabel>
+            <translation><!-- G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation> Sonstiges</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlay Patches</masterLabel>
+            <translation><!-- Overlay Patches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy Education</masterLabel>
+            <translation><!-- Pharmacy Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Share / Follow App</masterLabel>
+            <translation><!-- Share / Follow App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iOS App</masterLabel>
+            <translation><!-- iOS App --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

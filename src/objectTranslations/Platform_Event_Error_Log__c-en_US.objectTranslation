@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Platform Event Error Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Platform Event Error Log</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Consume</masterLabel>
+            <translation><!-- Consume --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publish</masterLabel>
+            <translation><!-- Publish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Class and method that is writing the Error. --></help>
+        <label><!-- Class And Method --></label>
+        <name>Class_And_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Handling Status --></label>
+        <name>Error_Handling_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned to Source System</masterLabel>
+            <translation><!-- Assigned to Source System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixing</masterLabel>
+            <translation><!-- Fixing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation><!-- Ignored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigating</masterLabel>
+            <translation><!-- Investigating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opened</masterLabel>
+            <translation><!-- Opened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- User who is looking into the Error. --></help>
+        <label><!-- Error Handling User --></label>
+        <name>Error_Handling_User__c</name>
+        <relationshipLabel><!-- Platform Event Error Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Error message from the program that caught the exception. --></help>
+        <label><!-- Message --></label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- SELF or some external system that created the source event. --></help>
+        <label><!-- EventSource --></label>
+        <name>EventSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event String --></label>
+        <name>Event_String__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Event when this error happened. --></help>
+        <label><!-- Object --></label>
+        <name>Event__c</name>
+    </fields>
+    <fields>
+        <help><!-- Full exception error message. --></help>
+        <label><!-- Event --></label>
+        <name>Exception_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nulll if Publishing or ID in the consuming event. --></help>
+        <label><!-- ExternalID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>Error Ignored</masterLabel>
+            <translation><!-- Error Ignored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error-In</masterLabel>
+            <translation><!-- Error-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fatal Error - Bailing out</masterLabel>
+            <translation><!-- Fatal Error - Bailing out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informational</masterLabel>
+            <translation><!-- Informational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recoverable Error - Published/Consumed</masterLabel>
+            <translation><!-- Recoverable Error - Published/Consumed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success Log</masterLabel>
+            <translation><!-- Success Log --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Platform Event Error Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

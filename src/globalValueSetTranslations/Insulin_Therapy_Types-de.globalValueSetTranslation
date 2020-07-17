@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Diet and Exercise</masterLabel>
+        <translation>Ernährung und Schulung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insulin using Pump therapy</masterLabel>
+        <translation>Insulinpumpentherapie</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insulin using multiple daily injections</masterLabel>
+        <translation>Insulingaben mehrmals täglich</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non-Insulin Injections</masterLabel>
+        <translation>Nicht-Insulin Gaben</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>None</masterLabel>
+        <translation> Keine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pills</masterLabel>
+        <translation>Tabletten</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

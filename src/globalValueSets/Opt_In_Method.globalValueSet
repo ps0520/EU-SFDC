@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Via Email</fullName>
+        <default>false</default>
+        <label>Via Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Via Event</fullName>
+        <default>false</default>
+        <label>Via Event</label>
+    </customValue>
+    <customValue>
+        <fullName>Via Phone</fullName>
+        <default>false</default>
+        <label>Via Phone</label>
+    </customValue>
+    <customValue>
+        <fullName>Via Web Form</fullName>
+        <default>false</default>
+        <label>Via Web Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Reengagement</fullName>
+        <default>false</default>
+        <label>Reengagement</label>
+    </customValue>
+    <customValue>
+        <fullName>Via Mailchimp</fullName>
+        <default>false</default>
+        <label>Via Mailchimp</label>
+    </customValue>
+    <customValue>
+        <fullName>Via CleverReach</fullName>
+        <default>false</default>
+        <label>Via CleverReach</label>
+    </customValue>
+    <description>Method how customer opted in.</description>
+    <masterLabel>Opt In Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

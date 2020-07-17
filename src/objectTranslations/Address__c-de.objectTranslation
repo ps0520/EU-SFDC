@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Address --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Party Id --></label>
+        <name>Account_Party_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel>Adresse</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active Start Date --></label>
+        <name>Active_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address 18 Digit Id --></label>
+        <name>Address_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Straße, Hausnummer --></help>
+        <label>Adresszeile 1</label>
+        <name>Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zusätzliche Informationen --></help>
+        <label>Adresszeile 2</label>
+        <name>Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Alternativer Empfänger --></help>
+        <label>Contact</label>
+        <name>Address_Line_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Name --></label>
+        <name>Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>Stadt</label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label>Land</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive --></label>
+        <name>Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Error Message --></label>
+        <name>Integration_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked? --></label>
+        <name>IsLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sync Date With Oracle --></label>
+        <name>Last_Sync_Date_With_Oracle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cust Site Id --></label>
+        <name>Oracle_Cust_Site_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Id --></label>
+        <name>Oracle_Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Id --></label>
+        <name>Oracle_Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Site Id --></label>
+        <name>Oracle_Party_Site_Id__c</name>
+    </fields>
+    <fields>
+        <label>Postleitzahl</label>
+        <name>Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>Haupanschrift</label>
+        <name>Primary_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Phone --></label>
+        <name>Primary_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOS Unique ID --></label>
+        <name>SOS_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send To Oracle --></label>
+        <name>Send_To_Oracle__c</name>
+    </fields>
+    <fields>
+        <label>Bundesland</label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Status --></label>
+        <name>Sync_Status__c</name>
+        <picklistValues>
+            <masterLabel>Create - Sent</masterLabel>
+            <translation><!-- Create - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete - Sent</masterLabel>
+            <translation><!-- Delete - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge - Sent</masterLabel>
+            <translation><!-- Merge - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merged</masterLabel>
+            <translation><!-- Merged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update - Sent</masterLabel>
+            <translation><!-- Update - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin ID --></label>
+        <name>System_Of_Origin_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin --></label>
+        <name>System_Of_Origin__c</name>
+    </fields>
+    <fields>
+        <label>Adressart</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Bill To</masterLabel>
+            <translation>Rechnung an</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship To</masterLabel>
+            <translation>Lieferung an</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>AT Address Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Address Layout</layout>
+        <sections>
+            <label><!-- Care of Address --></label>
+            <section>Care of Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Address Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Address Layout</layout>
+        <sections>
+            <label>Benutzerdefinierter Link</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Intl Address Layout</layout>
+        <sections>
+            <label><!-- Care of Address --></label>
+            <section>Care of Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>UK Address Layout</layout>
+        <sections>
+            <label><!-- Care of Address --></label>
+            <section>Care of Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Austria Address --></description>
+        <label><!-- AT Address --></label>
+        <name>AT_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Address for Belgium --></description>
+        <label><!-- BE Address --></label>
+        <name>BE_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Canadian Address --></description>
+        <label><!-- CA Address --></label>
+        <name>CA_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Switzerland Address --></description>
+        <label><!-- CH Address --></label>
+        <name>CH_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Germany Address --></description>
+        <label><!-- DE Address --></label>
+        <name>DE_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- International Distributor Address --></description>
+        <label><!-- International Distributor Address --></label>
+        <name>DIST_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- International Address --></description>
+        <label><!-- Intl Address --></label>
+        <name>Intl_Address</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Address for GB and IE Countries --></description>
+        <label><!-- UK Address --></label>
+        <name>UK_Address</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Address should not start with a number. --></errorMessage>
+        <name>Addresses_4_CH_AT_Shd_Start_With_Alphabe</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Address country does not match with the Account country. --></errorMessage>
+        <name>All_Address_Country_Selection_Chk</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Adresszeile 1, Stadt, Bundesland, Postleitzahl und Land werden benötigt</errorMessage>
+        <name>All_Address_Fields_Are_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Address Type cannot be changed. --></errorMessage>
+        <name>All_Address_Type_Cannot_Be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Type is required. --></errorMessage>
+        <name>All_Address_Type_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Locked Address can&apos;t be changed. --></errorMessage>
+        <name>All_Locked_Addresses_Not_Updateable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Postal Code --></errorMessage>
+        <name>CA_PostalCode_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Province is a required. --></errorMessage>
+        <name>CA_Province_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Address lines should not be more than 30 characters in length. --></errorMessage>
+        <name>CA_Street_Should_Not_B_More_Than_30_Chr</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Postal Code should be 5 chars in length. --></errorMessage>
+        <name>DE_Zip_Should_Be_5_Chars_In_Length</name>
+    </validationRules>
+</CustomObjectTranslation>

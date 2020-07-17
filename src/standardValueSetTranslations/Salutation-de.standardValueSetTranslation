@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Dr.</masterLabel>
+        <translation>Dr.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Family</masterLabel>
+        <translation><!-- Family --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau</masterLabel>
+        <translation><!-- Frau --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau Dr.</masterLabel>
+        <translation><!-- Frau Dr. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frau Prof.</masterLabel>
+        <translation><!-- Frau Prof. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herr</masterLabel>
+        <translation><!-- Herr --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herr Dr.</masterLabel>
+        <translation><!-- Herr Dr. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Herr Prof.</masterLabel>
+        <translation><!-- Herr Prof. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Madame</masterLabel>
+        <translation><!-- Madame --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mademoiselle</masterLabel>
+        <translation><!-- Mademoiselle --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Monsieur</masterLabel>
+        <translation><!-- Monsieur --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mr.</masterLabel>
+        <translation>Herr</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mrs.</masterLabel>
+        <translation>Frau</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ms.</masterLabel>
+        <translation><!-- Ms. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prof.</masterLabel>
+        <translation><!-- Prof. --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sig</masterLabel>
+        <translation><!-- Sig --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sig.ra</masterLabel>
+        <translation><!-- Sig.ra --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

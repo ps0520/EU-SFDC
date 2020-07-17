@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Token</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Tokens</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Tokens --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dexcom Account --></label>
+        <name>Dexcom_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Time --></label>
+        <name>Expiration_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token --></label>
+        <name>Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification Code --></label>
+        <name>Verification_Code__c</name>
+    </fields>
+    <layouts>
+        <layout>AccountToken Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This setting will hold the User Id of the person , who is the country admin .</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>User_Id__c</fullName>
+        <description>Salesforce user id of the Country admin.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>User Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Country Admin</label>
+    <listViews>
+        <fullName>Country_Admin_List</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>User_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Country Admin List</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

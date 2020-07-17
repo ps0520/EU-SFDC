@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DHL Parcel|Ground|0|BS2</fullName>
+        <default>false</default>
+        <label>Economy (DHL Package)</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Parcel|Ground|667|BS2</fullName>
+        <default>false</default>
+        <label>Economy - EUR 6.67</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|DE0|BSN</fullName>
+        <default>false</default>
+        <label>Next Business Day Before 12 (Miscellaneous)</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|DE0|BSA</fullName>
+        <default>false</default>
+        <label>Next Business Day Before 9 (Miscellaneous)</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|DE0|STN</fullName>
+        <default>false</default>
+        <label>Saturday Delivery (Miscellaneous)</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|DE0|BS1</fullName>
+        <default>false</default>
+        <label>Priority (DHL Express)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_3DS</fullName>
+        <default>false</default>
+        <label>FedEx Economy® (3-5 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_P_PO</fullName>
+        <default>false</default>
+        <label>FedEx Priority Overnight (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_CX</fullName>
+        <default>false</default>
+        <label>Canada Post XpresspostTM (3-5 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_P_CP</fullName>
+        <default>false</default>
+        <label>Canada Post PriorityTM (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_P4</fullName>
+        <default>false</default>
+        <label>Purolator Ground (3-5 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|0|BS2</fullName>
+        <default>false</default>
+        <label>CHS Economy - CHF 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|1105|BS2</fullName>
+        <default>false</default>
+        <label>CHS Economy - CHF 11.05</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|0|BSA</fullName>
+        <default>false</default>
+        <label>CHS Pre-9 - CHF 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|2260|BSA</fullName>
+        <default>false</default>
+        <label>CHS Pre-9 - CHF 22.60</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|0|BS1</fullName>
+        <default>false</default>
+        <label>CHS Priority - CHF 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Post|Ground|1360|BS1</fullName>
+        <default>false</default>
+        <label>CHS Priority - CHF 13.60</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD|Ground|0|BS2</fullName>
+        <default>false</default>
+        <label>ATS Economy - EUR 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD|Ground|1487|BS2</fullName>
+        <default>false</default>
+        <label>ATS Economy - EUR 14.87</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|0|BSN</fullName>
+        <default>false</default>
+        <label>ATS Pre-12 - EUR 0</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|47|BSN</fullName>
+        <default>false</default>
+        <label>ATS Pre-12 - EUR 47</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|0|BSA</fullName>
+        <default>false</default>
+        <label>ATS Pre-9 - EUR 0</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|81|BSA</fullName>
+        <default>false</default>
+        <label>ATS Pre-9 - EUR 81</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|0|BS1</fullName>
+        <default>false</default>
+        <label>ATS Priority - EUR 0</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|2250|BS1</fullName>
+        <default>false</default>
+        <label>ATS Priority - EUR 22.50</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|0|STN</fullName>
+        <default>false</default>
+        <label>ATS Saturday - EUR 0</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|154|STN</fullName>
+        <default>false</default>
+        <label>ATS Saturday - EUR 154</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_PO</fullName>
+        <default>false</default>
+        <label>FedEx Priority Overnight® (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_CP</fullName>
+        <default>false</default>
+        <label>Canada Post Priority® (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_P2</fullName>
+        <default>false</default>
+        <label>000001_CADS_D_P2</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_1DA</fullName>
+        <default>false</default>
+        <label>000001_FEDEX_A_1DA</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_P_CX</fullName>
+        <default>false</default>
+        <label>000001_CADS_P_CX</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_PS</fullName>
+        <default>false</default>
+        <label>000001_CADS_D_PS</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_P_3DS</fullName>
+        <default>false</default>
+        <label>000001_CADS_P_3DS</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_INTERPRIO</fullName>
+        <default>false</default>
+        <label>000001_FEDEX_A_INTERPRIO</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_P1</fullName>
+        <default>false</default>
+        <label>000001_CADS_D_P1</label>
+    </customValue>
+    <customValue>
+        <fullName>null</fullName>
+        <default>false</default>
+        <label>null</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_P3</fullName>
+        <default>false</default>
+        <label>Purolator Express (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE0|BSN</fullName>
+        <default>false</default>
+        <label>IES Pre-12 - EUR 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE3798|BSN</fullName>
+        <default>false</default>
+        <label>IES Pre-12 - EUR 37.98</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE0|BSA</fullName>
+        <default>false</default>
+        <label>IES Pre-9 - EUR 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE6298|BSA</fullName>
+        <default>false</default>
+        <label>IES Pre-9 - EUR 62.98</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|IE0|BS1</fullName>
+        <default>false</default>
+        <label>IES Priority - EUR 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|IE2162|BS1</fullName>
+        <default>false</default>
+        <label>IES Priority - EUR 21.62</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE0|STN</fullName>
+        <default>false</default>
+        <label>IES Saturday - EUR 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|IE170|STN</fullName>
+        <default>false</default>
+        <label>IES Saturday - 170 EUR</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|0|BSA</fullName>
+        <default>false</default>
+        <label>GBS Pre-10.30 - GBP 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|1838|BSA</fullName>
+        <default>false</default>
+        <label>GSB Pre-10.30 - GBP 18.38</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|0|BSN</fullName>
+        <default>false</default>
+        <label>GBS Pre-12 - GBP 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|1138|BSN</fullName>
+        <default>false</default>
+        <label>GBS Pre-12 - GBP 11.38</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|0|BS1</fullName>
+        <default>false</default>
+        <label>GBS Priority - GBP 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|814|BS1</fullName>
+        <default>false</default>
+        <label>GBS Priority - GBP 8.14</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|0|STN</fullName>
+        <default>false</default>
+        <label>GBS Saturday - GBP 0.00</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD Local|Ground|1838|STN</fullName>
+        <default>false</default>
+        <label>GBS Saturday - GBP 18.38</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Default|0|BS2</fullName>
+        <default>false</default>
+        <label>Distr Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Default|0|EXW</fullName>
+        <default>false</default>
+        <label>Distr Ex Works</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx|Default|0|XFS</fullName>
+        <default>false</default>
+        <label>Distr Fedex Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx|Default|0|XFX</fullName>
+        <default>false</default>
+        <label>Distr Fedex Priority</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|0|ANY</fullName>
+        <default>false</default>
+        <label>Distr Groupage</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Default|0|BS1</fullName>
+        <default>false</default>
+        <label>Distr Priority</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|0|RUSH</fullName>
+        <default>false</default>
+        <label>Distr Rush</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_A_P3</fullName>
+        <default>false</default>
+        <label>Purolator Express® (1-2 business days)</label>
+    </customValue>
+    <customValue>
+        <fullName>DPD|Ground|BE0|BS2</fullName>
+        <default>false</default>
+        <label>BES Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>DHL Express|Ground|BE0|BS1</fullName>
+        <default>false</default>
+        <label>BES Priority</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|BE0|BSN</fullName>
+        <default>false</default>
+        <label>BES Pre-12</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|BE0|BSA</fullName>
+        <default>false</default>
+        <label>BES Pre-9</label>
+    </customValue>
+    <customValue>
+        <fullName>Any|Ground|BE0|STN</fullName>
+        <default>false</default>
+        <label>BES Saturday</label>
+    </customValue>
+    <customValue>
+        <fullName>Bestway|Ground|No Charge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bestway Ground No Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_CARD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_D_CARD</label>
+    </customValue>
+    <customValue>
+        <fullName>Bestway|Air|Express 2-3 Day - No Charge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bestway Air Express 2-3 Day - No Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>Bestway|Air|Priority Overnight - 30 Euro</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bestway Air Priority Overnight - 30 Euro</label>
+    </customValue>
+    <customValue>
+        <fullName>Bestway|Air|Priority Overnight - No Charge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bestway Air Priority Overnight - No Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>Go Depot|Air|No Charge</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pick Up Walk-in No Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx Air Express Saver 2 Day Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FedEx Air Express Saver 2 Day Service</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx Air Express Saver 3 Day Afternoon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FedEx Air Express Saver 3 Day Afternoon</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx Air Priority Overnight</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FedEx Air Priority Overnight</label>
+    </customValue>
+    <customValue>
+        <fullName>FedEx Ground Home Delivery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FedEx Ground Home Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>GBS Air International Economy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GBS Air International Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>Economy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>Priority next day</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Priority next day</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra priority next day before 12</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Extra priority next day before 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra priority next day before 9</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Extra priority next day before 9</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra priority Saturday delivery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Extra priority Saturday delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_L_GND</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_L_GND</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_A_INTERCON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_A_INTERCON</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_CE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_D_CE</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_A_INTERPRIO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_A_INTERPRIO</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_SAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_A_SAT</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_INTERCON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_A_INTERCON</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_PO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_A_PO</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_CPCER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_D_CPCER</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_ATS_A_INTERCON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_ATS_A_INTERCON</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_Dex_D_DEXCUST</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_Dex_D_DEXCUST</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_2D</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_A_2D</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_P_CE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_P_CE</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_FEDEX_A_3DS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_FEDEX_A_3DS</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_GBS_D_INTERPRIO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_GBS_D_INTERPRIO</label>
+    </customValue>
+    <customValue>
+        <fullName>000001_CADS_D_P3A</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>000001_CADS_D_P3A</label>
+    </customValue>
+    <customValue>
+        <fullName>Bestway|Air|Express 2-3 Day - 19 Euro</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bestway Air Express 2-3 Day - 19 Euro</label>
+    </customValue>
+    <masterLabel>Shipping Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

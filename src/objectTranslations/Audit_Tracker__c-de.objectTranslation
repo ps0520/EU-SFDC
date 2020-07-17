@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Audit Tracker --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Audit Field Name --></label>
+        <name>Audit_Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation>Genehmigung?</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents Previous Order</masterLabel>
+            <translation>Dokumente vorheriger Auftrag?</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original Prescription</masterLabel>
+            <translation>Original Verordnung?</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payor</masterLabel>
+            <translation>Kostenträger?</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Preis?</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation>Produkte?</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Verified --></label>
+        <name>Field_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>Object_Id__c</name>
+        <relationshipLabel><!-- Audit Trackers --></relationshipLabel>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Audit Tracker Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Audit Tracker Name --></nameFieldLabel>
+</CustomObjectTranslation>

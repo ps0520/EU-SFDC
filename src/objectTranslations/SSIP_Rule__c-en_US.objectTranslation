@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SSIP Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SSIP Rule</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account 18 Digit Id --></label>
+        <name>Account_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective PO Number --></label>
+        <name>Effective_PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Payor --></label>
+        <name>Effective_Payor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Tax Exempt Flag --></label>
+        <name>Effective_Tax_Exempt_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Tax Registration Number --></label>
+        <name>Effective_Tax_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Order --></label>
+        <name>First_Order__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lead days for the first shipment --></help>
+        <label><!-- First Repeat Order Lead Days --></label>
+        <name>First_Repeat_Order_Lead_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date should be within the Rule Start Date and Rule End Date (if applicable). This date is set with the first order is shipped. Setting this date will create the Schedules. --></help>
+        <label><!-- First Shipment Date --></label>
+        <name>First_Shipment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency (In Days) --></label>
+        <name>Frequency_In_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should be marked true if the Order has Fund association. Fund associated to the customer account will be used for the Order. --></help>
+        <label><!-- Is there a Fund? --></label>
+        <name>Is_Funded__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This value will be associated to the Order. If the Order is Funded, the PO Number associated to the Fund will be chose when Order is created. --></help>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Term --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should be marked true if the Order has Payor association. Payor associated to the customer account will be used for the Order. --></help>
+        <label><!-- Is there a Payor? --></label>
+        <name>Payor_Exist__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PriceBookEntryId --></label>
+        <name>PriceBookEntryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Book --></label>
+        <name>Price_Book__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date should be greater than or equal to today&apos;s date. --></help>
+        <label><!-- Renewal Date --></label>
+        <name>Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date should be greater than or equal to today&apos;s date. Setting this date will delete any open schedules past this date. --></help>
+        <label><!-- Rule End Date --></label>
+        <name>Rule_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Re-schedule Date --></label>
+        <name>Rule_Re_schedule_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Start Date --></label>
+        <name>Rule_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fund associated to the Account to which the Order will be created. --></help>
+        <label><!-- Fund --></label>
+        <name>SSIP_Fund__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payor associated to the Account to which the Order will be created. --></help>
+        <label><!-- Payor --></label>
+        <name>SSIP_Payor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count determines how many schedules will be created at first for this Rule. --></help>
+        <label><!-- Schedule Count --></label>
+        <name>Schedule_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>Shipping_Address__c</name>
+        <relationshipLabel><!-- SSIP Rule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Chosen value will be defaulted to all the schedules associated to this Rule. --></help>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>Unit_Price__c</name>
+    </fields>
+    <layouts>
+        <layout>SSIP Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AT SSIP Rule --></label>
+        <name>AT_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule Recordtype for CH --></description>
+        <label><!-- CH SSIP Rule --></label>
+        <name>CH_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule for GB --></description>
+        <label><!-- GB SSIP Rule --></label>
+        <name>GB_SSIP_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SSIP Rule for IE --></description>
+        <label><!-- IE SSIP Rule --></label>
+        <name>IE_SSIP_Rule</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account does not have Fund association, please associate a Fund before enabling the Rule. --></errorMessage>
+        <name>Check_Account_Fund_For_Funded_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account does not have any Primary Credit Card associated. --></errorMessage>
+        <name>Check_Primary_CC_Exist_For_CC_Pay_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Rule End Date&apos; or &apos;Renewal Date&apos; must be greater than the &apos;Rule Start Date&apos; --></errorMessage>
+        <name>End_Date_Be_Greater_Than_The_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Rule End Date&apos; or &apos;Renewal Date&apos; can&apos;t be less than Today&apos;s date. --></errorMessage>
+        <name>End_Date_Can_Not_Be_Less_Than_Today</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;First Shipment Date&apos; must fall between &apos;Rule Start Date&apos; and &apos;Rule End Date&apos; --></errorMessage>
+        <name>First_Shipment_Date_Between_Rule_Dates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rule cannot be funded if the payment term is either Prepaid or Credit Card. --></errorMessage>
+        <name>Fund_Selection_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Term &apos;Credit Card&apos; cannot be chosen as there is a Payor association to the Rule. --></errorMessage>
+        <name>Payment_Term_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payor cannot be selected if the payment term either Prepaid or Credit Card. --></errorMessage>
+        <name>Payor_Selection_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product is not changeable. You should cancel SSIP Rule and create new one for new Product. --></errorMessage>
+        <name>Product_Change_Is_Not_Allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

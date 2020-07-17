@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>Birth_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled Reasons --></label>
+        <name>Cancelled_Reasons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Details --></label>
+        <name>Contact_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currently Use CGM --></label>
+        <name>Currently_Use_CGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dexcom Preference --></label>
+        <name>Dexcom_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Accuracy</masterLabel>
+            <translation><!-- Accuracy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alarmplan</masterLabel>
+            <translation><!-- Alarmplan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarity</masterLabel>
+            <translation><!-- Clarity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Share / Follow</masterLabel>
+            <translation><!-- Share / Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smartphones</masterLabel>
+            <translation><!-- Smartphones --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Diabetes Condition --></label>
+        <name>Diabetes_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- District --></label>
+        <name>District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Double Opt In Subscriber --></label>
+        <name>Email_Double_Opt_In_Subscriber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Language --></label>
+        <name>Email_Opt_In_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Last Modified --></label>
+        <name>Email_Opt_In_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In --></label>
+        <name>Email_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Method --></label>
+        <name>Email_Opt_In_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the date/time when the person Opted Out --></help>
+        <label><!-- Email Opt Out Last Modified --></label>
+        <name>Email_Opt_Out_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt Out --></label>
+        <name>Email_Opt_Out_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Pending Opt In Reset --></label>
+        <name>Email_Pending_Opt_In_Reset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Pending Opt In --></label>
+        <name>Email_Pending_Opt_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiate Unsubscribe --></label>
+        <name>Email_Pending_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Customer? --></label>
+        <name>Existing_Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Feedback or Inquiry from the customer --></help>
+        <label><!-- Feedback/Inquiry --></label>
+        <name>Feedback_Inquiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Contact To Marketing --></label>
+        <name>GDPR_Consent_Contact_To_Marketing__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Feedback --></label>
+        <name>GDPR_Consent_Feedback__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: General --></label>
+        <name>GDPR_Consent_General__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Marketing E-Mail --></label>
+        <name>GDPR_Consent_Marketing_Email__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Order Status --></label>
+        <name>GDPR_Consent_Order_Status__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Other Request --></label>
+        <name>GDPR_Consent_Other_Request__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GDPR Consent: Quote --></label>
+        <name>GDPR_Consent_Quote__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Guardian First Name --></label>
+        <name>Guardian_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guardian Last Name --></label>
+        <name>Guardian_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Phone --></label>
+        <name>Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Help Type --></label>
+        <name>Insurance_Help_Type__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public/Government Program</masterLabel>
+            <translation><!-- Public/Government Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance Type --></label>
+        <name>Insurance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Insurance</masterLabel>
+            <translation><!-- Private Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statutory Insurance</masterLabel>
+            <translation><!-- Statutory Insurance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Convert --></label>
+        <name>Lead_Convert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility --></label>
+        <name>Medical_Facility__c</name>
+        <relationshipLabel><!-- Medical Facility Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member ID --></label>
+        <name>Member_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Device --></label>
+        <name>Mobile_Device__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iOS</masterLabel>
+            <translation><!-- iOS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- On Trial? --></label>
+        <name>On_30_Day_Trial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient&apos;s Diabetes Therapy --></label>
+        <name>Patient_Diabetes_Therapy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Diabetes Type --></label>
+        <name>Patient_Diabetes_Type__c</name>
+        <picklistValues>
+            <masterLabel>Gestational</masterLabel>
+            <translation><!-- Gestational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type 1</masterLabel>
+            <translation><!-- Type 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type 2</masterLabel>
+            <translation><!-- Type 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- ow does the customer intend to pay? --></help>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Pay</masterLabel>
+            <translation><!-- Self-Pay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payor --></label>
+        <name>Payor__c</name>
+        <relationshipLabel><!-- Leads (Payor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preferred Contact Method --></label>
+        <name>Preferred_Contact_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Contact Time --></label>
+        <name>Preferred_Contact_Time__c</name>
+        <picklistValues>
+            <masterLabel>Email with more Information and Instructions</masterLabel>
+            <translation><!-- Email with more Information and Instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone call during lunch (between 12PM to 2PM)</masterLabel>
+            <translation><!-- Phone call during lunch (between 12PM to 2PM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone call in the evening (between 2PM to 6PM)</masterLabel>
+            <translation><!-- Phone call in the evening (between 2PM to 6PM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone call in the morning (between 9AM to 12PM)</masterLabel>
+            <translation><!-- Phone call in the morning (between 9AM to 12PM) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>Prescriber__c</name>
+        <relationshipLabel><!-- Leads (Prescriber) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Read Data Protection Act --></label>
+        <name>Read_Data_Protection_Act__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receiver Option --></label>
+        <name>Receiver_Option__c</name>
+        <picklistValues>
+            <masterLabel>With Dexcom Receiver</masterLabel>
+            <translation><!-- With Dexcom Receiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without Dexcom Receiver</masterLabel>
+            <translation><!-- Without Dexcom Receiver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt In --></label>
+        <name>SMS_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Email --></label>
+        <name>Secondary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Story --></label>
+        <name>Story__c</name>
+    </fields>
+    <fields>
+        <label><!-- System --></label>
+        <name>System__c</name>
+        <picklistValues>
+            <masterLabel>Dexcom G5 Mobile</masterLabel>
+            <translation><!-- Dexcom G5 Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dexcom G6</masterLabel>
+            <translation><!-- Dexcom G6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Territory --></label>
+        <name>Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Therapy --></label>
+        <name>Therapy__c</name>
+        <picklistValues>
+            <masterLabel>Other + Insulin</masterLabel>
+            <translation><!-- Other + Insulin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other + non insulin injections</masterLabel>
+            <translation><!-- Other + non insulin injections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Typ 1+ ICT</masterLabel>
+            <translation><!-- Typ 1+ ICT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Typ 1+ Pump</masterLabel>
+            <translation><!-- Typ 1+ Pump --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Typ 2 + non insulin injections</masterLabel>
+            <translation><!-- Typ 2 + non insulin injections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Typ 2+ ICT</masterLabel>
+            <translation><!-- Typ 2+ ICT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Typ 2+Pumpe</masterLabel>
+            <translation><!-- Typ 2+Pumpe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trial End Date --></label>
+        <name>Trial_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trial Start Date --></label>
+        <name>Trial_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measurement --></label>
+        <name>Unit_Of_Measurement__c</name>
+        <picklistValues>
+            <masterLabel>mg/dl</masterLabel>
+            <translation><!-- mg/dl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mmol/l</masterLabel>
+            <translation><!-- mmol/l --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zip To Align --></label>
+        <name>Zip_To_Align__c</name>
+    </fields>
+    <layouts>
+        <layout>AT Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Out Information --></label>
+            <section>Opt In/Out Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Cancelled Information --></label>
+            <section>Cancelled Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Out Information --></label>
+            <section>Opt In/Out Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Person Account Lead Layout - Field Sales</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Double Opt In Information --></label>
+            <section>Email Double Opt In Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt Out Information --></label>
+            <section>Email Opt Out Information</section>
+        </sections>
+        <sections>
+            <label><!-- GDPR Consent Information --></label>
+            <section>GDPR Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cancelled Information --></label>
+            <section>Cancelled Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Conversation View --></label>
+            <section>Conversation View</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt In/Out Information --></label>
+            <section>Email Opt In/Out Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Person Account Lead Layout - Inside Sales</layout>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cancelled Information --></label>
+            <section>Cancelled Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt In/Out Information --></label>
+            <section>Email Opt In/Out Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Austria Lead --></description>
+        <label><!-- AT Person Lead --></label>
+        <name>AT_Person_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Canadian Consumer Lead --></description>
+        <label><!-- CA Person Lead --></label>
+        <name>CA_Person_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Switzerland Lead --></description>
+        <label><!-- CH Person Lead --></label>
+        <name>CH_Person_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Jagan 06/22/2017 - Process to track record type for person leads. --></description>
+        <label><!-- DE Person Lead --></label>
+        <name>DE_Person_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- GB Lead --></description>
+        <label><!-- GB Person Lead --></label>
+        <name>GB_Person_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ireland Lead --></description>
+        <label><!-- IE Person Lead --></label>
+        <name>IE_Person_Lead</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country are required to create a Lead. --></errorMessage>
+        <name>AT_Billing_Address_Required_For_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- IF the Lead is on 30 day trial, both Trial Start Date and Trial End Date should be filled. --></errorMessage>
+        <name>AT_Trial_Dates_Shd_B_Filled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Trial End Date should not be earlier than Trial Start Date. --></errorMessage>
+        <name>AT_Trial_End_Date_Shd_B_GT_ST_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change this field. Please use the &apos;Email Pending Opt In&apos; and &apos;Email Pending Opt Out&apos; checkboxes instead. --></errorMessage>
+        <name>All_Block_Email_Opt_In_List_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must select Email Opt In Method and Email Opt In Language --></errorMessage>
+        <name>All_Double_Opt_In_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cancelled Reason(s) required for Cancelled Leads. --></errorMessage>
+        <name>CA_Cancelled_Reason_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country are required before converting a Lead. --></errorMessage>
+        <name>CH_Billing_Address_Required_For_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is required. --></errorMessage>
+        <name>CH_FirstName_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check the &apos;Birth Date&apos;. Age should be more than 18 years. --></errorMessage>
+        <name>CH_Guardian_Required_For_Under18_Patient</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Medical Facility&apos;, &apos;Prescriber&apos; and &apos;Birth Date&apos; are required before converting the Lead. --></errorMessage>
+        <name>CH_MedFac_Prescriber_Req_For_Lead_Conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Salutation is required before converting the Lead. --></errorMessage>
+        <name>CH_Salutation_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country are required before converting a Lead. --></errorMessage>
+        <name>UK_Billing_Address_Required_For_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is required. --></errorMessage>
+        <name>UK_FirstName_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check the &apos;Birth Date&apos;. If Patient is under 18, please enter Guardian&apos;s First and Last Names. --></errorMessage>
+        <name>UK_Guardian_Required_For_Under18_Patient</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Birth Date and any one of the contact information are required before converting the Lead. --></errorMessage>
+        <name>UK_MedFac_Prescriber_Req_For_Lead_Conv</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

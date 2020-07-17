@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SSIP Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SSIP Schedule</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- SSIP Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this is a cash Order then this address will be used for Billing else the Primary Billing address tied either to the customer account or the payor account will be chosen based on the order type. --></help>
+        <label><!-- Changed Billing Address --></label>
+        <name>Billing_Address__c</name>
+        <relationshipLabel><!-- SSIP Schedule (Billing Address) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Shipment Date --></label>
+        <name>First_Shipment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund --></label>
+        <name>Fund__c</name>
+        <relationshipLabel><!-- SSIP Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Order that was generated for this Schedule. --></help>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- SSIP Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Value can be overridden only for this schedule. --></help>
+        <label><!-- Payment Term --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Billing Address --></label>
+        <name>Primary_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Shipping Address --></label>
+        <name>Primary_Shipping_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product Name tied to the Rule. --></help>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when the Order will be shipped. If this filed is filled in it takes precedence compared to the Scheduled Date. --></help>
+        <label><!-- Rescheduled Shipment Date --></label>
+        <name>Rescheduled_Shipment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSIP Rule --></label>
+        <name>SSIP_Rule__c</name>
+        <relationshipLabel><!-- SSIP Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date when the Order will be shipped. --></help>
+        <label><!-- Schedule Date --></label>
+        <name>Schedule_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This address will be used as Shipping address for the Order. If this field is not filled in then default Primary Shipping address tied to the account will be chosen. --></help>
+        <label><!-- Changed Shipping Address --></label>
+        <name>Shipping_Address__c</name>
+        <relationshipLabel><!-- SSIP Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Value can be overridden only for this schedule. 
+Make sure all other product schedules that will be shipped out on the same day for this account is also chosen the corresponding Shipping method. --></help>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Draft</masterLabel>
+            <translation><!-- In Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Error</masterLabel>
+            <translation><!-- In Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Try to Create Order --></label>
+        <name>Try_to_Create_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>SSIP Schedule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

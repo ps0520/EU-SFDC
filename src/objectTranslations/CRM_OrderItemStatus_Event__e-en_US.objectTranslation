@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CRM OrderItemStatus Event - In</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CRM OrderItemStatus Events - In</value>
+    </caseValues>
+    <fields>
+        <label><!-- author --></label>
+        <name>author__c</name>
+    </fields>
+    <fields>
+        <label><!-- changedQuantity --></label>
+        <name>changedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- deliveryNumber --></label>
+        <name>deliveryNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- entityType --></label>
+        <name>entityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventDate --></label>
+        <name>eventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventSourceID --></label>
+        <name>eventSourceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventSource --></label>
+        <name>eventSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- invoiceDate --></label>
+        <name>invoiceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- invoiceNumber --></label>
+        <name>invoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- isBundleItem --></label>
+        <name>isBundleItem__c</name>
+    </fields>
+    <fields>
+        <label><!-- isBundle --></label>
+        <name>isBundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- itemID --></label>
+        <name>itemID__c</name>
+    </fields>
+    <fields>
+        <label><!-- lotExpirationDate --></label>
+        <name>lotExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- lotNumber --></label>
+        <name>lotNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- lotNumbers --></label>
+        <name>lotNumbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- metadata --></label>
+        <name>metadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- operation --></label>
+        <name>operation__c</name>
+    </fields>
+    <fields>
+        <label><!-- orderNumber --></label>
+        <name>orderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentItemID --></label>
+        <name>parentItemID__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentSystemOfOriginID --></label>
+        <name>parentSystemOfOriginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- price --></label>
+        <name>price__c</name>
+    </fields>
+    <fields>
+        <label><!-- quantity --></label>
+        <name>quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- scheduledShipDate --></label>
+        <name>scheduledShipDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- serialNumber --></label>
+        <name>serialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- serialNumbers --></label>
+        <name>serialNumbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippedDate --></label>
+        <name>shippedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippedQuantity --></label>
+        <name>shippedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- shippingProvider --></label>
+        <name>shippingProvider__c</name>
+    </fields>
+    <fields>
+        <label><!-- skuBundle --></label>
+        <name>skuBundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- sku --></label>
+        <name>sku__c</name>
+    </fields>
+    <fields>
+        <label><!-- stage --></label>
+        <name>stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- status --></label>
+        <name>status__c</name>
+    </fields>
+    <fields>
+        <label><!-- systemOfOriginID --></label>
+        <name>systemOfOriginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- systemOfOrigin --></label>
+        <name>systemOfOrigin__c</name>
+    </fields>
+    <fields>
+        <label><!-- total --></label>
+        <name>total__c</name>
+    </fields>
+    <fields>
+        <label><!-- trackingNumber --></label>
+        <name>trackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- version --></label>
+        <name>version__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

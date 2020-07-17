@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Actual Ship Date --></label>
+        <name>Actual_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DailyRate_Swiss --></label>
+        <name>DailyRate_Swiss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Number --></label>
+        <name>Delivery_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount Amount from Price Book --></help>
+        <label><!-- Discount Amount --></label>
+        <name>Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- French Invoice Description --></label>
+        <name>French_Invoice_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- German Invoice Description --></label>
+        <name>German_Invoice_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Description --></label>
+        <name>Invoice_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Total Price --></label>
+        <name>Invoice_Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Unit Price --></label>
+        <name>Invoice_Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item in Bundle? --></label>
+        <name>IsBundleItem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bundle? --></label>
+        <name>IsBundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Return Item? --></label>
+        <name>Is_Return_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Virtual Product? --></label>
+        <name>Is_Virtual_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Italian Invoice Description --></label>
+        <name>Italian_Invoice_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT/TAX --></label>
+        <name>Item_VAT_TAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Expiration Date --></label>
+        <name>Lot_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Advice Feature --></label>
+        <name>Medical_Advice_Feature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Advice Number --></label>
+        <name>Medical_Advice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Item Added by Admin --></label>
+        <name>Order_Item_Added_by_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Order Line Id --></label>
+        <name>Parent_Order_Line_Id__c</name>
+        <relationshipLabel><!-- Parent Order Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Added By Admin --></label>
+        <name>Product_Added_By_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label>Retourengrund</label>
+        <name>Return_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Customer did not order the item</masterLabel>
+            <translation>Kunde hat Produkte nicht bestellt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer did not receive the item</masterLabel>
+            <translation>Kunde hat Produkte nicht erhalten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer no longer need the item</masterLabel>
+            <translation>Kunde benötigt Produkte nicht mehr</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer ordered the wrong item</masterLabel>
+            <translation>Kunde hat falsches Produkt bestellt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Unsuccessful</masterLabel>
+            <translation>Zustellung erfolglos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discontinuation</masterLabel>
+            <translation>Therapieabbruch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error</masterLabel>
+            <translation>Interner Bearbeitungsfehler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error Compilation</masterLabel>
+            <translation>Interner Bearbeitungsfehler Zusammenstellung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error G4/G5/G6</masterLabel>
+            <translation>Interner Bearbeitungsfehler G4/G5/G6</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error Quantity</masterLabel>
+            <translation>Interner Bearbeitungsfehler Menge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error mg/mmol</masterLabel>
+            <translation>Interner Bearbeitungsfehler mg/mmol</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack Regulation</masterLabel>
+            <translation>Fehlverordnung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Note Required)</masterLabel>
+            <translation>Sonstige (Notiz erforderlich)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price change</masterLabel>
+            <translation>Preisänderung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Complaint</masterLabel>
+            <translation><!-- QA Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity change</masterLabel>
+            <translation>Mengenänderung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reason code not provided</masterLabel>
+            <translation>Ohne Angabe von Gründen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejection After Approval</masterLabel>
+            <translation>Ablehnung nach Genehmigung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resignation Private</masterLabel>
+            <translation>Rücktritt Privat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Error Supplier</masterLabel>
+            <translation>Servicefehler Lieferant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The item does not work properly</masterLabel>
+            <translation>Das Produkt funktioniert nicht einwandfrei</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The item is damaged</masterLabel>
+            <translation>Das Produkt ist defekt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The item is missing parts</masterLabel>
+            <translation>Fehlende Komponenten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The item was delivered late</masterLabel>
+            <translation>Zu späte Lieferung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Address</masterLabel>
+            <translation>Falsche Adresse</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Status --></label>
+        <name>Shipment_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipped Qty --></label>
+        <name>Shipped_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Provider --></label>
+        <name>Shipping_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Any</masterLabel>
+            <translation><!-- Any --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Post</masterLabel>
+            <translation><!-- Canada Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL Express</masterLabel>
+            <translation><!-- DHL Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL Parcel</masterLabel>
+            <translation><!-- DHL Parcel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPD</masterLabel>
+            <translation><!-- DPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPD Local</masterLabel>
+            <translation><!-- DPD Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purolator</masterLabel>
+            <translation><!-- Purolator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swiss Post</masterLabel>
+            <translation><!-- Swiss Post --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bundle SKU --></label>
+        <name>SkuBundle__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>AWAIT BILLING</masterLabel>
+            <translation><!-- AWAIT BILLING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWAIT SHIP</masterLabel>
+            <translation><!-- AWAIT SHIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWAITING BILLING</masterLabel>
+            <translation><!-- AWAITING BILLING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWAITING RECEIVING</masterLabel>
+            <translation><!-- AWAITING RECEIVING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWAITING SHIPPING</masterLabel>
+            <translation><!-- AWAITING SHIPPING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BILLED</masterLabel>
+            <translation><!-- BILLED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANCELED</masterLabel>
+            <translation><!-- CANCELED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANCELLED</masterLabel>
+            <translation><!-- CANCELLED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLOSED</masterLabel>
+            <translation><!-- CLOSED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELIVERED</masterLabel>
+            <translation><!-- DELIVERED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOT STARTED</masterLabel>
+            <translation><!-- NOT STARTED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCHEDULED</masterLabel>
+            <translation><!-- SCHEDULED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHIPPED</masterLabel>
+            <translation><!-- SHIPPED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Rate --></label>
+        <name>Tax_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Source --></label>
+        <name>Tax_Source__c</name>
+        <picklistValues>
+            <masterLabel>Fusion</masterLabel>
+            <translation><!-- Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>crm</masterLabel>
+            <translation><!-- crm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ecom</masterLabel>
+            <translation><!-- ecom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oms</masterLabel>
+            <translation><!-- oms --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking URL --></label>
+        <name>Tracking_URL__c</name>
+    </fields>
+    <layouts>
+        <layout>CA Order Line Item Layout</layout>
+        <sections>
+            <label><!-- Information From Oracle --></label>
+            <section>Information From Oracle</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Product Layout</layout>
+        <sections>
+            <label><!-- Information From Oracle --></label>
+            <section>Information From Oracle</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Product with &apos;Medical Advice Number&apos; cannot be selected. --></errorMessage>
+        <name>All_Cannot_Select_Medical_Advice_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot select this Return Reason. --></errorMessage>
+        <name>All_Chk_On_Return_Reason_By_User_Group</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Return Reason&apos;. --></errorMessage>
+        <name>All_Chk_Return_Reason_Sel_For_Ret_Orders</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this operation. Please contact admin. --></errorMessage>
+        <name>All_Doc_CSR_Cant_Alter_Sales_Order_Prod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity should be a negative number. --></errorMessage>
+        <name>All_No_Positive_Qty_For_Ret_Cred_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Decimal Quantities not permitted for that product. --></errorMessage>
+        <name>All_Non_Decimal_Qty_For_Most_Products</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Unit Price cannot be altered --></errorMessage>
+        <name>All_Order_Product_Price_Cannot_Be_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- G6 Products cannot be added for the Payor as the Payor is not G6 eligible. --></errorMessage>
+        <name>DE_Chk_G6_Products_For_Payor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this operation. Please contact admin. --></errorMessage>
+        <name>DE_Tech_Support_Cant_Alter_Sales_Order</name>
+    </validationRules>
+</CustomObjectTranslation>

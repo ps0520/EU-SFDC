@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>CA Opportunity Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Create_New_Opportunity__c</fieldNames>
+        <picklistValueName>Cancelled</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Closed_Reason__c</fieldNames>
+        <picklistValueName>Closed - Complete</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Estimate_To_Payor_Status__c</fieldNames>
+        <fieldNames>CA_Estimate_to_Patient_Status__c</fieldNames>
+        <fieldNames>CA_Coverage_Confirmed__c</fieldNames>
+        <picklistValueName>Cost Estimate</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Customer_Docs_Collection_Status__c</fieldNames>
+        <fieldNames>CA_Prescriber_Docs_Collection_Status__c</fieldNames>
+        <fieldNames>CA_Docs_Sent_Out__c</fieldNames>
+        <fieldNames>CA_Prescriber_Docs_Pending__c</fieldNames>
+        <fieldNames>CA_Docs_Received__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Identify required documents as per matrix on payor account.&lt;/li&gt;&lt;li&gt;Determine which documents to be completed by patient, and which documents to be completed by HCP/CW.&lt;/li&gt;&lt;li&gt;Send required documents for completion via DocuSign, Email, Fax2Mail, etc. and select &amp;#39;Docs Sent Out&amp;#39;.&lt;/li&gt;&lt;li&gt;If no documents are required from the patient, or from the HCP/CW, please ensure correct checkbox is selected.&lt;/li&gt;&lt;li&gt;If no documents are required from either party, opportunity will bypass Document collection stage and proceed directly to Cost estimate.&lt;/li&gt;&lt;li&gt;As documents are received, check and reference payor matrix to ensure that all requirements are met before marking a checkbox and update &amp;#39;Docs Received&amp;#39;.&lt;/li&gt;&lt;li&gt;Update account details and/or benefits record(s) as documents are returned.&lt;/li&gt;&lt;li&gt;At minimum, a primary benefit record must be created and updated on the account before proceeding to cost estimate.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Customer Doc Collection</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>CA_Opportunity</recordTypeName>
+</PathAssistant>

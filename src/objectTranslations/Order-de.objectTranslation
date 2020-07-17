@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Party Id --></label>
+        <name>Account_Party_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activated Date/Time --></label>
+        <name>Activated_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activated Vs Supply Period Start Date --></label>
+        <name>Activated_Vs_Supply_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Auth End Date --></label>
+        <name>Benefit_Auth_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Auth Start Date --></label>
+        <name>Benefit_Auth_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Auth Amount --></label>
+        <name>CC_Auth_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Last 4 --></label>
+        <name>CC_Last_4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Transaction status as sent by Cybersource --></help>
+        <label><!-- CC Trans Status --></label>
+        <name>CC_Trans_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated G6 Starter Kit Date Time --></label>
+        <name>Calculated_G6_Starter_Kit_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case/RGA Number --></label>
+        <name>Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zuzahlung</label>
+        <name>Co_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Email --></label>
+        <name>Consumer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copay Product Quantity --></label>
+        <name>Copay_Product_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Admin Products --></label>
+        <name>Count_Of_Admin_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Discount SKU --></label>
+        <name>Count_Of_Discount_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of G6 Receivers --></label>
+        <name>Count_Of_G6_Receivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of G6 Transmitters --></label>
+        <name>Count_Of_G6_Transmitters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Shipping SKU --></label>
+        <name>Count_Of_Shipping_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Starter Kit --></label>
+        <name>Count_Of_Starter_Kit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of G6 Instructions --></label>
+        <name>Count_of_G6_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of IFU Line Items --></label>
+        <name>Count_of_IFU_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Open Retraction Cases --></label>
+        <name>Count_of_Open_Retraction_Cases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Order Line Items --></label>
+        <name>Count_of_Order_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Shipped Line Items --></label>
+        <name>Count_of_Shipped_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Virtual SKUs --></label>
+        <name>Count_of_Virtual_SKUs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By Current User --></label>
+        <name>Created_By_Current_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Card Authorization Code --></label>
+        <name>Credit_Card_Authorization_Code__c</name>
+    </fields>
+    <fields>
+        <label>Rechnungsadresse Kunde</label>
+        <name>Customer_Bill_To_Address__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Versandadresse Kunde</label>
+        <name>Customer_Ship_To_Address__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DE Customer Letter SKU Count --></label>
+        <name>DE_Customer_Letter_SKU_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE G6 Xmer Instr Sheet Count --></label>
+        <name>DE_G6_Xmer_Instr_Sheet_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- DZH Send Date --></label>
+        <name>DZH_Send_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Note Printed --></label>
+        <name>Delivery_Note_Printed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Note Received --></label>
+        <name>Delivery_Note_Received__c</name>
+    </fields>
+    <fields>
+        <label>Lieferschein Erinnerung</label>
+        <name>Delivery_Note_Reminder__c</name>
+        <picklistValues>
+            <masterLabel>Delivery Stop</masterLabel>
+            <translation>Lieferstopp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder 1</masterLabel>
+            <translation>Mahnstufe 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder 2</masterLabel>
+            <translation>Mahnstufe 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder 3</masterLabel>
+            <translation>Mahnstufe 3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lieferschein Erinnerung Änderungsdatum</label>
+        <name>Delivery_Reminder_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Term --></label>
+        <name>Delivery_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- RGA Number --></label>
+        <name>Display_RGA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dist Invoice Amount --></label>
+        <name>Dist_Invoice_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Order Confirmation Number --></label>
+        <name>Ecom_Confirmation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ecom Parent Order --></label>
+        <name>Ecom_Parent_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Vs Activation Date --></label>
+        <name>Effective_Vs_Activation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Vs Supply Period Start Date --></label>
+        <name>Effective_Vs_Supply_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invoice Opt In --></label>
+        <name>Email_Invoice_Opt_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Stage --></label>
+        <name>Email_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Shipping Charge --></label>
+        <name>Final_Shipping_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Detail --></label>
+        <name>Finance_Detail__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fund --></label>
+        <name>Fund__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Future Order --></label>
+        <name>Future_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- G4/G5 Sensor SKU Count --></label>
+        <name>G4_G5_Sensor_SKU_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Instructions Shipped --></label>
+        <name>G6_Instructions_Shipped__c</name>
+    </fields>
+    <fields>
+        <label>Fehlermeldung Integration</label>
+        <name>Integration_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Created --></label>
+        <name>Invoice_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date Time --></label>
+        <name>Invoice_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email Status --></label>
+        <name>Invoice_Email_Status__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email --></label>
+        <name>Invoice_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Gross Price --></label>
+        <name>Invoice_Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Insurant Copay Text --></label>
+        <name>Invoice_Insurant_Copay_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Insurant Copay --></label>
+        <name>Invoice_Insurant_Copay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Net Price --></label>
+        <name>Invoice_Net_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Rejection Reasons --></label>
+        <name>Invoice_Rejection_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Goods Not Received</masterLabel>
+            <translation><!-- Goods Not Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Entity Billed</masterLabel>
+            <translation><!-- Incorrect Entity Billed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Patient ID/NHS number</masterLabel>
+            <translation><!-- Incorrect Patient ID/NHS number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect VAT Treatment</masterLabel>
+            <translation><!-- Incorrect VAT Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid PO Number</masterLabel>
+            <translation><!-- Invalid PO Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order items do not match PO</masterLabel>
+            <translation><!-- Order items do not match PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Overspend</masterLabel>
+            <translation><!-- PO Overspend --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Rejection --></label>
+        <name>Invoice_Rejection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Status --></label>
+        <name>Invoice_Status__c</name>
+        <picklistValues>
+            <masterLabel>Invoice Closed</masterLabel>
+            <translation><!-- Invoice Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Created</masterLabel>
+            <translation><!-- Invoice Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Open</masterLabel>
+            <translation><!-- Invoice Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Requested</masterLabel>
+            <translation><!-- Invoice Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Total Amount --></label>
+        <name>Invoice_Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Cash Order? --></label>
+        <name>Is_Cash_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Non Activated Return Order --></label>
+        <name>Is_Non_Activated_Return_Order__c</name>
+    </fields>
+    <fields>
+        <label>Letztes Sync Datum mit Oracle</label>
+        <name>Last_Sync_Date_With_Oracle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest G4 Transmitter Ship Date --></label>
+        <name>Latest_G4_Transmitter_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest G5 Transmitter Ship Date --></label>
+        <name>Latest_G5_Transmitter_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest G6 Transmitter Ship Date --></label>
+        <name>Latest_G6_Transmitter_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Acknowledgement Sent Date --></label>
+        <name>Letter_of_Acknowledgement_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Acknowledgement Sent --></label>
+        <name>Letter_of_Acknowledgement_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Advice Number Products Total Amt --></label>
+        <name>Medical_Advice_Number_Products_Total_Amt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Need To Calculate Tax --></label>
+        <name>Need_To_Calculate_Tax__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Non Cancelled Order Line Amt --></label>
+        <name>Non_Cancelled_Order_Line_Amt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Num Of Return Products --></label>
+        <name>Num_Of_Return_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- OMS Action --></label>
+        <name>OMS_Action__c</name>
+        <picklistValues>
+            <masterLabel>chargeShippingAmount</masterLabel>
+            <translation><!-- chargeShippingAmount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>placeInvoiceHold</masterLabel>
+            <translation><!-- placeInvoiceHold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>releaseInvoiceHold</masterLabel>
+            <translation><!-- releaseInvoiceHold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OMS Order Number --></label>
+        <name>OMS_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oracle Account Customer Id --></label>
+        <name>Oracle_Account_Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oracle Payor Customer Id --></label>
+        <name>Oracle_Payor_Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oracle Shipping Party Site Use Id --></label>
+        <name>Oracle_Shipping_Party_Site_Use_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order 18 Digit Id --></label>
+        <name>Order_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Account Type --></label>
+        <name>Order_Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Amt Less Shipping Charges --></label>
+        <name>Order_Amt_Less_Shipping_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Cancellation Reason --></label>
+        <name>Order_Cancellation_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled in Fusion</masterLabel>
+            <translation><!-- Cancelled in Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compatibility - Mobile Device</masterLabel>
+            <translation><!-- Compatibility - Mobile Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compatibility - Other</masterLabel>
+            <translation><!-- Compatibility - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation><!-- Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Account</masterLabel>
+            <translation><!-- Duplicate Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Opportunity</masterLabel>
+            <translation><!-- Duplicate Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid Contact Info</masterLabel>
+            <translation><!-- Invalid Contact Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Docs - Unable to Invoice</masterLabel>
+            <translation><!-- Missing Docs - Unable to Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Required</masterLabel>
+            <translation><!-- No Longer Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-responsive</masterLabel>
+            <translation><!-- Non-responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation><!-- Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Ready</masterLabel>
+            <translation><!-- Not Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Type 1</masterLabel>
+            <translation><!-- Not Type 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Created in Error</masterLabel>
+            <translation><!-- Opportunity Created in Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Duplicated</masterLabel>
+            <translation><!-- Order Duplicated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry Error</masterLabel>
+            <translation><!-- Order Entry Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - Cash Price Too High</masterLabel>
+            <translation><!-- Pricing - Cash Price Too High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - Competition</masterLabel>
+            <translation><!-- Pricing - Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - No INS Coverage</masterLabel>
+            <translation><!-- Pricing - No INS Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - OOP Too High</masterLabel>
+            <translation><!-- Pricing - OOP Too High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Design or Features</masterLabel>
+            <translation><!-- Product Design or Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request From ISR</masterLabel>
+            <translation><!-- Request From ISR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request From Tech Support</masterLabel>
+            <translation><!-- Request From Tech Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resides Outside Country</masterLabel>
+            <translation><!-- Resides Outside Country --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Confirmation Email Sent --></label>
+        <name>Order_Confirmation_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Send to EBS Date --></label>
+        <name>Order_Send_to_EBS_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Sub Type --></label>
+        <name>Order_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash - Prepaid</masterLabel>
+            <translation><!-- Cash - Prepaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funded - Multiple</masterLabel>
+            <translation><!-- Funded - Multiple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funded - Single</masterLabel>
+            <translation><!-- Funded - Single --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Store</masterLabel>
+            <translation><!-- Online Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tracking URL --></label>
+        <name>Order_Tracking_URL__c</name>
+    </fields>
+    <fields>
+        <label>Vorangegangener Auftrag</label>
+        <name>Parent_Order__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pay Pal Id --></label>
+        <name>Pay_Pal_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Id --></label>
+        <name>Payment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Bank Transfer</masterLabel>
+            <translation><!-- Bank Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Debit</masterLabel>
+            <translation><!-- Direct Debit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Shipment Info Exist --></label>
+        <name>Payment_Shipment_Info_Exist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label>Rechnungsadresse Kostenträger</label>
+        <name>Payor_Bill_To_Address__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payor Party Id --></label>
+        <name>Payor_Party_Id__c</name>
+    </fields>
+    <fields>
+        <label>Kostenträger</label>
+        <name>Payor__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+    </fields>
+    <fields>
+        <label>Preisbuch</label>
+        <name>Price_Book__c</name>
+        <relationshipLabel>Aufträge</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QA Failure Reason --></label>
+        <name>QA_Failure_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation>Bundle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double Delivery</masterLabel>
+            <translation>Doppellieferung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GKK Missing</masterLabel>
+            <translation>GKK fehlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holding Pattern</masterLabel>
+            <translation>Warteschleife</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Additional Payment</masterLabel>
+            <translation>fehlende Zuzahlung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O-VO Missing</masterLabel>
+            <translation>O-VO fehlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Note Required)</masterLabel>
+            <translation>Sonstige (Notiz erforderlich)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt Confirmation Missing</masterLabel>
+            <translation>Empfangsbestätigung fehlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Costs Instead of Additional Payment</masterLabel>
+            <translation>Versandkosten statt Zuzahlung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortage</masterLabel>
+            <translation>Fehllieferung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechEW Missing</masterLabel>
+            <translation>TechEW fehlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Additional Payment</masterLabel>
+            <translation>falsche Zuzahlung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Prices</masterLabel>
+            <translation>falsche Preise</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RGA Barcode --></label>
+        <name>RGA_Barcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- RGA Number --></label>
+        <name>RGA_Number__c</name>
+    </fields>
+    <fields>
+        <label>GRÜNDE FÜR SAMPLE ORDER</label>
+        <name>Reasons_For_Sample_Orders__c</name>
+        <picklistValues>
+            <masterLabel>$G6 Transition</masterLabel>
+            <translation><!-- $G6 Transition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$Hello Dexcom</masterLabel>
+            <translation><!-- $Hello Dexcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48/52</masterLabel>
+            <translation>48/52</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery issue</masterLabel>
+            <translation><!-- Delivery issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Service Equipment</masterLabel>
+            <translation>Außendienstausstattung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goodwill</masterLabel>
+            <translation><!-- Goodwill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error: Compilation</masterLabel>
+            <translation>Interner Bearbeitungsfehler: Zusammenstellung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error: G4 / G5 / G6</masterLabel>
+            <translation>Interner Bearbeitungsfehler: G4/G5/G6</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error: Quantity</masterLabel>
+            <translation>Interner Bearbeitungsfehler: Menge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Processing Error: mg / mmol</masterLabel>
+            <translation>Interner Bearbeitungsfehler: mg/mmol</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margin</masterLabel>
+            <translation>Kulanz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation>Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Stock</masterLabel>
+            <translation><!-- Office Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Note Required)</masterLabel>
+            <translation>Sonstige (Notiz erforderlich)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Systems</masterLabel>
+            <translation>Leihsysteme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Correction</masterLabel>
+            <translation><!-- Ship Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM Stock</masterLabel>
+            <translation><!-- TM Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmitter not in box</masterLabel>
+            <translation><!-- Transmitter not in box --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recent Transmitter Generation Ship Date --></label>
+        <name>Recent_Transmitter_Generation_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent Transmitter Generation Shipped --></label>
+        <name>Recent_Transmitter_Generation_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected By Insurance --></label>
+        <name>Rejected_By_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Period --></label>
+        <name>Revenue_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- SDoc Invoice Email --></label>
+        <name>SDoc_Invoice_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOS Unique ID --></label>
+        <name>SOS_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule --></label>
+        <name>Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Daten an Oracle</label>
+        <name>Send_To_Oracle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent to Oracle Date --></label>
+        <name>Sent_to_Oracle_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Error --></label>
+        <name>Settlement_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Id --></label>
+        <name>Settlement_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Confirmation Email Sent --></label>
+        <name>Shipment_Confirmation_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipped Date --></label>
+        <name>Shipped_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Charge --></label>
+        <name>Shipping_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Charges --></label>
+        <name>Shipping_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Contact Email --></label>
+        <name>Shipping_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Contact Phone --></label>
+        <name>Shipping_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Email --></label>
+        <name>Shipping_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Hold Status --></label>
+        <name>Shipping_Hold_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Versandhinweise</label>
+        <name>Shipping_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method Name --></label>
+        <name>Shipping_Method_Name__c</name>
+    </fields>
+    <fields>
+        <label>Versandart</label>
+        <name>Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Provider --></label>
+        <name>Shipping_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Canada Post</masterLabel>
+            <translation><!-- Canada Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purolator</masterLabel>
+            <translation><!-- Purolator --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signature Required --></label>
+        <name>Signature_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Study Id --></label>
+        <name>Study_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supply Period End Date --></label>
+        <name>Supply_Period_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supply Period Start Date --></label>
+        <name>Supply_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin ID --></label>
+        <name>System_Of_Origin_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin --></label>
+        <name>System_Of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Exempt --></label>
+        <name>Tax_Exempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Registration Number --></label>
+        <name>Tax_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT --></label>
+        <name>Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Support Order Type --></label>
+        <name>Tech_Support_Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>TECH REPLACE</masterLabel>
+            <translation><!-- TECH REPLACE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Territory Aligned To Customer --></label>
+        <name>Territory_Aligned_To_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmtNumber(Ones) --></label>
+        <name>TotalAmtNumber_Ones__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmtNumber(Tens) --></label>
+        <name>TotalAmtNumber_Tens__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmtNumber(Thousands) --></label>
+        <name>TotalAmtNumber_Thousands__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmtNumber(Hundreds) --></label>
+        <name>TotalAmtNumber_hundreds__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalAmtNumber(hundreths) --></label>
+        <name>TotalAmtNumber_hundreths__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tenths Decimal Place for Total Gross Price --></help>
+        <label><!-- TotalAmtNumber(tenths) --></label>
+        <name>TotalAmtNumber_tenths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount Contractee --></label>
+        <name>Total_Amount_Contractee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gross Price --></label>
+        <name>Total_Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Order Amount --></label>
+        <name>Total_Order_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity --></label>
+        <name>Total_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Time 5 --></label>
+        <name>Trigger_Time_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Orders --></label>
+        <name>Unique_Orders__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT/TAX --></label>
+        <name>VAT_TAX__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse__c</name>
+        <picklistValues>
+            <masterLabel>CAX</masterLabel>
+            <translation><!-- CAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DESD-Health Link Netherlands</masterLabel>
+            <translation><!-- DESD-Health Link Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEX-GODepots - Germany</masterLabel>
+            <translation><!-- DEX-GODepots - Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLCH</masterLabel>
+            <translation><!-- HLCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLNL</masterLabel>
+            <translation><!-- HLNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLUK</masterLabel>
+            <translation><!-- HLUK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDDEXINTL</masterLabel>
+            <translation><!-- SDDEXINTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDX</masterLabel>
+            <translation><!-- SDX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Web Order Confirmation Status --></label>
+        <name>Web_Order_Confirmation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Initiated</masterLabel>
+            <translation><!-- Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>AT Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- RGA Information --></label>
+            <section>RGA Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AT Sales Order Read Only Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Admin Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Information --></label>
+            <section>Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- RGA Information --></label>
+            <section>RGA Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Sales Order Read Only Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Information --></label>
+            <section>Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label>Versandinformationen</label>
+            <section>Payor Information</section>
+        </sections>
+        <sections>
+            <label>Adressinformation</label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Sales Order Layout - Read Only</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DIST Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EU Tech Support Order Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Sales Order Read Only Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Sales Order Read Only Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>International Clinic Sales Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Information --></label>
+            <section>Credit Card Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor &amp; Invoice Information --></label>
+            <section>Payor &amp; Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>AT_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Authorize CC --></label>
+        <name>Authorize_CC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Charge CC &amp; Activate --></label>
+        <name>CC_Charge_and_Active</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>CH_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Calculate Tax --></label>
+        <name>Calculate_Tax</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>DIST_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>GB_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>IE_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>International_Clinic_New_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Retraction --></label>
+        <name>New_Retraction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>New_Return_Credit_Order</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Sales Order for Austria --></description>
+        <label><!-- AT Sales Order --></label>
+        <name>AT_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AT Sales Order Read Only --></label>
+        <name>AT_Sales_Order_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support Order for Austria --></description>
+        <label><!-- AT Tech Support Order --></label>
+        <name>AT_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support Order for Belgium --></description>
+        <label><!-- BE Tech Support Order --></label>
+        <name>BE_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sales Order for Canada --></description>
+        <label><!-- CA Sales Order --></label>
+        <name>CA_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Canadian Tech Support Orders --></description>
+        <label><!-- CA Tech Support Order --></label>
+        <name>CA_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sales Order for Switzerland --></description>
+        <label><!-- CH Sales Order --></label>
+        <name>CH_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CH Sales Order Read Only --></label>
+        <name>CH_Sales_Order_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support Order for Switzerland --></description>
+        <label><!-- CH Tech Support Order --></label>
+        <name>CH_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sales Order record created for Germany --></description>
+        <label><!-- DE Sales Order --></label>
+        <name>DE_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for Non Cash Standard Sales order while they are in Shipping Hold Status --></description>
+        <label><!-- DE Sales Order Read Only --></label>
+        <name>DE_Sales_Order_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support Order for Germany --></description>
+        <label><!-- DE Tech Support Order --></label>
+        <name>DE_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Standard Sales Order type for Distributors --></description>
+        <label><!-- DIST Sales Order --></label>
+        <name>DIST_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support Order for International Distributors. --></description>
+        <label><!-- DIST Tech Support Order --></label>
+        <name>DIST_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sales Order Recordtype created for GB --></description>
+        <label><!-- GB Sales Order --></label>
+        <name>GB_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- GB Order Recordtype used for QC --></description>
+        <label><!-- GB Sales Order Read Only --></label>
+        <name>GB_Sales_Order_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- GB Tech Support Order Recordtype --></description>
+        <label><!-- GB Tech Support Order --></label>
+        <name>GB_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sales Order Recordtype creted for IE --></description>
+        <label><!-- IE Sales Order --></label>
+        <name>IE_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- IE Order Recordtype used for QC --></description>
+        <label><!-- IE Sales Order Read Only --></label>
+        <name>IE_Sales_Order_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tech Support order for Ireland --></description>
+        <label><!-- IE Tech Support Order --></label>
+        <name>IE_Tech_Support_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- International Clinic --></description>
+        <label><!-- International Clinic Sales Order --></label>
+        <name>International_Clinic_Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- International Clinic Tech Support --></description>
+        <label><!-- International Clinic Tech Support Order --></label>
+        <name>International_Clinic_Tech_Support_Order</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please associate a Fund to the customer account before the Order can be moved to next stage. --></errorMessage>
+        <name>All_Account_Fund_Check_On_Funded_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Draft orders can be cancelled in Salesforce. --></errorMessage>
+        <name>All_Activated_Order_Cannot_Be_Cancelled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Order is already activated, you cannot perform this operation. --></errorMessage>
+        <name>All_Activated_Order_Cannot_Move_Back</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure Billing and Shipping address are attached to the Order before activation.. --></errorMessage>
+        <name>All_Addresses_Should_Exist_To_Activate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QC Check must be complete before updating Order to Activated status. --></errorMessage>
+        <name>All_Audit_Must_Be_Complete_To_Activate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Order Cancel Reason&apos; is required for cancelling an Order. --></errorMessage>
+        <name>All_Cancel_Reason_Req_For_Cancel_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Perform this Action. --></errorMessage>
+        <name>All_Cannot_Activate_an_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Order status cannot be changed. --></errorMessage>
+        <name>All_Cannot_Reopen_Canceled_Orders</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot Move back to a previous status in Invoice Flow. --></errorMessage>
+        <name>All_Cannot_set_Previous_Invoice_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Order Type cannot be chosen. Please go the original order record and perform this action. --></errorMessage>
+        <name>All_Cant_Chose_Ret_Cred_From_Action_Menu</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product cannot be deleted. --></errorMessage>
+        <name>All_Cant_Del_Prd_Added_By_Admin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Ship To, Customer Bill To and Payor Bill To Address cannot be Inactive. --></errorMessage>
+        <name>All_Cant_Select_Inactive_Ship_To_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account does not have valid Primary Credit Card on file. --></errorMessage>
+        <name>All_Check_Cash_Order_Has_CC_Assoc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account is on Credit Hold. --></errorMessage>
+        <name>All_Check_Credit_Order_Bef_Activation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add Marketing Discount that is on Original Order to this Return &amp; Credit Order. --></errorMessage>
+        <name>All_Check_Disc_SKU_For_Return_Credit_Ord</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Return Kit&apos; is required for this Order. Please add &apos;Return Kit&apos;. --></errorMessage>
+        <name>All_Chk_If_Ret_Kit_Selecte_For_Tech_Retn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Return and Credit Order can be created only against the Standard Order. --></errorMessage>
+        <name>All_Chk_Ret_Cred_Against_Standard_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent Order needs to be closed before entering Return and Credit Order. --></errorMessage>
+        <name>All_Close_Parent_Order_Before_Ret_Credit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t process the order for inactive Account. --></errorMessage>
+        <name>All_InactiveAc_Order_Cannot_Be_Activated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invoice Number and Invoice Date cannot removed once it is entered in. --></errorMessage>
+        <name>All_Invoice_Details_Cannot_Be_Removed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Perform this Action. You can&apos;t set Invoice Status to &apos;Invoice Created&apos; with out an Invoice Number. --></errorMessage>
+        <name>All_Invoice_Num_only_when_Invoic_Created</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invoice Status Should be in Invoice Closed to set Order status to Closed. --></errorMessage>
+        <name>All_Invoice_Status_Should_be_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Perform this Action. Invoice Status can be changed only one step at a time. --></errorMessage>
+        <name>All_One_Status_at_a_time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date cannot be altered. --></errorMessage>
+        <name>All_Order_Date_Cannot_Be_Altered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pricebook cannot be changed as there are products tied to this Order. --></errorMessage>
+        <name>All_Order_Pricebook_Cannot_Be_Altered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Term cannot be removed. --></errorMessage>
+        <name>All_Payment_Term_Cant_Changed_To_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose Payment Terms before advancing. --></errorMessage>
+        <name>All_Payment_Term_Reqd_B4_Draft_Exit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot create Invoice for this order. --></errorMessage>
+        <name>All_Prevent_User_Activate_From_Invoicing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Pricebook&apos; cannot be altered for Return &amp; Credit orders. --></errorMessage>
+        <name>All_Price_Book_Cannot_B_Alt_For_Ret_Cred</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Pricebook for the Payor, so the Fund can be used. --></errorMessage>
+        <name>All_Pricebook_Check_For_Fund</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reasons For Sample Orders is required for Sample Orders. --></errorMessage>
+        <name>All_Reason_Mandatory_For_Sample_Orders</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invoice Status can only be selected for Insurance Orders, which are in &apos;On-Hold&apos; status --></errorMessage>
+        <name>All_Restrict_Invoice_Statu_Chan_for_Cash</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can choose only &apos;No Charge Pricebook&apos; for Sample Order type. --></errorMessage>
+        <name>All_Sample_Ord_Can_Hv_Only_No_Charge_PB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Method cannot be removed. --></errorMessage>
+        <name>All_Shipping_Method_Cant_Change_To_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this action. Please contact admin. --></errorMessage>
+        <name>All_Tech_Support_Cant_Alter_Sales_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Finance Detail cannot be selected for this Payment term. --></errorMessage>
+        <name>CH_Chk_Finance_Detail_Selection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add IFUs as Order contains first G6 Transmitter. --></errorMessage>
+        <name>CH_Shd_Add_IFUs_4_First_Trans_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Approved Flag&apos; should be selected before Return &amp; Credit Order can be activated. --></errorMessage>
+        <name>DE_Approved_Flg_Req_For_Ret_Cred_Orders</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QC Check must be complete before updating Order to Activated status. --></errorMessage>
+        <name>DE_Audit_Must_Be_Complete_To_Activate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Perform this Action. --></errorMessage>
+        <name>DE_Bill_Tm_Can_Only_Edit_DZH_Send_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Approved Flag&apos; can be selected only for Return &amp; Credit Order Types. --></errorMessage>
+        <name>DE_Can_Sel_Approv_Flg_Only_For_Ret_Cred</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this operation. --></errorMessage>
+        <name>DE_Cant_Cancel_Order_Not_In_Draft_Statu</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this operation. Please contact the admin. --></errorMessage>
+        <name>DE_Check_Edit_Activated_Order_Access</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Letter (MT26095) should be added for all G4/G5 Sensor Orders. --></errorMessage>
+        <name>DE_Chk_For_MT26095_In_G4_G5_Sensor_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a invoice rejection reason --></errorMessage>
+        <name>DE_Invoice_Rejection_Reason_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pricebook &apos;DE No Charge&apos; can be chosen only for &apos;DE SALES SAMPLE&apos; order type. --></errorMessage>
+        <name>DE_No_Charge_PB_Is_Only_For_Samp_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot Perform this Action. --></errorMessage>
+        <name>DE_Restrict_Inside_Sale_To_Updat_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can choose only &apos;Netto-Preis Cash Pricebook&apos; for &apos;DE Standard&apos; Order type. --></errorMessage>
+        <name>DE_Std_Order_Can_Hv_Only_Netto_Cash_PB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The customer&apos;s Efficacy Status is &apos;Training Hold&apos; and no Order can be created or Activated. --></errorMessage>
+        <name>GB_IE_Customer_Efficacy_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revenue Period should be in format MM/YYYY. --></errorMessage>
+        <name>Revenue_Period_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a valid Pricebook. --></errorMessage>
+        <name>UK_Pricebook_Selection</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_to_Mass_Merge_List --></label>
+        <name>Add_to_Mass_Merge_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Documents --></label>
+        <name>Generate_Documents</name>
+    </webLinks>
+</CustomObjectTranslation>

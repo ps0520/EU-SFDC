@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Account_Duplicate_Found</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Duplicate Found</shortDescription>
+        <value>Duplicate Found</value>
+    </labels>
+    <labels>
+        <fullName>Account_Entry_Does_Not_Exist</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Entry_Does_Not_Exist</shortDescription>
+        <value>Account entry does not exist</value>
+    </labels>
+    <labels>
+        <fullName>Account_Found_Without_Email</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Found Without Email</shortDescription>
+        <value>Account match found but no email</value>
+    </labels>
+    <labels>
+        <fullName>Account_Link_By_Code</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Link_By_Code</shortDescription>
+        <value>accountlinkbycode</value>
+    </labels>
+    <labels>
+        <fullName>Account_Link_By_Token</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Link_By_Token</shortDescription>
+        <value>accountlinkbytoken</value>
+    </labels>
+    <labels>
+        <fullName>Account_Not_Exist</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Not_Exist</shortDescription>
+        <value>No Account found with the given email address</value>
+    </labels>
+    <labels>
+        <fullName>Account_Not_Found</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Not_Found</shortDescription>
+        <value>Account not found</value>
+    </labels>
+    <labels>
+        <fullName>Account_Token_Code_Email</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Token_Code_Email</shortDescription>
+        <value>accounttokencodeemail</value>
+    </labels>
+    <labels>
+        <fullName>Account_Token_Does_Not_Exist</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Token_Does_Not_Exist</shortDescription>
+        <value>Account token not found</value>
+    </labels>
+    <labels>
+        <fullName>Account_Verification_Link</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Verification Link</shortDescription>
+        <value>https://de.store.dexcom.com/account-token/</value>
+    </labels>
+    <labels>
+        <fullName>Already_Verified</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Already_Verified</shortDescription>
+        <value>This Account is already been verified</value>
+    </labels>
+    <labels>
+        <fullName>DS_Svc_Document_sent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DS Svc Document sent</shortDescription>
+        <value>Document sent</value>
+    </labels>
+    <labels>
+        <fullName>DS_Svc_Invalid_Template_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DS Svc Invalid Template Name</shortDescription>
+        <value>Invalid template name</value>
+    </labels>
+    <labels>
+        <fullName>DS_Svc_Invalid_country_code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DS Svc Invalid country code</shortDescription>
+        <value>Invalid country code</value>
+    </labels>
+    <labels>
+        <fullName>DS_Svc_Template_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DS Svc Template Not Found</shortDescription>
+        <value>Could not find an active template for [CountryCode] consumer account with name: [TemplateName]</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Email_Address</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Email_Address</shortDescription>
+        <value>Email address is not valid</value>
+    </labels>
+    <labels>
+        <fullName>Match_Account_By_Info</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Match_Account_By_Info</shortDescription>
+        <value>matchaccountbyinfo</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Accounts_Exist</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple_Accounts_Exist</shortDescription>
+        <value>More than one account found</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Entries_For_Same_Account_Exist</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple_Entries_For_Same_Account_Exist</shortDescription>
+        <value>Multiple entries for same account exists</value>
+    </labels>
+    <labels>
+        <fullName>New_Opportunity_Override</fullName>
+        <categories>Opportunity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Opportunity Override</shortDescription>
+        <value>You cannot perform this operation. Please navigate to Account record and create new Opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Data_Missing</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request_Data_Missing</shortDescription>
+        <value>Request information is missing</value>
+    </labels>
+    <labels>
+        <fullName>Request_Processing_Failed_With</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request_Processing_Failed_With</shortDescription>
+        <value>Salesforce error -</value>
+    </labels>
+    <labels>
+        <fullName>Request_Type_Incorrect</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request_Type_Incorrect</shortDescription>
+        <value>Request is not valid</value>
+    </labels>
+    <labels>
+        <fullName>Result_False</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Result_False</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>Result_True</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Result_True</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>Sandbox_Generic_Email_Address</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sandbox Generic Email Address</shortDescription>
+        <value>noreply@salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>StatusCode_Created</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StatusCode_Created</shortDescription>
+        <value>201</value>
+    </labels>
+    <labels>
+        <fullName>StatusCode_Error</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StatusCode_Error</shortDescription>
+        <value>400</value>
+    </labels>
+    <labels>
+        <fullName>StatusCode_OK</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StatusCode_OK</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>Token_Expired</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Token_Expired</shortDescription>
+        <value>Token expired</value>
+    </labels>
+    <labels>
+        <fullName>Uniqueness_Not_Confirmed</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Uniqueness Not Confirmed</shortDescription>
+        <value>Cannot Confirm Uniqueness</value>
+    </labels>
+    <labels>
+        <fullName>Verification_Code_Expired</fullName>
+        <categories>DEWebStoreService</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Verification_Code_Expired</shortDescription>
+        <value>Code expired</value>
+    </labels>
+</CustomLabels>

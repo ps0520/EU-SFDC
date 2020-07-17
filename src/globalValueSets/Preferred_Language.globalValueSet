@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>en_CA</fullName>
+        <default>false</default>
+        <label>Canadian English</label>
+    </customValue>
+    <customValue>
+        <fullName>fr_CA</fullName>
+        <default>false</default>
+        <label>Canadian French</label>
+    </customValue>
+    <customValue>
+        <fullName>fr_FR</fullName>
+        <default>false</default>
+        <label>French</label>
+    </customValue>
+    <customValue>
+        <fullName>it_IT</fullName>
+        <default>false</default>
+        <label>Italian</label>
+    </customValue>
+    <customValue>
+        <fullName>de_DE</fullName>
+        <default>false</default>
+        <label>German</label>
+    </customValue>
+    <customValue>
+        <fullName>en_GB</fullName>
+        <default>false</default>
+        <label>UK English</label>
+    </customValue>
+    <customValue>
+        <fullName>en_IE</fullName>
+        <default>false</default>
+        <label>Irish English</label>
+    </customValue>
+    <customValue>
+        <fullName>de_CH</fullName>
+        <default>false</default>
+        <label>German_CH</label>
+    </customValue>
+    <customValue>
+        <fullName>fr_CH</fullName>
+        <default>false</default>
+        <label>French_CH</label>
+    </customValue>
+    <customValue>
+        <fullName>it_CH</fullName>
+        <default>false</default>
+        <label>Italian_CH</label>
+    </customValue>
+    <customValue>
+        <fullName>de_AT</fullName>
+        <default>false</default>
+        <label>German_AT</label>
+    </customValue>
+    <masterLabel>Preferred Language</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

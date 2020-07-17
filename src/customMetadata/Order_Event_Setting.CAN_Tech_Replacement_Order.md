@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CAN Tech Replacement Order</label>
+    <protected>false</protected>
+    <values>
+        <field>EBS_ORDER_TYPE__c</field>
+        <value xsi:type="xsd:string">CAN Tech Replacement Order</value>
+    </values>
+    <values>
+        <field>FUSION_ORDER_TYPE__c</field>
+        <value xsi:type="xsd:string">CA Tech Replacement Order</value>
+    </values>
+    <values>
+        <field>SFDC_ORDER_TYPE__c</field>
+        <value xsi:type="xsd:string">CA Tech Replacement Order</value>
+    </values>
+    <values>
+        <field>SFDC_RECORD_TYPE__c</field>
+        <value xsi:type="xsd:string">CA Tech Support Order</value>
+    </values>
+</CustomMetadata>

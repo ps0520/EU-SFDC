@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign Templates</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DocuSign Templates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>Email_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>Email_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>Object__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business_Account</masterLabel>
+            <translation><!-- Business_Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA_Consumer</masterLabel>
+            <translation><!-- CA_Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA_Opportunity</masterLabel>
+            <translation><!-- CA_Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA_Payor</masterLabel>
+            <translation><!-- CA_Payor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE_Opportunity</masterLabel>
+            <translation><!-- DE_Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA_CH_Opportunity</masterLabel>
+            <translation><!-- EMEA_CH_Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB_Consumer</masterLabel>
+            <translation><!-- GB_Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB_Opportunity</masterLabel>
+            <translation><!-- GB_Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE_Opportunity</masterLabel>
+            <translation><!-- IE_Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US_Opportunity</masterLabel>
+            <translation><!-- US_Opportunity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Template Id --></label>
+        <name>Template_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Name --></label>
+        <name>Template_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>DocuSign Templates Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

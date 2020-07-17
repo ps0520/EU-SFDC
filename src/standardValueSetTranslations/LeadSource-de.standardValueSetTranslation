@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>3rd Party Database</masterLabel>
+        <translation><!-- 3rd Party Database --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Advertisement</masterLabel>
+        <translation><!-- Advertisement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Event</masterLabel>
+        <translation><!-- Customer Event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dexcom representative</masterLabel>
+        <translation><!-- Dexcom representative --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Direct Mail</masterLabel>
+        <translation><!-- Direct Mail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee Referral</masterLabel>
+        <translation><!-- Employee Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Facebook Lead Ads</masterLabel>
+        <translation><!-- Facebook Lead Ads --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Field Rep Referral</masterLabel>
+        <translation><!-- Field Rep Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Google AdWords</masterLabel>
+        <translation><!-- Google AdWords --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HCP Referral</masterLabel>
+        <translation><!-- HCP Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Influencer coverage</masterLabel>
+        <translation><!-- Influencer coverage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Andere</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other industry partner</masterLabel>
+        <translation><!-- Other industry partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PR + Media outreach</masterLabel>
+        <translation><!-- PR + Media outreach --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Papyrus</masterLabel>
+        <translation><!-- Papyrus --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation><!-- Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Patient Referral</masterLabel>
+        <translation><!-- Patient Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physician Referral</masterLabel>
+        <translation><!-- Physician Referral --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purchased List</masterLabel>
+        <translation><!-- Purchased List --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Search engine</masterLabel>
+        <translation><!-- Search engine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Webinar</masterLabel>
+        <translation><!-- Webinar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Website</masterLabel>
+        <translation><!-- Website --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Website/Landing Page</masterLabel>
+        <translation><!-- Website/Landing Page --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>eStore</masterLabel>
+        <translation><!-- eStore --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

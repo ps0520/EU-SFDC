@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Warehouse Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Warehouse_Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse__c</name>
+        <picklistValues>
+            <masterLabel>HLCH</masterLabel>
+            <translation><!-- HLCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLNL</masterLabel>
+            <translation><!-- HLNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLUK</masterLabel>
+            <translation><!-- HLUK --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
