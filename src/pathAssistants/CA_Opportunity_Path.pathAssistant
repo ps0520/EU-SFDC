@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>CA Opportunity Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Create_New_Opportunity__c</fieldNames>
+        <picklistValueName>Cancelled</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Closed_Reason__c</fieldNames>
+        <picklistValueName>Closed - Complete</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Prescriber_Docs_Collection_Status__c</fieldNames>
+        <fieldNames>CA_Prescriber_Docs_Pending__c</fieldNames>
+        <fieldNames>CA_Docs_Received__c</fieldNames>
+        <picklistValueName>HCP Doc Collection</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Estimate_To_Payor_Status__c</fieldNames>
+        <fieldNames>CA_Estimate_to_Patient_Status__c</fieldNames>
+        <picklistValueName>Ins Estimate Pending</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Benefit_Prior_Auth_Denied_or_Approved__c</fieldNames>
+        <fieldNames>Benefit_Auth_Start_Date__c</fieldNames>
+        <fieldNames>Benefit_Auth_End_Date__c</fieldNames>
+        <fieldNames>CA_Insurance_Coverage__c</fieldNames>
+        <fieldNames>CA_Insurance_Coverage_Per__c</fieldNames>
+        <picklistValueName>Ins Response Pending</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Closed_Reason__c</fieldNames>
+        <picklistValueName>Order Fulfillment</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CA_Customer_Docs_Collection_Status__c</fieldNames>
+        <fieldNames>CA_Docs_Sent_Out__c</fieldNames>
+        <fieldNames>CA_Docs_Received__c</fieldNames>
+        <picklistValueName>PT Doc Collection</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>CA_Opportunity</recordTypeName>
+</PathAssistant>

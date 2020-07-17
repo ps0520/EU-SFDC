@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CyberSource API</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CyberSource API</value>
+    </caseValues>
+    <fields>
+        <label><!-- CurrencyIsoCode --></label>
+        <name>CurrencyIsoCode__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHF</masterLabel>
+            <translation><!-- CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enviornment --></label>
+        <name>Enviornment__c</name>
+        <picklistValues>
+            <masterLabel>Dev</masterLabel>
+            <translation><!-- Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prod</masterLabel>
+            <translation><!-- Prod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- endPoint --></label>
+        <name>endPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- host --></label>
+        <name>host__c</name>
+    </fields>
+    <fields>
+        <label><!-- keyid --></label>
+        <name>keyid__c</name>
+    </fields>
+    <fields>
+        <label><!-- merchant id --></label>
+        <name>merchant_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- profile_id --></label>
+        <name>profile_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- reqBody --></label>
+        <name>reqBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- secretKey --></label>
+        <name>secretKey__c</name>
+    </fields>
+    <layouts>
+        <layout>CyberSource API Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

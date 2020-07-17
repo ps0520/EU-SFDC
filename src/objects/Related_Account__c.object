@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Jagan 04/25/2017 - Object holds many to many relationship between Accounts.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Child_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field holds the child account (Prescriber) information</description>
+        <externalId>false</externalId>
+        <label>Child Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>contains</operation>
+                <value>Prescriber, Facility, Pharmacy</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Parent Accounts</relationshipLabel>
+        <relationshipName>Related_Child_Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Child_Relation_Type__c</fullName>
+        <description>Record type corresponding to the Child Account in the relationship.</description>
+        <externalId>false</externalId>
+        <formula>MID(Child_Account__r.RecordType.Name, 4, LEN(Child_Account__r.RecordType.Name))</formula>
+        <label>Child Relation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field holds the parent account information</description>
+        <externalId>false</externalId>
+        <label>Parent Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>contains</operation>
+                <value>Facility, Hospital, Payor, Pharmacy</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Child Accounts</relationshipLabel>
+        <relationshipName>Related_Parent_Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Relation_Type__c</fullName>
+        <description>Record type corresponding to the Parent Account in the relationship.</description>
+        <externalId>false</externalId>
+        <formula>MID(Parent_Account__r.RecordType.Name, 4, LEN(Parent_Account__r.RecordType.Name))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Relation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payor_Billing_Address_Full_Text__c</fullName>
+        <description>Displays the full text of the address</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Payor_Billing_Address__c)), (Payor_Billing_Address__r.Address_Line_1__c &amp; &apos;, &apos; &amp; Payor_Billing_Address__r.City__c &amp; &apos;, &apos; &amp; Payor_Billing_Address__r.Postal_Code__c &amp; &apos;, &apos; &amp; Text(Payor_Billing_Address__r.Country__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payor Billing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payor_Billing_Address__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Billing address tied to the Payor</description>
+        <externalId>false</externalId>
+        <label>Payor Billing Address</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Address__c.Account__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Parent_Account__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Address__c.Type__c</field>
+                <operation>equals</operation>
+                <value>Bill To</value>
+            </filterItems>
+            <infoMessage>Address does not belong to the Payor.</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Address__c</referenceTo>
+        <relationshipLabel>Related Accounts</relationshipLabel>
+        <relationshipName>Related_Account_Payor_Address</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Email__c</fullName>
+        <description>This field will track the preferred email</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Preferred Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prescriber_Operations_Site_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Parent_Account__r.Facility_Number__c</formula>
+        <label>Prescriber Operations Site Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Tracks the primary association</description>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Related Account</label>
+    <nameField>
+        <displayFormat>RA-{00000}</displayFormat>
+        <label>Relation Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Related Accounts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Check_If_Both_Med_Fac_Prescriber_Exist</fullName>
+        <active>true</active>
+        <description>Rule checks if both Medical Facility and Prescriber information are filled in before saving the record.</description>
+        <errorConditionFormula>OR(
+ISBLANK( Parent_Account__c ),
+ISBLANK( Child_Account__c )
+)</errorConditionFormula>
+        <errorMessage>Medical Facility and Prescriber Information are Required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_If_Both_Parent_Child_Exist</fullName>
+        <active>true</active>
+        <description>Rule checks if both Parent and Child accounts are filled in before saving the record.</description>
+        <errorConditionFormula>OR( 
+ISBLANK( Parent_Account__c ), 
+ISBLANK( Child_Account__c ) 
+)</errorConditionFormula>
+        <errorMessage>Parent and Child Accounts must be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_If_Parent_Child_Are_Same</fullName>
+        <active>true</active>
+        <description>Both child and parent accounts cannot be one and the same</description>
+        <errorConditionFormula>Child_Account__c =  Parent_Account__c</errorConditionFormula>
+        <errorMessage>Both Parent and Child accounts cannot be one and the same.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Parent_Child_Country</fullName>
+        <active>true</active>
+        <description>Parent and Child account country should be the same.</description>
+        <errorConditionFormula>TEXT(Child_Account__r.Country__c) !=  TEXT(Parent_Account__r.Country__c)</errorConditionFormula>
+        <errorMessage>Parent and Child accounts should belong to the same country.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Payor_Billing_Address_Fill</fullName>
+        <active>true</active>
+        <description>Payor Billing address can be selected only when there is a payor association</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK( Payor_Billing_Address__c )),
+Parent_Relation_Type__c != &apos;Payor&apos;,
+Parent_Relation_Type__c != &apos;Pharmacy&apos;
+)</errorConditionFormula>
+        <errorMessage>Payor Billing Address can only be selected when there is a Payor association.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Pharmacy_To_Pharmacy_Assoc</fullName>
+        <active>true</active>
+        <description>Pharmacy can be associated to only Pharmacy</description>
+        <errorConditionFormula>OR(
+AND 
+(Child_Relation_Type__c = &apos;Pharmacy&apos;,
+ NOT(Parent_Relation_Type__c = &apos;Pharmacy&apos;)),
+AND 
+(NOT(Child_Relation_Type__c = &apos;Pharmacy&apos;),
+ Parent_Relation_Type__c = &apos;Pharmacy&apos;)
+)</errorConditionFormula>
+        <errorMessage>Pharmacy can be associated to only Pharmacy accounts.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_Prescriber_To_Payor_Assoc</fullName>
+        <active>true</active>
+        <description>Prescriber cannot be associated to Payor directly</description>
+        <errorConditionFormula>AND 
+(Child_Relation_Type__c = &apos;Prescriber&apos;,
+ Parent_Relation_Type__c = &apos;Payor&apos;
+)</errorConditionFormula>
+        <errorMessage>Prescriber can be related to only Medical Facility or a Hospital.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

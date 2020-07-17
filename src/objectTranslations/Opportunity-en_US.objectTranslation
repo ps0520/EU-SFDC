@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AT VAT --></label>
+        <name>AT_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Associated Order --></label>
+        <name>Associated_Order__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Auth End Date --></label>
+        <name>Benefit_Auth_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth Start Date --></label>
+        <name>Benefit_Auth_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Number --></label>
+        <name>Benefit_Authorization_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Co-Pay --></label>
+        <name>Benefit_Co_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coverage --></label>
+        <name>Benefit_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Authorization --></label>
+        <name>Benefit_EGEKO_Authorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Confirmation # --></label>
+        <name>Benefit_EGEKO_Confirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Received Date --></label>
+        <name>Benefit_EGEKO_Cost_Estimate_Received_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Sent Date --></label>
+        <name>Benefit_EGEKO_Cost_Estimate_Sent_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>Benefit_EGEKO_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- IK Number Sent By EGEKO --></label>
+        <name>Benefit_EGEKO_IK_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Error Message --></label>
+        <name>Benefit_EGEKO_Integration_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Kopftext --></label>
+        <name>Benefit_EGEKO_Kopftext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Auth Spoke With --></label>
+        <name>Benefit_EGEKO_Pre_Auth_Spoke_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refusal Text --></label>
+        <name>Benefit_EGEKO_Refusal_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Benefit_EGEKO_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Payor --></label>
+        <name>Benefit_Payor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior-Auth Denied or Approved --></label>
+        <name>Benefit_Prior_Auth_Denied_or_Approved__c</name>
+        <picklistValues>
+            <masterLabel>APPROVED</masterLabel>
+            <translation><!-- APPROVED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DENIED</masterLabel>
+            <translation><!-- DENIED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefit --></label>
+        <name>Benefit__c</name>
+        <relationshipLabel><!-- Opportunities Benefit --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Birth Date To Opp Date Comparison Check --></label>
+        <name>Birth_Date_To_Opp_Date_Comparison_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Confirmed --></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Plan Year Type --></label>
+        <name>CA_Benefit_Plan_Year_Type__c</name>
+        <picklistValues>
+            <masterLabel>Benefit Year</masterLabel>
+            <translation><!-- Benefit Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Year</masterLabel>
+            <translation><!-- Plan Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cancelled Reason --></label>
+        <name>CA_Cancelled_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Reason --></label>
+        <name>CA_Closed_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Manual Order Entry</masterLabel>
+            <translation><!-- Manual Order Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-responsive</masterLabel>
+            <translation><!-- Non-responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Ready</masterLabel>
+            <translation><!-- Not Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Closed</masterLabel>
+            <translation><!-- Not Yet Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordered on Other Opportunity</masterLabel>
+            <translation><!-- Ordered on Other Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - No INS Coverage</masterLabel>
+            <translation><!-- Pricing - No INS Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing - OOP Too High</masterLabel>
+            <translation><!-- Pricing - OOP Too High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCom Order Confirmed</masterLabel>
+            <translation><!-- eCom Order Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCom Order pending</masterLabel>
+            <translation><!-- eCom Order pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Coverage Confirmed --></label>
+        <name>CA_Coverage_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Docs Collection Status --></label>
+        <name>CA_Customer_Docs_Collection_Status__c</name>
+        <picklistValues>
+            <masterLabel>All Docs Received</masterLabel>
+            <translation><!-- All Docs Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Docs Sent</masterLabel>
+            <translation><!-- All Docs Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not yet started</masterLabel>
+            <translation><!-- Not yet started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold - Doctor Appointment</masterLabel>
+            <translation><!-- On Hold - Doctor Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold - HI Approval Pending</masterLabel>
+            <translation><!-- On Hold - HI Approval Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold - Holiday</masterLabel>
+            <translation><!-- On Hold - Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Doc Collection on other Opportunity</masterLabel>
+            <translation><!-- Pending Doc Collection on other Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Some Docs Received</masterLabel>
+            <translation><!-- Some Docs Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Some Docs Sent</masterLabel>
+            <translation><!-- Some Docs Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- All Docs Received --></label>
+        <name>CA_Docs_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Docs Sent Out --></label>
+        <name>CA_Docs_Sent_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documents Collected --></label>
+        <name>CA_Documents_Collected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate to Patient Status --></label>
+        <name>CA_Estimate_to_Patient_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Sent</masterLabel>
+            <translation><!-- Not Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance Coverage % --></label>
+        <name>CA_Insurance_Coverage_Per__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum Insurance Coverage --></help>
+        <label><!-- Insurance Coverage $ --></label>
+        <name>CA_Insurance_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Authorization Details --></label>
+        <name>CA_Other_Authorization_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Docs Collection Status --></label>
+        <name>CA_Prescriber_Docs_Collection_Status__c</name>
+        <picklistValues>
+            <masterLabel>Docs Received</masterLabel>
+            <translation><!-- Docs Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docs Sent</masterLabel>
+            <translation><!-- Docs Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Docs Pending --></label>
+        <name>CA_Prescriber_Docs_Pending__c</name>
+        <picklistValues>
+            <masterLabel>CGM Quest</masterLabel>
+            <translation><!-- CGM Quest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMN</masterLabel>
+            <translation><!-- CMN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claim Form</masterLabel>
+            <translation><!-- Claim Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIC</masterLabel>
+            <translation><!-- LIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narrative Letter</masterLabel>
+            <translation><!-- Narrative Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pregnancy RX</masterLabel>
+            <translation><!-- Pregnancy RX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gross Price --></label>
+        <name>CH_Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- CH VAT --></label>
+        <name>CH_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated Copay --></label>
+        <name>Calculated_Copay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Calculated_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Reason --></label>
+        <name>Cancel_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Ablehnung</masterLabel>
+            <translation><!-- Ablehnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angebot nicht angenommen (PKV)</masterLabel>
+            <translation><!-- Angebot nicht angenommen (PKV) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation><!-- Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Opportunity</masterLabel>
+            <translation><!-- Duplicate Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Process (Note Required): Processing Error KK</masterLabel>
+            <translation><!-- Incorrect Process (Note Required): Processing Error KK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration issue</masterLabel>
+            <translation><!-- Integration issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KK Application denied</masterLabel>
+            <translation><!-- KK Application denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Patient Contact Info</masterLabel>
+            <translation><!-- Missing Patient Contact Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobil Device Incompatible</masterLabel>
+            <translation><!-- Mobil Device Incompatible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non responsive</masterLabel>
+            <translation><!-- Non responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation><!-- Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation Faulty (Note Required): Processing Error Dexcom</masterLabel>
+            <translation><!-- Operation Faulty (Note Required): Processing Error Dexcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation Incorrect (Note Required): System Change</masterLabel>
+            <translation><!-- Operation Incorrect (Note Required): System Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opp Created Only for Quote</masterLabel>
+            <translation><!-- Opp Created Only for Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Created in Error</masterLabel>
+            <translation><!-- Opportunity Created in Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Note Required)</masterLabel>
+            <translation><!-- Other (Note Required) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescription Foreign Product</masterLabel>
+            <translation><!-- Prescription Foreign Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescription Issued Incorrectly</masterLabel>
+            <translation><!-- Prescription Issued Incorrectly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescription Not Necessary (long-term VZ)</masterLabel>
+            <translation><!-- Prescription Not Necessary (long-term VZ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescription too Early</masterLabel>
+            <translation><!-- Prescription too Early --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing – Cash Price too High</masterLabel>
+            <translation><!-- Pricing – Cash Price too High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produkt nicht mehr benötigt</masterLabel>
+            <translation><!-- Produkt nicht mehr benötigt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resides Outside Country</masterLabel>
+            <translation><!-- Resides Outside Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vorgang doppelt</masterLabel>
+            <translation><!-- Vorgang doppelt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vorgang fehlerhaft - Bearbeitungsfehler</masterLabel>
+            <translation><!-- Vorgang fehlerhaft - Bearbeitungsfehler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vorgang fehlerhaft - Systemänderung</masterLabel>
+            <translation><!-- Vorgang fehlerhaft - Systemänderung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cash Pay? --></label>
+        <name>Cash_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Reason --></label>
+        <name>Close_Reason__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Email --></label>
+        <name>Consumer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Doc Received --></label>
+        <name>Contact_Doc_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Letter Sent --></label>
+        <name>Contact_Letter_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Received Date DS --></label>
+        <name>Contract_Received_Date_DS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Received Date --></label>
+        <name>Contract_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Request Date --></label>
+        <name>Contract_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Send Scheduled --></label>
+        <name>Contract_Send_Scheduled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Sent Date DS --></label>
+        <name>Contract_Sent_Date_DS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Sent Date --></label>
+        <name>Contract_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copay Product Quantity --></label>
+        <name>Copay_Product_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Received Date --></label>
+        <name>Cost_Estimate_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Sent Date --></label>
+        <name>Cost_Estimate_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Sent Vs Effective Date --></label>
+        <name>Cost_Estimate_Sent_Vs_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Status --></label>
+        <name>Cost_Estimate_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count Of Non Rejected Quotes --></label>
+        <name>Count_Of_Non_Rejected_Quotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Opportunity Products --></label>
+        <name>Count_Of_Opportunity_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Approved Quotes --></label>
+        <name>Count_of_Approved_Quotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Quotes --></label>
+        <name>Count_of_Quotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create New Opportunity? --></label>
+        <name>Create_New_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created From Lead --></label>
+        <name>Created_From_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Docs Received Date --></label>
+        <name>Customer_Docs_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Docs Sent Date --></label>
+        <name>Customer_Docs_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DexTracker Email --></label>
+        <name>DexTracker_Email__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Direct Deposit Letter Received --></label>
+        <name>Direct_Deposit_Letter_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount SKU Count --></label>
+        <name>Discount_SKU_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery Completed --></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Collection Completed --></label>
+        <name>Doc_Collection_Completed_Closed_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Documents Received --></label>
+        <name>Doc_Collection_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Collection Status --></label>
+        <name>Doc_Collection_Status__c</name>
+        <picklistValues>
+            <masterLabel>All Documents Received</masterLabel>
+            <translation><!-- All Documents Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit Letter Received</masterLabel>
+            <translation><!-- Direct Deposit Letter Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docs On File - Pending</masterLabel>
+            <translation><!-- Docs On File - Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Docs To Bill</masterLabel>
+            <translation><!-- Pending Docs To Bill --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Confirmation # --></label>
+        <name>EGEKO_Confirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO In --></label>
+        <name>EGEKO_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Out --></label>
+        <name>EGEKO_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Vs Training Date --></label>
+        <name>Effective_Vs_Training_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Stage --></label>
+        <name>Email_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate to Payor Status --></label>
+        <name>Estimate_To_Payor_Status__c</name>
+        <picklistValues>
+            <masterLabel>Appeal Received</masterLabel>
+            <translation><!-- Appeal Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeal Sent</masterLabel>
+            <translation><!-- Appeal Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Sent</masterLabel>
+            <translation><!-- Not Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fund --></label>
+        <name>Fund__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gross Price --></label>
+        <name>Gross_Price_AT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hard Copy In --></label>
+        <name>Hard_Copy_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hard Copy Out --></label>
+        <name>Hard_Copy_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Insurance Approval --></label>
+        <name>Health_Insurance_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- High Priority? --></label>
+        <name>High_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Doc Received --></label>
+        <name>Insurance_Doc_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Gross Price --></label>
+        <name>Invoice_Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Insurant Copay Text --></label>
+        <name>Invoice_Insurant_Copay_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Insurant Copay --></label>
+        <name>Invoice_Insurant_Copay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Net Price --></label>
+        <name>Invoice_Net_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Total Amount --></label>
+        <name>Invoice_Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Activity By --></label>
+        <name>Last_Activity_By__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Activity Date Time --></label>
+        <name>Last_Activity_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Docusign Received ID --></label>
+        <name>Latest_Docusign_Received_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation><!-- Lost to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation><!-- No Budget / Lost Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation><!-- No Decision / Non-Responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Advice Number Products Total Amt --></label>
+        <name>Medical_Advice_Number_Products_Total_Amt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Facility --></label>
+        <name>Medical_Facility__c</name>
+        <relationshipLabel><!-- Opportunities Medical Facility --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Missing HI Information --></label>
+        <name>Missing_HI_Information__c</name>
+        <picklistValues>
+            <masterLabel>Billing Address Query</masterLabel>
+            <translation><!-- Billing Address Query --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding approval letter</masterLabel>
+            <translation><!-- Funding approval letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete address</masterLabel>
+            <translation><!-- Incomplete address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial delivery address</masterLabel>
+            <translation><!-- Initial delivery address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outstanding Payments</masterLabel>
+            <translation><!-- Outstanding Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Details – NHS number/patient identifier</masterLabel>
+            <translation><!-- Patient Details – NHS number/patient identifier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation><!-- Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set up form</masterLabel>
+            <translation><!-- Set up form --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Opportunity --></label>
+        <name>Other_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunities (Other Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund PO Reference Number --></label>
+        <name>PO_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Opportunity --></label>
+        <name>Parent_Opportunity__c</name>
+        <relationshipLabel><!-- Parent_Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient&apos;s Diabetes Type --></label>
+        <name>Patient_s_Diabetes_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor --></label>
+        <name>Payor__c</name>
+        <relationshipLabel><!-- Opportunities (Payor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pending Doc Collection --></label>
+        <name>Pending_Doc_Collection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Docs On File --></label>
+        <name>Pending_Docs_On_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Docs To Bill --></label>
+        <name>Pending_Docs_To_Bill__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning Start Date --></label>
+        <name>Planning_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>Prescriber__c</name>
+        <relationshipLabel><!-- Opportunities (Prescriber) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Book Name --></label>
+        <name>Price_Book_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Planning --></label>
+        <name>Processing_Planning__c</name>
+        <picklistValues>
+            <masterLabel>G6 Hold</masterLabel>
+            <translation><!-- G6 Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GKK Stop</masterLabel>
+            <translation><!-- GKK Stop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KV Stop</masterLabel>
+            <translation><!-- KV Stop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- QA Failure Reason --></label>
+        <name>QA_Failure_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation><!-- Bundle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doppellieferung</masterLabel>
+            <translation><!-- Doppellieferung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empfangsbestätigung fehlt</masterLabel>
+            <translation><!-- Empfangsbestätigung fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GKK fehlt</masterLabel>
+            <translation><!-- GKK fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O-VO fehlt</masterLabel>
+            <translation><!-- O-VO fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstige (Notiz erforderlich)</masterLabel>
+            <translation><!-- Sonstige (Notiz erforderlich) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechEW fehlt</masterLabel>
+            <translation><!-- TechEW fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versandkosten statt Zuzahlung</masterLabel>
+            <translation><!-- Versandkosten statt Zuzahlung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>falsche Preise</masterLabel>
+            <translation><!-- falsche Preise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>falsche Zuzahlung</masterLabel>
+            <translation><!-- falsche Zuzahlung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fehlende Zuzahlung</masterLabel>
+            <translation><!-- fehlende Zuzahlung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ROI Analysis Completed --></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Rejection --></label>
+        <name>Reason_For_Rejection__c</name>
+        <picklistValues>
+            <masterLabel>Anderer Leistungserbringer</masterLabel>
+            <translation><!-- Anderer Leistungserbringer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doppelversorgung</masterLabel>
+            <translation><!-- Doppelversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empfängertasche / Zubehör</masterLabel>
+            <translation><!-- Empfängertasche / Zubehör --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ersatzkomponente (Defekt/Verlust/keine Garantie)</masterLabel>
+            <translation><!-- Ersatzkomponente (Defekt/Verlust/keine Garantie) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fehlende Indikation</masterLabel>
+            <translation><!-- Fehlende Indikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler</masterLabel>
+            <translation><!-- Formfehler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler: Falsches Produkt</masterLabel>
+            <translation><!-- Formfehler: Falsches Produkt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler: Versichertennummer existiert nicht</masterLabel>
+            <translation><!-- Formfehler: Versichertennummer existiert nicht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler: Versorgungszeitraum fehlt/falsch</masterLabel>
+            <translation><!-- Formfehler: Versorgungszeitraum fehlt/falsch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indikation nicht mehr gegeben</masterLabel>
+            <translation><!-- Indikation nicht mehr gegeben --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kassenwechsel</masterLabel>
+            <translation><!-- Kassenwechsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDK Prüfung</masterLabel>
+            <translation><!-- MDK Prüfung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDK Prüfung dauert an</masterLabel>
+            <translation><!-- MDK Prüfung dauert an --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDK-Prüfung negativ: Fehlende Indikation</masterLabel>
+            <translation><!-- MDK-Prüfung negativ: Fehlende Indikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDK-Prüfung negativ: Fehlende Mitwirkungspflicht Patient</masterLabel>
+            <translation><!-- MDK-Prüfung negativ: Fehlende Mitwirkungspflicht Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDK-Prüfung negativ: Gutachten fehlt</masterLabel>
+            <translation><!-- MDK-Prüfung negativ: Gutachten fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mehrbedarf</masterLabel>
+            <translation><!-- Mehrbedarf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitwirkungspflicht des Versicherten nicht erfolgt</masterLabel>
+            <translation><!-- Mitwirkungspflicht des Versicherten nicht erfolgt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neue Anforderungen der Kasse</masterLabel>
+            <translation><!-- Neue Anforderungen der Kasse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preise</masterLabel>
+            <translation><!-- Preise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstige (Notiz erforderlich)</masterLabel>
+            <translation><!-- Sonstige (Notiz erforderlich) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systemwechsel G4 oder G5</masterLabel>
+            <translation><!-- Systemwechsel G4 oder G5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systemwechsel Upgrade G6</masterLabel>
+            <translation><!-- Systemwechsel Upgrade G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapieänderung</masterLabel>
+            <translation><!-- Therapieänderung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unterlagen fehlen</masterLabel>
+            <translation><!-- Unterlagen fehlen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versorgungswunsch zurückgenommen</masterLabel>
+            <translation><!-- Versorgungswunsch zurückgenommen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ohne Begründung</masterLabel>
+            <translation><!-- ohne Begründung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason For Return For Adjustment --></label>
+        <name>Reason_For_Return_For_Adjustment__c</name>
+        <picklistValues>
+            <masterLabel>Beantragung zu früh</masterLabel>
+            <translation><!-- Beantragung zu früh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beantragung zu spät</masterLabel>
+            <translation><!-- Beantragung zu spät --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doppelversorgung</masterLabel>
+            <translation><!-- Doppelversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler</masterLabel>
+            <translation><!-- Formfehler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler Arzt-/Betriebsstättennummer existiert nicht</masterLabel>
+            <translation><!-- Formfehler Arzt-/Betriebsstättennummer existiert nicht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler Falsches Produkt</masterLabel>
+            <translation><!-- Formfehler Falsches Produkt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler LKZ falsch/fehlt</masterLabel>
+            <translation><!-- Formfehler LKZ falsch/fehlt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler Versichertennummer existiert nicht bei Kasse</masterLabel>
+            <translation><!-- Formfehler Versichertennummer existiert nicht bei Kasse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formfehler Versorgungszeitraum fehlt/falsch</masterLabel>
+            <translation><!-- Formfehler Versorgungszeitraum fehlt/falsch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gründe für Rückläufer</masterLabel>
+            <translation><!-- Gründe für Rückläufer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neue Anforderungen der Kasse</masterLabel>
+            <translation><!-- Neue Anforderungen der Kasse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges (Notiz erforderlich)</masterLabel>
+            <translation><!-- Sonstiges (Notiz erforderlich) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receiver Max Qty --></label>
+        <name>Receiver_Max_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiver Max $ --></label>
+        <name>Receiver_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Order --></label>
+        <name>Referral_Order__c</name>
+        <relationshipLabel><!-- Opportunities (Referral Order) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rx Date Received --></label>
+        <name>Rx_Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx Date Written --></label>
+        <name>Rx_Date_Written__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx Expiration Date --></label>
+        <name>Rx_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send To Oracle --></label>
+        <name>Send_To_Oracle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensor Max $ --></label>
+        <name>Sensor_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>Shipping_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Carrier --></label>
+        <name>Shipping_Carrier__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Date --></label>
+        <name>Shipping_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gross Price --></label>
+        <name>Total_Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total amount Contractee --></label>
+        <name>Total_amount_contractee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Confirmation Channel --></label>
+        <name>Training_Confirmation_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Doctor&apos;s Office</masterLabel>
+            <translation><!-- Doctor&apos;s Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep</masterLabel>
+            <translation><!-- Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Training Confirmation Received --></label>
+        <name>Training_Confirmation_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Date --></label>
+        <name>Training_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Letter Sent Date --></label>
+        <name>Training_Letter_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Letter Sent --></label>
+        <name>Training_Letter_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Max $ --></label>
+        <name>Transmitter_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Insulin Therapy --></label>
+        <name>Type_of_Insulin_Therapy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Opportunities --></label>
+        <name>Unique_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT --></label>
+        <name>X19_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Xmer Medical Advice Number Exception --></label>
+        <name>Xmer_Medical_Advice_Number_Exception__c</name>
+    </fields>
+    <layouts>
+        <layout>AT Opportunity Layout</layout>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training Letter Information --></label>
+            <section>Training Letter Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Opportunity Layout</layout>
+        <sections>
+            <label><!-- Benefit Information --></label>
+            <section>Benefit Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Opportunity Layout</layout>
+        <sections>
+            <label><!-- Cost Estimate Information --></label>
+            <section>Cost Estimate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training Letter Information --></label>
+            <section>Training Letter Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Opportunity Layout</layout>
+        <sections>
+            <label><!-- Benefit Information --></label>
+            <section>Benefit Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Estimate Information --></label>
+            <section>Cost Estimate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- EGEKO Information --></label>
+            <section>EGEKO Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Opportunity --></label>
+            <section>New Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- S-Docs Information --></label>
+            <section>S-Docs Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training Letter Information --></label>
+            <section>Training Letter Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Opportunity Layout</layout>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fund Information --></label>
+            <section>Fund Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Opportunity Layout</layout>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fund Information --></label>
+            <section>Fund Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Opportunity Layout</layout>
+        <sections>
+            <label><!-- Doc Collection Information --></label>
+            <section>Doc Collection Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training Letter Information --></label>
+            <section>Training Letter Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Cancel Opportunity --></label>
+        <name>Cancel_CA_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancel Opportunity --></label>
+        <name>Cancel_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send with DocuSign --></label>
+        <name>Send_with_DocuSign</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Tracks opportunities for Austria --></description>
+        <label><!-- AT Opportunity --></label>
+        <name>AT_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Canadian Consumer Opportunity processing for Insurance Benefits --></description>
+        <label><!-- CA Opportunity --></label>
+        <name>CA_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tracks opportunities for Switzerland --></description>
+        <label><!-- CH Opportunity --></label>
+        <name>CH_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tracks opportunities for Germany. --></description>
+        <label><!-- DE Opportunity --></label>
+        <name>DE_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tracks opportunities for UK --></description>
+        <label><!-- GB Opportunity --></label>
+        <name>GB_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tracks opportunities for Ireland --></description>
+        <label><!-- IE Opportunity --></label>
+        <name>IE_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Slovenia Opportunity --></description>
+        <label><!-- SI Opportunity --></label>
+        <name>SI_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- For creating new Opportunity, Account should have Medical Facility, Prescriber updated. Please update required details on the Account. --></errorMessage>
+        <name>AT_Check_On_Required_Accnt_Fields_For_Op</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before completing Doc Collection Stage, Customer Docs Collection Status field should have &apos;All Docs Received&apos; or &apos;Not Required&apos; value. --></errorMessage>
+        <name>AT_Doc_Collection_Completed_B4_Cost_Est</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before completing Doc Collection Stage, Health Approval Status field should have &apos;Approved&apos; or &apos;Not Required&apos; value. --></errorMessage>
+        <name>AT_Doc_Health_Approval_B4_Order_Fulfill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Customer Docs Sent Date&apos; should be less than &apos;Customer Docs Received Date&apos; --></errorMessage>
+        <name>AT_Doc_SentDate_Is_Less_Than_RecieDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the stage of Order Fulfillment, please add products. --></errorMessage>
+        <name>AT_Opplineitem_B4_Orderfulfill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving out of Customer Doc Collection Stage, Customer Docs Received Date and Customer Docs Sent Date should be filled. --></errorMessage>
+        <name>AT_Receive_Sent_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Cancel Reason&apos; is required for cancelling an Opportunity. --></errorMessage>
+        <name>All_Cancel_Reason_Req_For_Cancel_Oppty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be created for Inactive customer. --></errorMessage>
+        <name>All_Check_Oppty_For_Inactive_Customer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Competitor&apos; should be selected. --></errorMessage>
+        <name>All_Chk_For_Competitor_When_Canceling_Op</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity products cannot be altered past Cost Estimate stage. --></errorMessage>
+        <name>All_Do_Not_Allow_To_Change_OpptyLineItem</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This operation cannot be perfomed as Opportunity has passed &apos;Order Fulfillment&apos; stage. --></errorMessage>
+        <name>All_Oppty_Stg_Cannot_Be_Chg_Past_Prob_95</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Chosen price book is not applicable to this type of Account. --></errorMessage>
+        <name>All_Validate_PriceBook_Chosen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the stage of Cost Estimate, Benefit provider, Med Fac and Prescriber info are needed. --></errorMessage>
+        <name>CA_Beneft_Needed_Before_Cost_Estimate_st</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cancelled Opportunities can not be changed --></errorMessage>
+        <name>CA_Canceled_Opportunities_Not_Changeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Opportunities can not be changed --></errorMessage>
+        <name>CA_Closed_Opportunities_Not_Changeable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before Closing Opportunity, Coverage should be confirmed with Patient/Guardian. --></errorMessage>
+        <name>CA_Coverage_Confirmed_Before_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the stage of Cost Estimate,  Docs should be collected or not needed from Customers and Prescribers. --></errorMessage>
+        <name>CA_Doc_Collection_Completed_B4_Cost_Est</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estimates should be Received or Not Required from Consumer; and Benefit Information should be updated. --></errorMessage>
+        <name>CA_Estimates_Recvd_Confirmed_B4_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before changing the Stage, Docs should be collected or not needed from Customers. You can also Cancel the Opportunity if needed. --></errorMessage>
+        <name>CA_HCP_Doc_Collection_B4_Ins_Est_Pending</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before changing the Stage, Docs should be collected or not needed from Customers. You can also Cancel the Opportunity if needed. --></errorMessage>
+        <name>CA_Ins_Estimate_Pendi_B4_Ins_Res_Pending</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before changing the Stage, Docs should be collected or not needed from Customers. You can also Cancel the Opportunity if needed. --></errorMessage>
+        <name>CA_Ins_Res_Pending_B4_Order_Fulfillment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before changing the Stage, Docs should be collected or not needed from Customers. You can also Cancel the Opportunity if needed. --></errorMessage>
+        <name>CA_PT_Doc_Collection_B4_HCP_Doc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Login Account is Locked. Get it unlocked before Closing the Opportunity. --></errorMessage>
+        <name>CA_SFCC_Account_Not_Locked_Before_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Stage cannot be changed --></errorMessage>
+        <name>CA_Stage_Cannot_Moved_Back</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select Lead Source and Type to proceed further. --></errorMessage>
+        <name>CA_Type_LeadSource_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For creating new Opportunity, Account should have Medical Facility, Prescriber updated. Please update required details on the Account. --></errorMessage>
+        <name>CH_Check_On_Required_Accnt_Fields_For_Op</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Docs Receive date should NOT be a future date. --></errorMessage>
+        <name>CH_Customer_Doc_Rcvd_Date_Not_In_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the stage of Order Fulfillment, All Docs should have been collected or not needed. Also HI Approval should be &apos;Approved&apos; or &apos;Not Needed&apos;. --></errorMessage>
+        <name>CH_Doc_Collection_Completed_B4_Order_Ful</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Customer Docs Sent Date&apos; should be before &apos;Customer Docs Received Date&apos; --></errorMessage>
+        <name>CH_Doc_SentDate_Is_Less_Than_RecieDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the stage of Order Fulfillment, please add products. --></errorMessage>
+        <name>CH_Opplineitem_B4_Orderfulfill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Contact Doc Received&apos; should be selected before moving to next Stage. --></errorMessage>
+        <name>Check_Contact_Docs_Before_Order_Fulfill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Auth End Date should be greater than Auth Start Date. --></errorMessage>
+        <name>DE_Auth_End_Date_Greater_Than_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change Account related information on Opportunity after Cost Estimate stage. --></errorMessage>
+        <name>DE_Cannot_Alter_Acnt_Info_Af_Cost_Est_St</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be cancelled past Training Letter stage. --></errorMessage>
+        <name>DE_Cannot_Cancel_Oppty_Past_Train_Letter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Benefit Auth Start Date and End Date should be filled in before moving from Cost Estimate Stage. --></errorMessage>
+        <name>DE_Check_Benefit_Auth_Start_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Birth Date is required before sending the cost estimate to EGEKO. --></errorMessage>
+        <name>DE_Check_Birth_Date_Before_Sending_To_EG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Contact Letter Sent&apos; should be checked before moving to next Stage. --></errorMessage>
+        <name>DE_Check_Cont_Letter_Sent_To_Move_Nxt_St</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Contact Doc Received&apos; can be selected only when the Opportunity is passed &apos;New Opportunity&apos; stage. --></errorMessage>
+        <name>DE_Check_Contact_Doc_Received_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Co-Pay must be entered before selecting EGEKO In Or Hard Copy In --></errorMessage>
+        <name>DE_Check_Copay_When_EgekoIn_Or_Hard_Copy</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Cost Estimate&apos; fields can be selected only when the Opportunity has passed &apos;Customer Doc Collection&apos; stage. --></errorMessage>
+        <name>DE_Check_Cost_Estimate_Fields_Selection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a value for &apos;DexTracker Email&apos;. --></errorMessage>
+        <name>DE_Check_DexTracker_Email_For_Reorder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Doc Collection Status&apos; can be selected only when the Opportunity has passed &apos;Cost Estimate&apos; stage. --></errorMessage>
+        <name>DE_Check_Doc_Collection_Status_Selection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;EGEKO Confirmation #&apos; should be entered before moving to next stage. --></errorMessage>
+        <name>DE_Check_EGEKO_Confirmation_To_Proceed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;EGEKO In&apos; cannot be selected unless &apos;EGEKO Out&apos; or &apos;Hard Copy Out&apos; is selected. --></errorMessage>
+        <name>DE_Check_EGEKO_In_Field_Selection_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;EGEKO In&apos; or &apos;Hard Copy In&apos; should be selected before moving from &apos;Cost Estimate&apos; stage. --></errorMessage>
+        <name>DE_Check_EGEKO_In_Or_Hard_Copy_In_Select</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Hard Copy In&apos; cannot be selected unless &apos;EGEKO Out&apos; or &apos;Hard Copy Out&apos; is selected. --></errorMessage>
+        <name>DE_Check_Hard_Copy_In_Field_Selection_Or</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Cash Pay&apos; cannot be altered past &apos;Cost Estimate&apos; stage. --></errorMessage>
+        <name>DE_Check_If_Cash_Pay_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Both &apos;EGEKO In&apos; and &apos;Hard Copy In&apos; cannot be selected, please select only one. --></errorMessage>
+        <name>DE_Check_If_EGEKO_In_Hard_Copy_In_Select</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Both &apos;EGEKO Out&apos; and &apos;Hard Copy Out&apos; cannot be selected, please select only one. --></errorMessage>
+        <name>DE_Check_If_EGEKO_Out_Hard_Copy_Out_Sel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be closed as Doc Collection Status is not completed. --></errorMessage>
+        <name>DE_Check_If_Oppty_Can_Be_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Training Letter Sent Date&apos;. --></errorMessage>
+        <name>DE_Check_If_Train_Letr_Sent_Dt_Is_Enter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the &apos;Training Confirmation Channel&apos;. --></errorMessage>
+        <name>DE_Check_If_Training_Channel_Is_Entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Training Date&apos;. --></errorMessage>
+        <name>DE_Check_If_Training_Date_Is_Entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Insurance Doc Received&apos; can be selected only when the Opportunity is passed &apos;New Opportunity&apos; stage. --></errorMessage>
+        <name>DE_Check_Insurance_Doc_Received_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Insurance Doc Received&apos; should be selected before moving to next stage. --></errorMessage>
+        <name>DE_Check_Insurance_Docs_Before_Order_Ful</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Member ID on Account before creating an Opportunity. --></errorMessage>
+        <name>DE_Check_Member_Id_On_Oppty_Creation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check if a Quote is approved before sending to EGEKO. --></errorMessage>
+        <name>DE_Check_On_Quote_Before_EGEKO_Out</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For creating new Opportunity, Account should have Medical Facility, Prescriber and Pricebook information updated. Please update required details on the Account. --></errorMessage>
+        <name>DE_Check_On_Required_Accnt_Fields_For_Op</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Doc Collection Status&apos; should be selected before moving to next stage. --></errorMessage>
+        <name>DE_Check_Order_Fulfillment_To_Proceed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Insurance Company Identification Number&apos; is required before sending the cost estimate to EGEKO. --></errorMessage>
+        <name>DE_Check_Payor_IK_Before_Sending_To_EGEK</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in &apos;Rx Written Date&apos; and &apos;Rx Received Date&apos;. --></errorMessage>
+        <name>DE_Check_Rx_Dates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Training Confirmation Received&apos; should be selected before closing the Opportunity. --></errorMessage>
+        <name>DE_Check_Training_Confirmation_Before_Cl</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Training Letter Sent&apos; should be checked before moving from &apos;Training Letter&apos; stage. --></errorMessage>
+        <name>DE_Check_Training_Confirmation_To_Procd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Training Confirmation Received&apos; can be selected only when &apos;Training Letter Sent&apos; is selected. --></errorMessage>
+        <name>DE_Check_Training_Letter_Fields_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Training Letter&apos; fields selection can be performed only when the Opportunity has passed &apos;Cost Estimate&apos; stage. --></errorMessage>
+        <name>DE_Check_Training_Letter_Fields_Selectio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add Marketing Discount to the Opportunity before proceeding to the next stage. --></errorMessage>
+        <name>DE_DISC_SKU_Req_If_CoPay_More_Than_Zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;EGEKO Out&apos; cannot be unchecked as there is already an EGEKO Confirmation number for this request. --></errorMessage>
+        <name>DE_EGEKO_Out_Cannot_Be_Unchecked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cash orders cannot be create for Accounts, which are on Credit Hold. --></errorMessage>
+        <name>DE_No_Cash_Orders_For_Credit_Hold_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this operation. Please contact your admin. --></errorMessage>
+        <name>DE_Only_Admins_Can_Reopen_Cancelled_Oppt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot reopen closed Opportunity. --></errorMessage>
+        <name>DE_Only_Admins_Can_Reopen_Closed_Oppty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This operation cannot be perfomed as Opportunity has passed &apos;Customer Doc Collection&apos; stage. --></errorMessage>
+        <name>DE_Oppty_Stg_Cannot_Be_Chg_Past_Prob_40</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This operation cannot be perfomed as Opportunity has passed &apos;Cost Estimate&apos; stage. --></errorMessage>
+        <name>DE_Oppty_Stg_Cannot_Be_Chg_Past_Prob_60</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This operation cannot be perfomed as Opportunity has passed &apos;Training Letter&apos; stage. --></errorMessage>
+        <name>DE_Oppty_Stg_Cannot_Be_Chg_Past_Prob_80</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Planning Start Date&apos; --></errorMessage>
+        <name>DE_Planning_Start_Date_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot move ahead with opportunity type &quot;unknown&quot;. --></errorMessage>
+        <name>DE_Restrict_Unknown_Opps_To_Move_Ahead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Training Date&apos; cannot be less than the &apos;Training Letter Sent Date&apos;. --></errorMessage>
+        <name>DE_Train_Dt_Cannot_Be_Less_Than_Ltr_Sent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Type&apos; cannot be changed. --></errorMessage>
+        <name>Type_Cannot_Be_Chg_Past_Cost_Est_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before completing Doc Collection Stage, Customer Docs Collection Status field should have &apos;All Docs Received&apos; or &apos;Not Required&apos; value. --></errorMessage>
+        <name>UK_Doc_Collection_Completed_B4_Cost_Est</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Customer Docs Sent Date&apos; should be less than &apos;Customer Docs Received Date&apos; --></errorMessage>
+        <name>UK_Doc_SentDate_Is_Less_Than_RecieDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to this stage, please add products. --></errorMessage>
+        <name>UK_Opplineitem_B4_Orderfulfill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a valid Pricebook. --></errorMessage>
+        <name>UK_Pricebook_Selection</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving out of Customer Doc Collection Stage, Customer Docs Received Date and Customer Docs Sent Date should be filled. --></errorMessage>
+        <name>UK_Receive_Sent_Date_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

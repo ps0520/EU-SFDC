@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Compatibility - Mobile Device</fullName>
+        <default>false</default>
+        <label>Compatibility - Mobile Device</label>
+    </customValue>
+    <customValue>
+        <fullName>Compatibility - Other</fullName>
+        <default>false</default>
+        <label>Compatibility - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Competition</fullName>
+        <default>false</default>
+        <label>Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Account</fullName>
+        <default>false</default>
+        <label>Duplicate Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Opportunity</fullName>
+        <default>false</default>
+        <label>Duplicate Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Invalid Contact Info</fullName>
+        <default>false</default>
+        <label>Invalid Contact Info</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-responsive</fullName>
+        <default>false</default>
+        <label>Non-responsive</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Interested</fullName>
+        <default>false</default>
+        <label>Not Interested</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Ready</fullName>
+        <default>false</default>
+        <label>Not Ready</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Type 1</fullName>
+        <default>false</default>
+        <label>Not Type 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Opportunity Created in Error</fullName>
+        <default>false</default>
+        <label>Opportunity Created in Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing - Cash Price Too High</fullName>
+        <default>false</default>
+        <label>Pricing - Cash Price Too High</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing - Competition</fullName>
+        <default>false</default>
+        <label>Pricing - Competition</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing - No INS Coverage</fullName>
+        <default>false</default>
+        <label>Pricing - No INS Coverage</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing - OOP Too High</fullName>
+        <default>false</default>
+        <label>Pricing - OOP Too High</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Design or Features</fullName>
+        <default>false</default>
+        <label>Product Design or Features</label>
+    </customValue>
+    <customValue>
+        <fullName>Resides Outside Country</fullName>
+        <default>false</default>
+        <label>Resides Outside Country</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing docs, unable to invoice</fullName>
+        <default>false</default>
+        <label>Missing docs, unable to invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>No BG Logs</fullName>
+        <default>false</default>
+        <label>No BG Logs</label>
+    </customValue>
+    <customValue>
+        <fullName>No Direct Billing</fullName>
+        <default>false</default>
+        <label>No Direct Billing</label>
+    </customValue>
+    <customValue>
+        <fullName>Not on an insulin pump</fullName>
+        <default>false</default>
+        <label>Not on an insulin pump</label>
+    </customValue>
+    <description>Reasons for Cancelling a Lead or Opportunity in Canada.</description>
+    <masterLabel>CA Opp Lead Cancelled Reasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

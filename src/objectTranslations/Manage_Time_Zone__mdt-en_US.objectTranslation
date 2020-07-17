@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Manage Time Zone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Manage Time Zones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Country Code --></label>
+        <name>Country_Code__c</name>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation><!-- CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation><!-- GB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation><!-- IE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time Zone --></label>
+        <name>Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>America/Los_Angeles</masterLabel>
+            <translation><!-- America/Los_Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/Berlin</masterLabel>
+            <translation><!-- Europe/Berlin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe/London</masterLabel>
+            <translation><!-- Europe/London --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

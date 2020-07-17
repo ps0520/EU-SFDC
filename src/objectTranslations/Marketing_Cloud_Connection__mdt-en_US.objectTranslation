@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Cloud Connection</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Cloud Connections</value>
+    </caseValues>
+    <fields>
+        <label><!-- AT CH API Subdomain --></label>
+        <name>AT_CH_API_Subdomain__c</name>
+    </fields>
+    <fields>
+        <label><!-- AT CH Client Id --></label>
+        <name>AT_CH_Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- AT CH Client Secret --></label>
+        <name>AT_CH_Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- AT CH List DoubleOptIn --></label>
+        <name>AT_CH_List_DoubleOptIn__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA API Subdomain --></label>
+        <name>CA_API_Subdomain__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Client Id --></label>
+        <name>CA_Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Client Secret --></label>
+        <name>CA_Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA List DoubleOptIn --></label>
+        <name>CA_List_DoubleOptIn__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE API Subdomain --></label>
+        <name>DE_API_Subdomain__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE Client Id --></label>
+        <name>DE_Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE Client Secret --></label>
+        <name>DE_Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE List DoubleOptIn --></label>
+        <name>DE_List_DoubleOptIn__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB IE API Subdomain --></label>
+        <name>GB_IE_API_Subdomain__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB IE Client Id --></label>
+        <name>GB_IE_Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB IE Client Secret --></label>
+        <name>GB_IE_Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- GB IE List DoubleOptIn --></label>
+        <name>GB_IE_List_DoubleOptIn__c</name>
+    </fields>
+    <layouts>
+        <layout>Marketing Cloud Connection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

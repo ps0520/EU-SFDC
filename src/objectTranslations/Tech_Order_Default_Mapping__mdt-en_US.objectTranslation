@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tech Order Default Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tech Order Default Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Default Shipping Method --></label>
+        <name>Default_Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Warehouse --></label>
+        <name>Warehouse__c</name>
+        <picklistValues>
+            <masterLabel>DESD</masterLabel>
+            <translation><!-- DESD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEX</masterLabel>
+            <translation><!-- DEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLCH</masterLabel>
+            <translation><!-- HLCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLNL</masterLabel>
+            <translation><!-- HLNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLUK</masterLabel>
+            <translation><!-- HLUK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDX</masterLabel>
+            <translation><!-- SDX --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

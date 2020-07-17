@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Anfragedatum</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>quote_expirationdate</name>
+    </fields>
+    <fields>
+        <label>Zusätzliche Informationen</label>
+        <name>Additional_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>Billing_City__c</name>
+    </fields>
+    <fields>
+        <label>Land</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label>Kundennummer</label>
+        <name>Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label>Datum</label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label>EGEKO Auftragsnummer</label>
+        <name>EGEKO_Confirmation_Number__c</name>
+    </fields>
+    <fields>
+        <label>Angebotsnummer</label>
+        <name>Estimate_No__c</name>
+    </fields>
+    <fields>
+        <label>Versichertennummer</label>
+        <name>Insurance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Fac City --></label>
+        <name>Med_Fac_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Fac Name --></label>
+        <name>Med_Fac_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Fac Street --></label>
+        <name>Med_Fac_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Med Fac Zip --></label>
+        <name>Med_Fac_Zip__c</name>
+    </fields>
+    <fields>
+        <label>Details zum Patienten</label>
+        <name>Patient_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Billing Street --></label>
+        <name>Prescriber_Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Billing Zip --></label>
+        <name>Prescriber_Billing_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber City --></label>
+        <name>Prescriber_City__c</name>
+    </fields>
+    <fields>
+        <label>Details zum Verordner</label>
+        <name>Prescriber_Details__c</name>
+    </fields>
+    <fields>
+        <label>Arztnummer</label>
+        <name>Prescriber_ID__c</name>
+    </fields>
+    <fields>
+        <label>Verordner Name</label>
+        <name>Prescriber_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Title --></label>
+        <name>Prescriber_Title__c</name>
+    </fields>
+    <fields>
+        <label>Zwischensumme (netto)</label>
+        <name>Subtotal_Net_price__c</name>
+    </fields>
+    <fields>
+        <label>Versorgungszeitraum von</label>
+        <name>Supply_Period_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quote Line Items --></label>
+        <name>Total_Quote_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total amount (Gross price) --></label>
+        <name>Total_amount_Gross_price__c</name>
+    </fields>
+    <fields>
+        <label>Typ</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost Estimate</masterLabel>
+            <translation><!-- Cost Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Quote</masterLabel>
+            <translation><!-- Customer Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>19% MwSt.</label>
+        <name>X19_VAT__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Quote record type for Germany --></description>
+        <label><!-- DE Quote --></label>
+        <name>DE_Quote</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Products cannot be altered for the Quote. --></errorMessage>
+        <name>Cannot_Alter_Prods_For_Rejected_Quote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Es existiert bereits ein frei gegebenes Angebot für diese Opportunity.</errorMessage>
+        <name>Cannot_Have_More_Than_One_Approved_Quote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Kostenvoranschlag&quot; kann nicht für Selbstzahler gewählt werden.</errorMessage>
+        <name>Check_Type_For_Cash_Pay_Customers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Products cannot be altered for the Quote. --></errorMessage>
+        <name>DE_Cannot_Alter_Prods_For_Rejected_Quote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There is already an approved Quote for this Opportunity. --></errorMessage>
+        <name>DE_Cannot_Have_More_Than_One_Approved_Qu</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Cost Estimate&apos; type cannot be chosen for a Cash Pay customer. --></errorMessage>
+        <name>DE_Check_Type_For_Cash_Pay_Customers</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_Documents --></label>
+        <name>Generate_Documents</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Benefit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Benefits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Benefits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Applicable Birth Date in US Format --></label>
+        <name>Applicable_Birth_Date_in_US_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth End Date --></label>
+        <name>Auth_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth Start Date --></label>
+        <name>Auth_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Number --></label>
+        <name>Authorization_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Hierarchy --></label>
+        <name>Benefit_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>Birth_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Benefit Year or Plan Year --></help>
+        <label><!-- Benefit Plan Year Type --></label>
+        <name>CA_Benefit_Plan_Year_Type__c</name>
+        <picklistValues>
+            <masterLabel>Benefit Year</masterLabel>
+            <translation><!-- Benefit Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Year</masterLabel>
+            <translation><!-- Plan Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CMN or Rx Expiration Date --></label>
+        <name>CMN_or_Rx_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claims Mailing Address Name --></label>
+        <name>Claims_Mailing_Address_Name__c</name>
+        <relationshipLabel><!-- Payor Address --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Claims Mailing Address --></label>
+        <name>Claims_Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Co-Pay --></label>
+        <name>Co_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Received Date --></label>
+        <name>Cost_Estimate_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate Sent Date --></label>
+        <name>Cost_Estimate_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coverage --></label>
+        <name>Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Phone --></label>
+        <name>Customer_Service_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Confirmation Number --></label>
+        <name>EGEKO_Confirmation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- IK Number Sent By EGEKO --></label>
+        <name>EGEKO_IK_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGEKO Kopftext --></label>
+        <name>EGEKO_Kopftext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refusal Text --></label>
+        <name>EGEKO_Refusal_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>EGEKO_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Employer of the Policy Holder. --></help>
+        <label><!-- Employer Name --></label>
+        <name>Employer_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inactivate the Benefit if the Payor or number is changed. --></help>
+        <label><!-- Inactive --></label>
+        <name>Inactive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insurance Group ID/Number. --></help>
+        <label><!-- Insurance Group ID --></label>
+        <name>Insurance_Group_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional Health Plan Number/ID. --></help>
+        <label><!-- Insurance Health Plan Number --></label>
+        <name>Insurance_Health_Plan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Holder&apos;s Relationship --></label>
+        <name>Insurance_Holder_s_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Domestic Partner</masterLabel>
+            <translation><!-- Domestic Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurant Status --></label>
+        <name>Insurant_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Error Message --></label>
+        <name>Integration_Error_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Title of the Policy Holder --></help>
+        <label><!-- Job Title --></label>
+        <name>Job_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member ID --></label>
+        <name>Member_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Authorization Details --></label>
+        <name>Other_Authorization_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor --></label>
+        <name>Payor__c</name>
+        <relationshipLabel><!-- Payors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Policy Holder Date of Birth --></label>
+        <name>Policy_Holder_Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Holder Name --></label>
+        <name>Policy_Holder_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insurance Payer or Issuer ID --></help>
+        <label><!-- Policy Number --></label>
+        <name>Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Auth Spoke With --></label>
+        <name>Pre_Auth_Spoke_With__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of Birth of Person Holding insurance if different from Name on Account. --></help>
+        <label><!-- Primary Policy Holder Birth Date --></label>
+        <name>Primary_Policy_Holder_Birth_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Insurance Policy Holder if different from Name on Account. --></help>
+        <label><!-- Primary Policy Holder Name --></label>
+        <name>Primary_Policy_Holder_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior-Auth Denied or Approved --></label>
+        <name>Prior_Auth_Denied_or_Approved__c</name>
+        <picklistValues>
+            <masterLabel>APPROVED</masterLabel>
+            <translation><!-- APPROVED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DENIED</masterLabel>
+            <translation><!-- DENIED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Provider Service Phone --></label>
+        <name>Provider_Service_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum number of Receivers allowed during the Authorized Period --></help>
+        <label><!-- Receiver Max Qty --></label>
+        <name>Receiver_Max_Qty__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum Amount allowed for Receivers during the Authorized Period --></help>
+        <label><!-- Receiver Max $ --></label>
+        <name>Receiver_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Reason --></label>
+        <name>Review_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Approval to Rejection</masterLabel>
+            <translation><!-- Approval to Rejection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejection to Approval</masterLabel>
+            <translation><!-- Rejection to Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rx Date Written --></label>
+        <name>Rx_Date_Written__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum Amount allowed for Sensors during the Authorized Period --></help>
+        <label><!-- Sensor Max $ --></label>
+        <name>Sensor_Max__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum Amount allowed for Transmitters during the Authorized Period --></help>
+        <label><!-- Transmitter Max $ --></label>
+        <name>Transmitter_Max__c</name>
+    </fields>
+    <layouts>
+        <layout>CA Benefit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Benefit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EGEKO Information --></label>
+            <section>EGEKO Information</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Details --></label>
+            <section>Insurance Details</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Authorization Details --></label>
+            <section>Pre-Authorization Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Benefit for Canada --></description>
+        <label><!-- CA Benefit --></label>
+        <name>CA_Benefit</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Germany Benefits --></description>
+        <label><!-- DE Benefit --></label>
+        <name>DE_Benefit</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Auth End Date should be greater than Auth Start Date. --></errorMessage>
+        <name>Auth_End_Date_Greater_Than_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Auth End Date should be greater than Auth Start Date. --></errorMessage>
+        <name>CA_Auth_End_Date_Greater_Dan_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Policy Holder Age is also required if the relationship with the Policy Holder is not &apos;Self&apos;. --></errorMessage>
+        <name>CA_Policy_Holder_Age_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Policy Holder Name is required if the relationship with the Policy Holder is not &apos;Self&apos;. --></errorMessage>
+        <name>CA_Policy_Holder_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Policy Number, Payor, Benefit Hierarchy information are required to save a Benefit. --></errorMessage>
+        <name>CA_Req_Fields_Check_For_Benefit_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Auth End Date should be greater than Auth Start Date. --></errorMessage>
+        <name>DE_Auth_End_Date_Greater_Dan_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Member Id&apos; should be 10 characters in Length. --></errorMessage>
+        <name>DE_Member_Id_Should_B_10_Char_In_Length</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Member Id, Payor, Benefit Hierarchy information are required to save a Benefit. --></errorMessage>
+        <name>DE_Req_Fields_Check_For_Benefit_Create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Member Id&apos; should be 10 characters in Length. --></errorMessage>
+        <name>Member_Id_Should_Be_10_Chars_In_Length</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Member Id, Payor, Benefit Hierarchy information are required to save a Benefit. --></errorMessage>
+        <name>Required_Fields_Check_For_Benefit_Create</name>
+    </validationRules>
+</CustomObjectTranslation>

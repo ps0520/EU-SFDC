@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>DE_Benefit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CA_Benefit_Compact_Page</fullName>
+        <fields>Account__c</fields>
+        <fields>Birth_Date__c</fields>
+        <fields>Insurance_Holder_s_Relationship__c</fields>
+        <fields>Payor__c</fields>
+        <fields>Member_Id__c</fields>
+        <fields>Policy_Number__c</fields>
+        <fields>Prior_Auth_Denied_or_Approved__c</fields>
+        <label>CA Benefit Compact Page</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>DE_Benefit_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Member_Id__c</fields>
+        <fields>Benefit_Hierarchy__c</fields>
+        <fields>Auth_Start_Date__c</fields>
+        <fields>Auth_End_Date__c</fields>
+        <fields>Authorization_Number__c</fields>
+        <fields>Insurant_Status__c</fields>
+        <label>DE Benefit Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Jagan 03/29/2017 - Created this custom object to track Benefits information.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <description>Store the account number for selected account on benefit</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Account Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup field for Account</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Benefits</relationshipLabel>
+        <relationshipName>Benefits</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applicable_Birth_Date_in_US_Format__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISNULL(Primary_Policy_Holder_Birth_Date__c)), TEXT(MONTH(Primary_Policy_Holder_Birth_Date__c))+&quot;/&quot; +TEXT(DAY(Primary_Policy_Holder_Birth_Date__c))+&quot;/&quot; +TEXT(YEAR(Primary_Policy_Holder_Birth_Date__c)),
+ If(TEXT( Insurance_Holder_s_Relationship__c) = &quot;Self&quot;, TEXT(MONTH(Account__r.PersonBirthdate))+&quot;/&quot; +TEXT(DAY(Account__r.PersonBirthdate))+&quot;/&quot; +TEXT(YEAR(Account__r.PersonBirthdate)), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Applicable Birth Date in US Format</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Auth_End_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Auth End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Auth_Start_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Auth Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Authorization_Number__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Authorization Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Benefit_Hierarchy__c</fullName>
+        <externalId>false</externalId>
+        <label>Benefit Hierarchy</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Primary</fullName>
+                    <default>false</default>
+                    <label>Primary</label>
+                </value>
+                <value>
+                    <fullName>Secondary</fullName>
+                    <default>false</default>
+                    <label>Secondary</label>
+                </value>
+                <value>
+                    <fullName>Tertiary</fullName>
+                    <default>false</default>
+                    <label>Tertiary</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Birth_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.PersonContact.Birthdate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Birth Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CA_Benefit_Plan_Year_Type__c</fullName>
+        <description>Benefit Year or Plan Year</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Benefit Year or Plan Year</inlineHelpText>
+        <label>Benefit Plan Year Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Plan Year</fullName>
+                    <default>false</default>
+                    <label>Plan Year</label>
+                </value>
+                <value>
+                    <fullName>Benefit Year</fullName>
+                    <default>false</default>
+                    <label>Benefit Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CMN_or_Rx_Expiration_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.CMN_or_Rx_Expiration_Date__c</formula>
+        <label>CMN or Rx Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Claims_Mailing_Address_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Claims mailing address from the payor associated to the Benefit record.</description>
+        <externalId>false</externalId>
+        <label>Claims Mailing Address Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Payor__c</field>
+                <operation>equals</operation>
+                <valueField>Address__c.Account__r.Id</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Address__c</referenceTo>
+        <relationshipLabel>Payor Address</relationshipLabel>
+        <relationshipName>Payor_Address</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Claims_Mailing_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( !ISBLANK(Claims_Mailing_Address_Name__c), (Claims_Mailing_Address_Name__r.Address_Line_1__c + &apos;, &apos; + 
+ Claims_Mailing_Address_Name__r.City__c  + &apos;, &apos; +
+ TEXT(Claims_Mailing_Address_Name__r.State__c) + &apos;, &apos; +
+ Claims_Mailing_Address_Name__r.Postal_Code__c + &apos;, &apos; +
+ TEXT(Claims_Mailing_Address_Name__r.Country__c) ), &apos;&apos; )</formula>
+        <label>Claims Mailing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Pay__c</fullName>
+        <externalId>false</externalId>
+        <label>Co-Pay</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost_Estimate_Received_Date__c</fullName>
+        <description>Date when we received the cost estimate back from EGEKO</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Cost Estimate Received Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Cost_Estimate_Sent_Date__c</fullName>
+        <description>Date when cost estimate was sent to EGEKO</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Cost Estimate Sent Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Country</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coverage__c</fullName>
+        <externalId>false</externalId>
+        <label>Coverage</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Service_Phone__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Service Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>EGEKO_Confirmation_Number__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EGEKO Confirmation Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EGEKO_IK_Number__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>IK Number Sent By EGEKO</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EGEKO_Kopftext__c</fullName>
+        <description>Text will be transferred to EGEKO</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EGEKO Kopftext</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EGEKO_Refusal_Text__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Refusal Text</label>
+        <length>2000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EGEKO_Status__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Effective_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Employer_Name__c</fullName>
+        <description>Name of the Employer of the Policy Holder.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Employer of the Policy Holder.</inlineHelpText>
+        <label>Employer Name</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Represents whether the Benefit is still active for the Account Holder.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Inactivate the Benefit if the Payor or number is changed.</inlineHelpText>
+        <label>Inactive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Insurance_Group_ID__c</fullName>
+        <description>Insurance Group ID/Number.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Insurance Group ID/Number.</inlineHelpText>
+        <label>Insurance Group ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Health_Plan_Number__c</fullName>
+        <description>Optional Health Plan Number/ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional Health Plan Number/ID.</inlineHelpText>
+        <label>Insurance Health Plan Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Holder_s_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance Holder&apos;s Relationship</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Self</fullName>
+                    <default>false</default>
+                    <label>Self</label>
+                </value>
+                <value>
+                    <fullName>Parent</fullName>
+                    <default>false</default>
+                    <label>Parent</label>
+                </value>
+                <value>
+                    <fullName>Spouse</fullName>
+                    <default>false</default>
+                    <label>Spouse</label>
+                </value>
+                <value>
+                    <fullName>Domestic Partner</fullName>
+                    <default>false</default>
+                    <label>Domestic Partner</label>
+                </value>
+                <value>
+                    <fullName>Guardian</fullName>
+                    <default>false</default>
+                    <label>Guardian</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Insurant_Status__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Insurant Status</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Integration_Error_Message__c</fullName>
+        <description>This field tracks the error message during the time of BOOMI integration with EGEKO.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Integration Error Message</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Job_Title__c</fullName>
+        <description>Title of the Policy Holder</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Title of the Policy Holder</inlineHelpText>
+        <label>Job Title</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Member_Id__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Member ID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Authorization_Details__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Other Authorization Details</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Payor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Account with Payer record type</description>
+        <externalId>false</externalId>
+        <label>Payor</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.DeveloperName</field>
+                <operation>contains</operation>
+                <value>Payor</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Payors</relationshipLabel>
+        <relationshipName>Payors</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Policy_Holder_Date_of_Birth__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.PersonContact.Birthdate</formula>
+        <label>Policy Holder Date of Birth</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Policy_Holder_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.FirstName + &apos; &apos; + Account__r.LastName</formula>
+        <label>Policy Holder Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Policy_Number__c</fullName>
+        <description>Insurance Payer or Issuer ID</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Insurance Payer or Issuer ID</inlineHelpText>
+        <label>Policy Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_Auth_Spoke_With__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Pre-Auth Spoke With</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Policy_Holder_Birth_Date__c</fullName>
+        <description>Date of Birth of Person Holding insurance if different from Name on Account.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of Birth of Person Holding insurance if different from Name on Account.</inlineHelpText>
+        <label>Primary Policy Holder Birth Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Policy_Holder_Name__c</fullName>
+        <description>Name of the Insurance Policy Holder if different from Name on Account.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Insurance Policy Holder if different from Name on Account.</inlineHelpText>
+        <label>Primary Policy Holder Name</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prior_Auth_Denied_or_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Prior-Auth Denied or Approved</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>APPROVED</fullName>
+                    <default>false</default>
+                    <label>APPROVED</label>
+                </value>
+                <value>
+                    <fullName>DENIED</fullName>
+                    <default>false</default>
+                    <label>DENIED</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Provider_Service_Phone__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Provider Service Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Receiver_Max_Qty__c</fullName>
+        <description>Maximum number of Receivers allowed during the Authorized Period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum number of Receivers allowed during the Authorized Period</inlineHelpText>
+        <label>Receiver Max Qty</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Receiver_Max__c</fullName>
+        <description>Maximum Amount allowed for Receivers during the Authorized Period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum Amount allowed for Receivers during the Authorized Period</inlineHelpText>
+        <label>Receiver Max $</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Review_Reason__c</fullName>
+        <description>Field used to track when the EGEKO status is changed</description>
+        <externalId>false</externalId>
+        <label>Review Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approval to Rejection</fullName>
+                    <default>false</default>
+                    <label>Approval to Rejection</label>
+                </value>
+                <value>
+                    <fullName>Rejection to Approval</fullName>
+                    <default>false</default>
+                    <label>Rejection to Approval</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rx_Date_Written__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rx Date Written</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Sensor_Max__c</fullName>
+        <description>Maximum Amount allowed for Sensors during the Authorized Period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum Amount allowed for Sensors during the Authorized Period</inlineHelpText>
+        <label>Sensor Max $</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Transmitter_Max__c</fullName>
+        <description>Maximum Amount allowed for Transmitters during the Authorized Period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum Amount allowed for Transmitters during the Authorized Period</inlineHelpText>
+        <label>Transmitter Max $</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Benefit</label>
+    <listViews>
+        <fullName>DE_Benefits</fullName>
+        <columns>NAME</columns>
+        <columns>Member_Id__c</columns>
+        <columns>Benefit_Hierarchy__c</columns>
+        <columns>Payor__c</columns>
+        <columns>Authorization_Number__c</columns>
+        <columns>Auth_Start_Date__c</columns>
+        <columns>Effective_Date__c</columns>
+        <columns>Insurant_Status__c</columns>
+        <columns>Co_Pay__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Benefit__c.DE_Benefit</value>
+        </filters>
+        <label>DE Benefits</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>B-{0000000}</displayFormat>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Benefits</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>CA_Benefit</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>CA_Benefit_Compact_Page</compactLayoutAssignment>
+        <description>Benefit for Canada</description>
+        <label>CA Benefit</label>
+        <picklistValues>
+            <picklist>Benefit_Hierarchy__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tertiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CA_Benefit_Plan_Year_Type__c</picklist>
+            <values>
+                <fullName>Benefit Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Canada</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Insurance_Holder_s_Relationship__c</picklist>
+            <values>
+                <fullName>Domestic Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guardian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prior_Auth_Denied_or_Approved__c</picklist>
+            <values>
+                <fullName>APPROVED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DENIED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Review_Reason__c</picklist>
+            <values>
+                <fullName>Approval to Rejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejection to Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>DE_Benefit</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>DE_Benefit_Compact_Layout</compactLayoutAssignment>
+        <description>Germany Benefits</description>
+        <label>DE Benefit</label>
+        <picklistValues>
+            <picklist>Benefit_Hierarchy__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tertiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CA_Benefit_Plan_Year_Type__c</picklist>
+            <values>
+                <fullName>Benefit Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country__c</picklist>
+            <values>
+                <fullName>Germany</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Insurance_Holder_s_Relationship__c</picklist>
+            <values>
+                <fullName>Domestic Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guardian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prior_Auth_Denied_or_Approved__c</picklist>
+            <values>
+                <fullName>APPROVED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DENIED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Review_Reason__c</picklist>
+            <values>
+                <fullName>Approval to Rejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejection to Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Member_Id__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Benefit_Hierarchy__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Payor__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Authorization_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Auth_Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Effective_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Insurant_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Co_Pay__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Member_Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Benefit_Hierarchy__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Payor__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Coverage__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Co_Pay__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insurant_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Auth_Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Auth_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Effective_Date__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Member_Id__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Benefit_Hierarchy__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Payor__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Coverage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Co_Pay__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insurant_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Auth_Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Auth_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Effective_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Auth_End_Date_Greater_Than_Start_Date</fullName>
+        <active>false</active>
+        <description>Rule to check if the auth end date should be greater than auth start date</description>
+        <errorConditionFormula>Auth_Start_Date__c &gt;  Auth_End_Date__c</errorConditionFormula>
+        <errorMessage>Auth End Date should be greater than Auth Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CA_Auth_End_Date_Greater_Dan_Start_Date</fullName>
+        <active>true</active>
+        <description>Rule to check if the auth end date should be greater than auth start date</description>
+        <errorConditionFormula>AND( 
+   BEGINS(RecordType.DeveloperName, &apos;CA_&apos;), 
+NOT(ISBLANK(Auth_Start_Date__c )),
+NOT(ISBLANK(Auth_End_Date__c)),
+Auth_Start_Date__c &gt;  Auth_End_Date__c
+)</errorConditionFormula>
+        <errorMessage>Auth End Date should be greater than Auth Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CA_Policy_Holder_Age_Required</fullName>
+        <active>true</active>
+        <description>Policy Holder Age is required if the relationship with the Policy Holder is not &apos;Self&apos;.</description>
+        <errorConditionFormula>AND ( 
+NOT($Profile.Name = &quot;System Administrator&quot;), 
+NOT($Profile.Name = &quot;Data Integrator&quot;), 
+BEGINS(RecordType.DeveloperName, &apos;CA_&apos;), 
+NOT(ISPICKVAL( Insurance_Holder_s_Relationship__c, &apos;Self&apos;)),
+ISBLANK(  Primary_Policy_Holder_Birth_Date__c ))</errorConditionFormula>
+        <errorMessage>Policy Holder Age is also required if the relationship with the Policy Holder is not &apos;Self&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CA_Policy_Holder_Name_Required</fullName>
+        <active>true</active>
+        <description>Policy Holder Name is required if the relationship with the Policy Holder is not &apos;Self&apos;.</description>
+        <errorConditionFormula>AND ( 
+NOT($Profile.Name = &quot;System Administrator&quot;), 
+NOT($Profile.Name = &quot;Data Integrator&quot;), 
+BEGINS(RecordType.DeveloperName, &apos;CA_&apos;), 
+NOT(ISPICKVAL( Insurance_Holder_s_Relationship__c, &apos;Self&apos;)),
+ISBLANK( Policy_Holder_Name__c ))</errorConditionFormula>
+        <errorMessage>Policy Holder Name is required if the relationship with the Policy Holder is not &apos;Self&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CA_Req_Fields_Check_For_Benefit_Create</fullName>
+        <active>true</active>
+        <description>Check on the required fields for Benefits creation for Canada Benefits.</description>
+        <errorConditionFormula>AND (
+NOT($Profile.Name = &quot;System Administrator&quot;), 
+NOT($Profile.Name = &quot;Data Integrator&quot;),
+        BEGINS(RecordType.DeveloperName, &apos;CA_&apos;), 
+	OR (
+		ISBLANK(Policy_Number__c),
+		ISBLANK(Payor__c),
+		ISBLANK(TEXT(Benefit_Hierarchy__c))
+	)
+)</errorConditionFormula>
+        <errorMessage>Policy Number, Payor, Benefit Hierarchy information are required to save a Benefit.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DE_Auth_End_Date_Greater_Dan_Start_Date</fullName>
+        <active>true</active>
+        <description>Rule to check if the auth end date should be greater than auth start date</description>
+        <errorConditionFormula>AND( 
+   BEGINS(RecordType.DeveloperName, &apos;DE_&apos;), 
+Auth_Start_Date__c &gt;  Auth_End_Date__c
+)</errorConditionFormula>
+        <errorMessage>Auth End Date should be greater than Auth Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DE_Member_Id_Should_B_10_Char_In_Length</fullName>
+        <active>true</active>
+        <description>Member Id tied to Benefit should be 10 characters in length</description>
+        <errorConditionFormula>AND(
+   BEGINS(RecordType.DeveloperName, &apos;DE_&apos;), 
+ISNEW(),
+NOT (ISBLANK( Member_Id__c )),
+NOT ( LEN(Member_Id__c) = 10 ) 
+)</errorConditionFormula>
+        <errorMessage>&apos;Member Id&apos; should be 10 characters in Length.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DE_Req_Fields_Check_For_Benefit_Create</fullName>
+        <active>true</active>
+        <description>Check on the required fields for Benefits creation for Germany Benefits.</description>
+        <errorConditionFormula>AND (
+NOT($Profile.Name = &quot;System Administrator&quot;), 
+NOT($Profile.Name = &quot;Data Integrator&quot;),
+        BEGINS(RecordType.DeveloperName, &apos;DE_&apos;), 
+	OR (
+		ISBLANK(Member_Id__c),
+		ISBLANK(Payor__c),
+		ISBLANK(TEXT(Benefit_Hierarchy__c))
+	)
+)</errorConditionFormula>
+        <errorMessage>Member Id, Payor, Benefit Hierarchy information are required to save a Benefit.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Member_Id_Should_Be_10_Chars_In_Length</fullName>
+        <active>false</active>
+        <description>Member Id tied to Benefit should be 10 characters in length</description>
+        <errorConditionFormula>AND(
+ISNEW(),
+NOT (ISBLANK( Member_Id__c )),
+NOT ( LEN(Member_Id__c) = 10 ) 
+)</errorConditionFormula>
+        <errorMessage>&apos;Member Id&apos; should be 10 characters in Length.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Required_Fields_Check_For_Benefit_Create</fullName>
+        <active>false</active>
+        <description>Check on the required fields for Benefits creation for Germany Benefits.</description>
+        <errorConditionFormula>AND (
+NOT($Profile.Name = &quot;System Administrator&quot;), 
+NOT($Profile.Name = &quot;Data Integrator&quot;), 
+	RecordType.DeveloperName = &apos;DE_Benefit&apos;,
+	OR (
+		ISBLANK(Member_Id__c),
+		ISBLANK(Payor__c),
+		ISBLANK(TEXT(Benefit_Hierarchy__c))
+	)
+)</errorConditionFormula>
+        <errorMessage>Member Id, Payor, Benefit Hierarchy information are required to save a Benefit.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

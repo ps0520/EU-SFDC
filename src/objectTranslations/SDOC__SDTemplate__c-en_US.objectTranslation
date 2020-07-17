@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- SDoc Templates For Austria --></description>
+        <label><!-- AT SDoc Template --></label>
+        <name>AT_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SDoc Templates For Canada --></description>
+        <label><!-- CA SDoc Template --></label>
+        <name>CA_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SDoc Templates For Switzerland --></description>
+        <label><!-- CH SDoc Template --></label>
+        <name>CH_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SDoc Templates For Germany --></description>
+        <label><!-- DE SDoc Template --></label>
+        <name>DE_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SDoc Templates For Distributors --></description>
+        <label><!-- Distributor SDoc Template --></label>
+        <name>Distributor_sDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- sDoc Templates For Great Britain --></description>
+        <label><!-- GB SDoc Template --></label>
+        <name>GB_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- sDoc Templates For Ireland --></description>
+        <label><!-- IE SDoc Template --></label>
+        <name>IE_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- INTL SDoc Template --></description>
+        <label><!-- INTL SDoc Template --></label>
+        <name>INTL_SDoc_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- SI SDoc Template --></description>
+        <label><!-- SI SDoc Template --></label>
+        <name>SI_SDoc_Template</name>
+    </recordTypes>
+</CustomObjectTranslation>

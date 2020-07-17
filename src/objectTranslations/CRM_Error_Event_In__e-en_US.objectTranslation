@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CRM Error Event In</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CRM Error Events In</value>
+    </caseValues>
+    <fields>
+        <label><!-- code --></label>
+        <name>code__c</name>
+    </fields>
+    <fields>
+        <label><!-- entityType --></label>
+        <name>entityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventDate --></label>
+        <name>eventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- eventSource --></label>
+        <name>eventSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- key --></label>
+        <name>key__c</name>
+    </fields>
+    <fields>
+        <label><!-- message --></label>
+        <name>message__c</name>
+    </fields>
+    <fields>
+        <label><!-- payload --></label>
+        <name>payload__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

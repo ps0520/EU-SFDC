@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Audit Tracker</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Audit Trackers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Audit Field Name --></label>
+        <name>Audit_Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation><!-- Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents Previous Order</masterLabel>
+            <translation><!-- Documents Previous Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original Prescription</masterLabel>
+            <translation><!-- Original Prescription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payor</masterLabel>
+            <translation><!-- Payor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation><!-- Products --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Verified --></label>
+        <name>Field_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>Object_Id__c</name>
+        <relationshipLabel><!-- Audit Trackers --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Audit Tracker Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

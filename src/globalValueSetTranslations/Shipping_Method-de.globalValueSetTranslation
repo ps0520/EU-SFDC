@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>000001_CADS_D_P1</masterLabel>
+        <translation><!-- 000001_CADS_D_P1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_CADS_D_P2</masterLabel>
+        <translation><!-- 000001_CADS_D_P2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_CADS_D_PS</masterLabel>
+        <translation><!-- 000001_CADS_D_PS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_CADS_P_3DS</masterLabel>
+        <translation><!-- 000001_CADS_P_3DS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_CADS_P_CX</masterLabel>
+        <translation><!-- 000001_CADS_P_CX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_FEDEX_A_1DA</masterLabel>
+        <translation><!-- 000001_FEDEX_A_1DA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>000001_FEDEX_A_INTERPRIO</masterLabel>
+        <translation><!-- 000001_FEDEX_A_INTERPRIO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Economy - EUR 0.00</masterLabel>
+        <translation><!-- ATS Economy - EUR 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Economy - EUR 14.87</masterLabel>
+        <translation><!-- ATS Economy - EUR 14.87 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Pre-12 - EUR 0</masterLabel>
+        <translation><!-- ATS Pre-12 - EUR 0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Pre-12 - EUR 47</masterLabel>
+        <translation><!-- ATS Pre-12 - EUR 47 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Pre-9 - EUR 0</masterLabel>
+        <translation><!-- ATS Pre-9 - EUR 0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Pre-9 - EUR 81</masterLabel>
+        <translation><!-- ATS Pre-9 - EUR 81 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Priority - EUR 0</masterLabel>
+        <translation><!-- ATS Priority - EUR 0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Priority - EUR 22.50</masterLabel>
+        <translation><!-- ATS Priority - EUR 22.50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Saturday - EUR 0</masterLabel>
+        <translation><!-- ATS Saturday - EUR 0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ATS Saturday - EUR 154</masterLabel>
+        <translation><!-- ATS Saturday - EUR 154 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Economy - CHF 0.00</masterLabel>
+        <translation><!-- CHS Economy - CHF 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Economy - CHF 11.05</masterLabel>
+        <translation><!-- CHS Economy - CHF 11.05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Pre-9 - CHF 0.00</masterLabel>
+        <translation><!-- CHS Pre-9 - CHF 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Pre-9 - CHF 22.60</masterLabel>
+        <translation><!-- CHS Pre-9 - CHF 22.60 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Priority - CHF 0.00</masterLabel>
+        <translation><!-- CHS Priority - CHF 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHS Priority - CHF 13.60</masterLabel>
+        <translation><!-- CHS Priority - CHF 13.60 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canada Post PriorityTM (1-2 business days)</masterLabel>
+        <translation><!-- Canada Post PriorityTM (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canada Post Priority® (1-2 business days)</masterLabel>
+        <translation><!-- Canada Post Priority® (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Canada Post XpresspostTM (3-5 business days)</masterLabel>
+        <translation><!-- Canada Post XpresspostTM (3-5 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Economy</masterLabel>
+        <translation><!-- Distr Economy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Ex Works</masterLabel>
+        <translation><!-- Distr Ex Works --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Fedex Economy</masterLabel>
+        <translation><!-- Distr Fedex Economy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Fedex Priority</masterLabel>
+        <translation><!-- Distr Fedex Priority --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Groupage</masterLabel>
+        <translation><!-- Distr Groupage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Priority</masterLabel>
+        <translation><!-- Distr Priority --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distr Rush</masterLabel>
+        <translation><!-- Distr Rush --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economy (DHL Package)</masterLabel>
+        <translation>Economy (DHL PAKET)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economy - EUR 6.67</masterLabel>
+        <translation><!-- Economy - EUR 6.67 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FedEx Economy® (3-5 business days)</masterLabel>
+        <translation><!-- FedEx Economy® (3-5 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FedEx Priority Overnight (1-2 business days)</masterLabel>
+        <translation><!-- FedEx Priority Overnight (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FedEx Priority Overnight® (1-2 business days)</masterLabel>
+        <translation><!-- FedEx Priority Overnight® (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Pre-10.30 - GBP 0.00</masterLabel>
+        <translation><!-- GBS Pre-10.30 - GBP 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Pre-12 - GBP 0.00</masterLabel>
+        <translation><!-- GBS Pre-12 - GBP 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Pre-12 - GBP 11.38</masterLabel>
+        <translation><!-- GBS Pre-12 - GBP 11.38 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Priority - GBP 0.00</masterLabel>
+        <translation><!-- GBS Priority - GBP 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Priority - GBP 8.14</masterLabel>
+        <translation><!-- GBS Priority - GBP 8.14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Saturday - GBP 0.00</masterLabel>
+        <translation><!-- GBS Saturday - GBP 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GBS Saturday - GBP 18.38</masterLabel>
+        <translation><!-- GBS Saturday - GBP 18.38 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GSB Pre-10.30 - GBP 18.38</masterLabel>
+        <translation><!-- GSB Pre-10.30 - GBP 18.38 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Pre-12 - EUR 0.00</masterLabel>
+        <translation><!-- IES Pre-12 - EUR 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Pre-12 - EUR 37.98</masterLabel>
+        <translation><!-- IES Pre-12 - EUR 37.98 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Pre-9 - EUR 0.00</masterLabel>
+        <translation><!-- IES Pre-9 - EUR 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Pre-9 - EUR 62.98</masterLabel>
+        <translation><!-- IES Pre-9 - EUR 62.98 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Priority - EUR 0.00</masterLabel>
+        <translation><!-- IES Priority - EUR 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Priority - EUR 21.62</masterLabel>
+        <translation><!-- IES Priority - EUR 21.62 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Saturday - 170 EUR</masterLabel>
+        <translation><!-- IES Saturday - 170 EUR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IES Saturday - EUR 0.00</masterLabel>
+        <translation><!-- IES Saturday - EUR 0.00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Next Business Day Before 12 (Miscellaneous)</masterLabel>
+        <translation>Next day vor 12 (Diverse)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Next Business Day Before 9 (Miscellaneous)</masterLabel>
+        <translation>Next day vor 9 (Diverse)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Priority (DHL Express)</masterLabel>
+        <translation>Priority (DHL Express)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purolator Express (1-2 business days)</masterLabel>
+        <translation><!-- Purolator Express (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purolator Express® (1-2 business days)</masterLabel>
+        <translation><!-- Purolator Express® (1-2 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purolator Ground (3-5 business days)</masterLabel>
+        <translation><!-- Purolator Ground (3-5 business days) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SIS Economy</masterLabel>
+        <translation><!-- SIS Economy --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SIS Pre-12</masterLabel>
+        <translation><!-- SIS Pre-12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SIS Priority</masterLabel>
+        <translation><!-- SIS Priority --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Saturday Delivery (Miscellaneous)</masterLabel>
+        <translation>Samstagszustellung (Diverse)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>null</masterLabel>
+        <translation><!-- null --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

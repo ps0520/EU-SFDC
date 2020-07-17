@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Feedbacks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Customer Feedbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- High Level Feedback --></label>
+        <name>High_Level_Feedback_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>Note_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>Resolution_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 400 Data Entry</masterLabel>
+            <translation><!-- Code 400 Data Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 401 Billing Error</masterLabel>
+            <translation><!-- Code 401 Billing Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 402 Shipping Error</masterLabel>
+            <translation><!-- Code 402 Shipping Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 403 Fulfillment Error</masterLabel>
+            <translation><!-- Code 403 Fulfillment Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 404 Order Entry</masterLabel>
+            <translation><!-- Code 404 Order Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 405 Lack of Follow Up</masterLabel>
+            <translation><!-- Code 405 Lack of Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 406 Distributor</masterLabel>
+            <translation><!-- Code 406 Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 407 Phone</masterLabel>
+            <translation><!-- Code 407 Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 408 Clarity of Process</masterLabel>
+            <translation><!-- Code 408 Clarity of Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 409 Quoting Error</masterLabel>
+            <translation><!-- Code 409 Quoting Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 410 Insurance</masterLabel>
+            <translation><!-- Code 410 Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 411 Online Store</masterLabel>
+            <translation><!-- Code 411 Online Store --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

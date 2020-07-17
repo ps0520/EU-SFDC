@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Records possible default values when creating Tech Support Order</description>
+    <fields>
+        <fullName>Default_Shipping_Method__c</fullName>
+        <description>Default shipping method to be used by country</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Shipping Method</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warehouse__c</fullName>
+        <description>Possible warehouse that can be shipped from</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Warehouse</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HLNL</fullName>
+                    <default>true</default>
+                    <label>HLNL</label>
+                </value>
+                <value>
+                    <fullName>HLCH</fullName>
+                    <default>false</default>
+                    <label>HLCH</label>
+                </value>
+                <value>
+                    <fullName>HLUK</fullName>
+                    <default>false</default>
+                    <label>HLUK</label>
+                </value>
+                <value>
+                    <fullName>DESD</fullName>
+                    <default>false</default>
+                    <label>DESD</label>
+                </value>
+                <value>
+                    <fullName>DEX</fullName>
+                    <default>false</default>
+                    <label>DEX</label>
+                </value>
+                <value>
+                    <fullName>SDX</fullName>
+                    <default>false</default>
+                    <label>SDX</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Tech Order Default Mapping</label>
+    <listViews>
+        <fullName>Warehouse_Shipping_Method_Mapping</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Warehouse__c</columns>
+        <columns>Default_Shipping_Method__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Warehouse Shipping Method Mapping</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Tech Order Default Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

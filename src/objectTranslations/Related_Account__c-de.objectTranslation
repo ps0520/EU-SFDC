@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Related Account --></value>
+    </caseValues>
+    <fields>
+        <label>Verordner</label>
+        <name>Child_Account__c</name>
+        <relationshipLabel>Medizinische Einrichtungen &amp; Krankenhäuser</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Child Relation Type --></label>
+        <name>Child_Relation_Type__c</name>
+    </fields>
+    <fields>
+        <label>Medizinische Einrichtung</label>
+        <name>Parent_Account__c</name>
+        <relationshipLabel>Verordner</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Relation Type --></label>
+        <name>Parent_Relation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address_Full_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address__c</name>
+        <relationshipLabel><!-- Related Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preferred Email --></label>
+        <name>Preferred_Email__c</name>
+    </fields>
+    <fields>
+        <label>Betriebsstättennummer</label>
+        <name>Prescriber_Operations_Site_Number__c</name>
+    </fields>
+    <fields>
+        <label>Hauptaccount</label>
+        <name>Primary_Flag__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Related Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Relation Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Informationen zur Medizinischen Einrichtung und zum Verordner werden benötigt</errorMessage>
+        <name>Check_If_Both_Med_Fac_Prescriber_Exist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent and Child Accounts must be selected. --></errorMessage>
+        <name>Check_If_Both_Parent_Child_Exist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Both Parent and Child accounts cannot be one and the same. --></errorMessage>
+        <name>Check_If_Parent_Child_Are_Same</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent and Child accounts should belong to the same country. --></errorMessage>
+        <name>Check_Parent_Child_Country</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payor Billing Address can only be selected when there is a Payor association. --></errorMessage>
+        <name>Check_Payor_Billing_Address_Fill</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pharmacy can be associated to only Pharmacy accounts. --></errorMessage>
+        <name>Check_Pharmacy_To_Pharmacy_Assoc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Prescriber can be related to only Medical Facility or a Hospital. --></errorMessage>
+        <name>Check_Prescriber_To_Payor_Assoc</name>
+    </validationRules>
+</CustomObjectTranslation>

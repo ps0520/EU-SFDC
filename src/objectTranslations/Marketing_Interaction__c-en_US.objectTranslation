@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Interaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marketing Interactions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Marketing Interactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Communication Type --></label>
+        <name>Communication_Type__c</name>
+        <picklistValues>
+            <masterLabel>CA - Customer Onboarding</masterLabel>
+            <translation><!-- CA - Customer Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Product Onboarding - G5</masterLabel>
+            <translation><!-- CA - Product Onboarding - G5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Product Onboarding - G6</masterLabel>
+            <translation><!-- CA - Product Onboarding - G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Reorder Reminder - G5</masterLabel>
+            <translation><!-- CA - Reorder Reminder - G5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Reorder Reminder - G6 Starter Kit</masterLabel>
+            <translation><!-- CA - Reorder Reminder - G6 Starter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Subscription Upsell - G6</masterLabel>
+            <translation><!-- CA - Subscription Upsell - G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKIE - Customer Onboarding - G6</masterLabel>
+            <translation><!-- UKIE - Customer Onboarding - G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKIE - Customer Review</masterLabel>
+            <translation><!-- UKIE - Customer Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKIE - Subscription Renewal - G6</masterLabel>
+            <translation><!-- UKIE - Subscription Renewal - G6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKIE - Warrior Recruitment</masterLabel>
+            <translation><!-- UKIE - Warrior Recruitment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Information --></label>
+        <name>Related_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Record Id --></label>
+        <name>Source_Record_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Marketing Interaction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

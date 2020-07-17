@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PIAF</fullName>
+        <default>false</default>
+        <label>PIAF</label>
+    </customValue>
+    <customValue>
+        <fullName>CMN</fullName>
+        <default>false</default>
+        <label>CMN</label>
+    </customValue>
+    <customValue>
+        <fullName>T1D Note</fullName>
+        <default>false</default>
+        <label>T1D Note</label>
+    </customValue>
+    <customValue>
+        <fullName>Claim Form</fullName>
+        <default>false</default>
+        <label>Claim Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Prior-Auth Form</fullName>
+        <default>false</default>
+        <label>Prior-Auth Form</label>
+    </customValue>
+    <customValue>
+        <fullName>A1C</fullName>
+        <default>false</default>
+        <label>A1C</label>
+    </customValue>
+    <customValue>
+        <fullName>BG Logs</fullName>
+        <default>false</default>
+        <label>BG Logs</label>
+    </customValue>
+    <customValue>
+        <fullName>CGM Quest</fullName>
+        <default>false</default>
+        <label>CGM Quest</label>
+    </customValue>
+    <customValue>
+        <fullName>LIC</fullName>
+        <default>false</default>
+        <label>LIC</label>
+    </customValue>
+    <customValue>
+        <fullName>Pregnancy RX</fullName>
+        <default>false</default>
+        <label>Pregnancy RX</label>
+    </customValue>
+    <customValue>
+        <fullName>Narrative Letter</fullName>
+        <default>false</default>
+        <label>Narrative Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Subscription Agreement</fullName>
+        <default>false</default>
+        <label>Subscription Agreement</label>
+    </customValue>
+    <customValue>
+        <fullName>Rental Contract Dexcom G6</fullName>
+        <default>false</default>
+        <label>Rental Contract Dexcom G6</label>
+    </customValue>
+    <customValue>
+        <fullName>SSP Dexcom Transmitter G6</fullName>
+        <default>false</default>
+        <label>SSP Dexcom Transmitter G6</label>
+    </customValue>
+    <customValue>
+        <fullName>SSP Dexcom G6</fullName>
+        <default>false</default>
+        <label>SSP Dexcom G6</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Estimate</fullName>
+        <default>false</default>
+        <label>Cost Estimate</label>
+    </customValue>
+    <description>Documents required by Payors in Canada.</description>
+    <masterLabel>CA Payor Docs Required</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

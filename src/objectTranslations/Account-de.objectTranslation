@@ -1,0 +1,2919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account 18 Digit Id --></label>
+        <name>Account_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Payor SSIP Rules Override --></label>
+        <name>Active_Payor_SSIP_Rules_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Start Date --></label>
+        <name>Active_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Line 2 (S-Docs) --></label>
+        <name>Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Line 3 (S-Docs) --></label>
+        <name>Address_Line_3_S_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- BG Unit of Measure --></label>
+        <name>BG_Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>mg/dL</masterLabel>
+            <translation><!-- mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mmol/L</masterLabel>
+            <translation><!-- mmol/L --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transmitter Generation --></label>
+        <name>Badges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Below 50mg/dl in Last 3 Months --></label>
+        <name>Below_50mg_dl_in_Last_3_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Phone --></label>
+        <name>Benefit_Customer_Service_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurant Status --></label>
+        <name>Benefit_Insurant_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member ID --></label>
+        <name>Benefit_Member_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Service Phone --></label>
+        <name>Benefit_Provider_Service_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Benefit --></label>
+        <name>Benefit__c</name>
+        <relationshipLabel>Accounts</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Blind? --></label>
+        <name>Blind__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details about the Coverage provided by the Insurance/Government Agency. --></help>
+        <label><!-- Coverage Details --></label>
+        <name>CA_Coverage_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- To whom is the Pre-Auth Determination communicated --></help>
+        <label><!-- Determination Response Sent To --></label>
+        <name>CA_Determination_Response_Sent_To__c</name>
+        <picklistValues>
+            <masterLabel>Dexcom Only</masterLabel>
+            <translation><!-- Dexcom Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient &amp; Dexcom</masterLabel>
+            <translation><!-- Patient &amp; Dexcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Only</masterLabel>
+            <translation><!-- Patient Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Docs that need to be submitted to Insurance/Government Agency for Pre-Auth --></help>
+        <label><!-- Docs Required --></label>
+        <name>CA_Docs_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Method(s) of Determination Communication --></help>
+        <label><!-- Response Method --></label>
+        <name>CA_Response_Communication_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Account</masterLabel>
+            <translation><!-- Online Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Not used anymore, please refer to Opportunity. --></help>
+        <label>Rezept Ablaufdatum</label>
+        <name>CMN_or_Rx_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Zertifizierter Dexcom Trainer</label>
+        <name>Cert_Dexcom_Instructor__c</name>
+        <picklistValues>
+            <masterLabel>G4 Certified</masterLabel>
+            <translation>G4 Zertifiziert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4 Certified plus does Training</masterLabel>
+            <translation>G4 Zertifiziert und Patientenschulung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Certified</masterLabel>
+            <translation>G5 Zertifiziert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5 Certified plus does Training</masterLabel>
+            <translation>G5 Zertifiziert und Patientenschulung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6 Certified</masterLabel>
+            <translation>G6 Zertifiziert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6 Certified plus does Training</masterLabel>
+            <translation>G6 Zertifiziert und Patientenschulung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Keine</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Datum Zertifizierung</label>
+        <name>Cert_Instructor_Date__c</name>
+    </fields>
+    <fields>
+        <label>Zertifizierter Trainer</label>
+        <name>Certified_Trainer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label>Mitbewerber</label>
+        <name>Competitive_Info__c</name>
+        <picklistValues>
+            <masterLabel>Abbott</masterLabel>
+            <translation><!-- Abbott --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medtronic</masterLabel>
+            <translation><!-- Medtronic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roche</masterLabel>
+            <translation><!-- Roche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senseonics</masterLabel>
+            <translation><!-- Senseonics --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Einwilligungserklärung Daten</label>
+        <name>Consent_From_Patient_data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Details --></label>
+        <name>Contact_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Billing To Shipping --></label>
+        <name>Copy_Billing_To_Shipping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Shipping To Billing --></label>
+        <name>Copy_Shipping_To_Billing__c</name>
+    </fields>
+    <fields>
+        <label>Land</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Hold --></label>
+        <name>Credit_Hold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Id --></label>
+        <name>Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOB EU Format --></label>
+        <name>DOB_EU_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOB US Format --></label>
+        <name>DOB_US_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Term --></label>
+        <name>Delivery_Term__c</name>
+    </fields>
+    <fields>
+        <label>Information</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>Dexcom Decile</label>
+        <name>Dexcom_Decile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dexcom ID --></label>
+        <name>Dexcom_ID__c</name>
+    </fields>
+    <fields>
+        <label>Dexcom Rang</label>
+        <name>Dexcom_Tier__c</name>
+        <picklistValues>
+            <masterLabel>A-3</masterLabel>
+            <translation><!-- A-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B-2</masterLabel>
+            <translation><!-- B-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-1</masterLabel>
+            <translation><!-- C-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D-0</masterLabel>
+            <translation><!-- D-0 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Komplikationen bzgl. Diabetes</label>
+        <name>Diabetes_Related_Complications__c</name>
+    </fields>
+    <fields>
+        <label>Krankenhausbesuche bzgl. Diabetes</label>
+        <name>Diabetes_Related_Hospital_Visits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis Code 1 --></label>
+        <name>Diagnosis_Code_1__c</name>
+        <picklistValues>
+            <masterLabel>Andere</masterLabel>
+            <translation><!-- Andere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 1</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 2</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 3</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis Code 2 --></label>
+        <name>Diagnosis_Code_2__c</name>
+        <picklistValues>
+            <masterLabel>Andere</masterLabel>
+            <translation><!-- Andere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 1</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 2</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus Typ 3</masterLabel>
+            <translation><!-- Diabetes Mellitus Typ 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis Code --></label>
+        <name>Diagnosis_Code__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Bezirk</label>
+        <name>District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Efficacy Status --></label>
+        <name>Efficacy_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assessment Needed</masterLabel>
+            <translation><!-- Assessment Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Hold</masterLabel>
+            <translation><!-- Training Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watch List</masterLabel>
+            <translation><!-- Watch List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Double Opt In Subscriber --></label>
+        <name>Email_Double_Opt_In_Subscriber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invoice Opt In --></label>
+        <name>Email_Invoice_Opt_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Language --></label>
+        <name>Email_Opt_In_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Last Modified --></label>
+        <name>Email_Opt_In_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In --></label>
+        <name>Email_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In Method --></label>
+        <name>Email_Opt_In_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt Out Last Modified --></label>
+        <name>Email_Opt_Out_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt Out --></label>
+        <name>Email_Opt_Out_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Pending Opt In Reset --></label>
+        <name>Email_Pending_Opt_In_Reset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Pending Opt In --></label>
+        <name>Email_Pending_Opt_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiate Unsubscribe --></label>
+        <name>Email_Pending_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Betriebsstättennummer</label>
+        <name>Facility_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund --></label>
+        <name>Fund__c</name>
+        <relationshipLabel><!-- Consumers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- G5 Transmitter Ship Date --></label>
+        <name>G5_Transmitter_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Eligible --></label>
+        <name>G6_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Instructions Shipped --></label>
+        <name>G6_Instructions_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Starter Kit Conversion --></label>
+        <name>G6_Starter_Kit_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Starter Kit Ship Date --></label>
+        <name>G6_Starter_Kit_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- G6 Transmitter Ship Date --></label>
+        <name>G6_Transmitter_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label>Geschlecht</label>
+        <name>Gender__c</name>
+    </fields>
+    <fields>
+        <label>HbA1c Ergebnis 1 Datum</label>
+        <name>HbA1c_Result_1_Date__c</name>
+    </fields>
+    <fields>
+        <label>HbA1c Ergebnis 1</label>
+        <name>HbA1c_Result_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- High Priority? --></label>
+        <name>High_Priority__c</name>
+    </fields>
+    <fields>
+        <label>Hoher Blutzuckerwert am Morgen</label>
+        <name>Higher_Glucose_in_Morning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home phone --></label>
+        <name>Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Krankenhausbesuch Notizen</label>
+        <name>Hospital_Visit_Notes__c</name>
+    </fields>
+    <fields>
+        <label>Hypowahrnehmungsstörung</label>
+        <name>Hypoglycemic_Unawareness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dexcom Rank --></label>
+        <name>IQVIA_Dexcom_Rank__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insulin Rank --></label>
+        <name>IQVIA_Insulin_Rank__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LP</masterLabel>
+            <translation><!-- LP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NewRx Rank --></label>
+        <name>IQVIA_NewRx_Rank__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OneKey Id --></label>
+        <name>IQVIA_OneKeyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segmentation --></label>
+        <name>IQVIA_Segmentation__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2</masterLabel>
+            <translation><!-- A2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2</masterLabel>
+            <translation><!-- B2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2</masterLabel>
+            <translation><!-- D2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E2</masterLabel>
+            <translation><!-- E2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LP</masterLabel>
+            <translation><!-- LP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strips Rank --></label>
+        <name>IQVIA_Strips_Rank__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LP</masterLabel>
+            <translation><!-- LP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Inaktivität Grund</label>
+        <name>Inactive_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation>Mitbewerber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deceased</masterLabel>
+            <translation>Verstorben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Account</masterLabel>
+            <translation><!-- Duplicate Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Reason</masterLabel>
+            <translation><!-- Medical Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moved abroad</masterLabel>
+            <translation><!-- Moved abroad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation>kein Interesse</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Inaktiv</label>
+        <name>Inactive__c</name>
+    </fields>
+    <fields>
+        <label>LEGS</label>
+        <name>Insurance_Company_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label>IK Nummer</label>
+        <name>Insurance_Company_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <label>Fehlermeldung Integration</label>
+        <name>Integration_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsFemale --></label>
+        <name>IsFemale__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsMale --></label>
+        <name>IsMale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Admin Account --></label>
+        <name>Is_Admin_Account__c</name>
+    </fields>
+    <fields>
+        <label>Wird Genehmigung vorab benötigt?</label>
+        <name>Is_Prior_Auth_Required__c</name>
+    </fields>
+    <fields>
+        <label>Letztes Sync Datum mit Oracle</label>
+        <name>Last_Sync_Date_With_Oracle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Serial Number --></label>
+        <name>Latest_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Transmitter Shipped --></label>
+        <name>Latest_Transmitter_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Birth Date --></label>
+        <name>Lead_Birth_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Opt In Language --></label>
+        <name>Mail_Opt_In_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Opt In Last Modified --></label>
+        <name>Mail_Opt_In_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tracks the user Mail Opt In value --></help>
+        <label><!-- Mail Opt In --></label>
+        <name>Mail_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Opt In Method --></label>
+        <name>Mail_Opt_In_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Opt In --></label>
+        <name>Mail_Opt_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the date/time when the person Opted Out of Mail --></help>
+        <label><!-- Mail Opt Out Last Modified --></label>
+        <name>Mail_Opt_Out_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the person Mail Opt Out value --></help>
+        <label><!-- Mail Opt Out --></label>
+        <name>Mail_Opt_Out_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Medizinische Einrichtung</label>
+        <name>Medical_Facility__c</name>
+        <relationshipLabel>Medizinische Einrichtung</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NHS Number --></label>
+        <name>NHS_Number__c</name>
+    </fields>
+    <fields>
+        <label>Neukunde?</label>
+        <name>New_Consumer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nickname --></label>
+        <name>Nickname__c</name>
+    </fields>
+    <fields>
+        <label>Nächtliche Hypoglykämie</label>
+        <name>Nightime_Hypoglycemia__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. Of Active SSIP Rules --></label>
+        <name>No_Of_Active_SSIP_Rules__c</name>
+    </fields>
+    <fields>
+        <label>Meldung an KK wenn CGM versendet</label>
+        <name>Notify_HCP_when_CGM_Ships__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Active Payor SSIP Rules --></label>
+        <name>Number_of_Active_Payor_SSIP_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Active SSIP Rules --></label>
+        <name>Number_of_Active_SSIP_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Opportunities --></label>
+        <name>Number_of_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Orders --></label>
+        <name>Number_of_Orders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Subscription Orders --></label>
+        <name>Number_of_Subscription_Orders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Type 1 Patients --></label>
+        <name>Number_of_Type_1_Patients__c</name>
+    </fields>
+    <fields>
+        <label>Email geschäftlich (allgemein)</label>
+        <name>Organzation_Email__c</name>
+    </fields>
+    <fields>
+        <label>Notfalleinsatz im letzten Jahr</label>
+        <name>Paramedic_Visits_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent/Guradian&apos;s First Name. --></help>
+        <label><!-- Parent/Guardian First Name --></label>
+        <name>Parent_Guardian_First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent/Guardian&apos;s Last Name. --></help>
+        <label><!-- Parent/Guardian Last Name --></label>
+        <name>Parent_Guardian_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Id --></label>
+        <name>Party_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient&apos;s Diabetes Type --></label>
+        <name>Patient_Diabetes_Type__c</name>
+        <picklistValues>
+            <masterLabel>Gestational</masterLabel>
+            <translation><!-- Gestational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type 1</masterLabel>
+            <translation><!-- Type 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type 2</masterLabel>
+            <translation><!-- Type 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient Identifier --></label>
+        <name>Patient_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Name --></label>
+        <name>Patient_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address_Full_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payor Billing Address --></label>
+        <name>Payor_Billing_Address__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kostenträger</label>
+        <name>Payor__c</name>
+        <relationshipLabel>Accounts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pädiatrie?</label>
+        <name>Pediatric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Contact 18 Digit Id --></label>
+        <name>Person_Contact_18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Opt In Language --></label>
+        <name>Phone_Opt_In_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Opt In Last Modified --></label>
+        <name>Phone_Opt_In_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tracks the user Phone Opt In value --></help>
+        <label><!-- Phone Opt In --></label>
+        <name>Phone_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Opt In Method --></label>
+        <name>Phone_Opt_In_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Opt In --></label>
+        <name>Phone_Opt_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the date/time when the person Opted Out of Phone --></help>
+        <label><!-- Phone Opt Out Last Modified --></label>
+        <name>Phone_Opt_Out_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the person Phone Opt Out value --></help>
+        <label><!-- Phone Opt Out --></label>
+        <name>Phone_Opt_Out_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Captures the person Phone Opt Out value --></help>
+        <label><!-- Phone Opt Out --></label>
+        <name>Phone_Opt_Out__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+    </fields>
+    <fields>
+        <label>Schwangerschaft/geplante Schwangerschaft</label>
+        <name>Pregnant_or_Planning_Pregnancy__c</name>
+    </fields>
+    <fields>
+        <label>Vertragsarztnummer</label>
+        <name>Prescriber_Id__c</name>
+    </fields>
+    <fields>
+        <label>Betriebsstättennummer</label>
+        <name>Prescriber_Operations_Site_Number__c</name>
+    </fields>
+    <fields>
+        <label>Trainingspräferenz Verordner</label>
+        <name>Prescriber_Training_Preference__c</name>
+    </fields>
+    <fields>
+        <label>Verordner</label>
+        <name>Prescriber__c</name>
+        <relationshipLabel>Patient</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Not used anymore, please refer to Opportunity. --></help>
+        <label><!-- Prescription Receipt Date (Historical) --></label>
+        <name>Prescription_Receipt_Date__c</name>
+    </fields>
+    <fields>
+        <label>Preisbuch</label>
+        <name>Price_Book__c</name>
+        <relationshipLabel>Accounts</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Card (Last 4) --></label>
+        <name>Primary_Card_Last_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Number --></label>
+        <name>Primary_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Credit Card --></label>
+        <name>Primary_Credit_Card__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Phone Contact --></label>
+        <name>Primary_Phone_Contact__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation><!-- Work --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pump Manufacturer --></label>
+        <name>Pump_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>Animas</masterLabel>
+            <translation><!-- Animas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medtronic</masterLabel>
+            <translation><!-- Medtronic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omnipod</masterLabel>
+            <translation><!-- Omnipod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tandem</masterLabel>
+            <translation><!-- Tandem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ypsomed</masterLabel>
+            <translation><!-- Ypsomed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purchaser Name --></label>
+        <name>Purchaser_Name__c</name>
+    </fields>
+    <fields>
+        <label>Account-Datensatztyp</label>
+        <name>Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>Tagsüber wiederkehrende Hypoglykämien?</label>
+        <name>Recurring_Hypoglycemia_During_Day__c</name>
+    </fields>
+    <fields>
+        <label>Region</label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label>Benötigte Dokumente</label>
+        <name>Required_Documents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsible Party Name --></label>
+        <name>Responsible_Party_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- rtCGM Adoption --></label>
+        <name>RtCGM_CGM_Adoption__c</name>
+        <picklistValues>
+            <masterLabel>CGM Prescriber</masterLabel>
+            <translation><!-- CGM Prescriber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dexcom Advocate</masterLabel>
+            <translation><!-- Dexcom Advocate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dexcom Prescriber </masterLabel>
+            <translation><!-- Dexcom Prescriber  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Interest in Dexcom</masterLabel>
+            <translation><!-- No Interest in Dexcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Interest in rtCGM</masterLabel>
+            <translation><!-- No Interest in rtCGM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- rtCGM Prescriber? --></label>
+        <name>RtCGM_Prescriber__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Not used anymore, please refer to Opportunity. --></help>
+        <label>Rezept Erstellungsdatum</label>
+        <name>Rx_Date_Written__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFCC Account Id --></label>
+        <name>SFCC_Account_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Account on Commerce Cloud is Locked. --></help>
+        <label><!-- SFCC Account Locked? --></label>
+        <name>SFCC_Login_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt In Language --></label>
+        <name>SMS_Opt_In_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt In Last Modified --></label>
+        <name>SMS_Opt_In_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tracks the user SMS Opt In value --></help>
+        <label><!-- SMS Opt In --></label>
+        <name>SMS_Opt_In_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt In Method --></label>
+        <name>SMS_Opt_In_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt In --></label>
+        <name>SMS_Opt_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the date/time when the person Opted Out of SMS --></help>
+        <label><!-- SMS Opt Out Last Modified --></label>
+        <name>SMS_Opt_Out_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures the person SMS Opt Out value --></help>
+        <label><!-- SMS Opt Out --></label>
+        <name>SMS_Opt_Out_List__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SOS Unique ID --></label>
+        <name>SOS_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Price Book --></label>
+        <name>Sample_Price_Book__c</name>
+        <relationshipLabel><!-- Accounts (Sample Price Book) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Email weitere</label>
+        <name>Secondary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send To Oracle --></label>
+        <name>Send_To_Oracle__c</name>
+    </fields>
+    <fields>
+        <label>Reaktion auf Insulin?</label>
+        <name>Sensitive_to_Insulin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Study ID --></label>
+        <name>Study_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation><!-- Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCG</masterLabel>
+            <translation><!-- CCG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic</masterLabel>
+            <translation><!-- Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt Insurance</masterLabel>
+            <translation><!-- Govt Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intl Corp Clinic</masterLabel>
+            <translation><!-- Intl Corp Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intl Corp NC Clinic</masterLabel>
+            <translation><!-- Intl Corp NC Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Facility</masterLabel>
+            <translation><!-- Medical Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Assistant</masterLabel>
+            <translation><!-- Physician Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescriber</masterLabel>
+            <translation><!-- Prescriber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Insurance</masterLabel>
+            <translation><!-- Private Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Practice</masterLabel>
+            <translation><!-- Private Practice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscription Pending Payments --></label>
+        <name>Subscription_Pending_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Status --></label>
+        <name>Sync_Status__c</name>
+        <picklistValues>
+            <masterLabel>Create - Sent</masterLabel>
+            <translation><!-- Create - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge - Sent</masterLabel>
+            <translation><!-- Merge - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merged</masterLabel>
+            <translation><!-- Merged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update - Sent</masterLabel>
+            <translation><!-- Update - Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin ID --></label>
+        <name>System_Of_Origin_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Of Origin --></label>
+        <name>System_Of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Exempt --></label>
+        <name>Tax_Exempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Registration Number --></label>
+        <name>Tax_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Replacement Price Book --></label>
+        <name>Tech_Replacement_Price_Book__c</name>
+        <relationshipLabel><!-- Accounts (Tech Replacement Price Book) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gebietsname</label>
+        <name>Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>Gebiet</label>
+        <name>Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation><!-- Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2</masterLabel>
+            <translation><!-- Tier 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 3</masterLabel>
+            <translation><!-- Tier 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trainer --></label>
+        <name>Trainer_del__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Technische Einweisung Datum</label>
+        <name>Training_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Preference --></label>
+        <name>Training_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Initial Training by Sales Rep</masterLabel>
+            <translation><!-- Initial Training by Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Training done by Webinar</masterLabel>
+            <translation><!-- Initial Training done by Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Training in Doctors Office</masterLabel>
+            <translation><!-- Initial Training in Doctors Office --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Technische Einweisung erhalten (hist)</label>
+        <name>Training_Received__c</name>
+        <picklistValues>
+            <masterLabel>Doctor&apos;s Office</masterLabel>
+            <translation><!-- Doctor&apos;s Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep</masterLabel>
+            <translation><!-- Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Art der Insulintherapie</label>
+        <name>Type_of_Insulin_Therapy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Accounts --></label>
+        <name>Unique_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>Unit_Of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Kgs</masterLabel>
+            <translation><!-- Kgs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lbs.</masterLabel>
+            <translation><!-- Lbs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mg/dL</masterLabel>
+            <translation><!-- mg/dL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mmol/L</masterLabel>
+            <translation><!-- mmol/L --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT Valid --></label>
+        <name>VAT_Valid__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIP? --></label>
+        <name>VIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Email --></label>
+        <name>Valid_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse__c</name>
+        <picklistValues>
+            <masterLabel>HLCH</masterLabel>
+            <translation><!-- HLCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLNL</masterLabel>
+            <translation><!-- HLNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLUK</masterLabel>
+            <translation><!-- HLUK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDDEXINTL</masterLabel>
+            <translation><!-- SDDEXINTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDX</masterLabel>
+            <translation><!-- SDX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight_With_UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <label>Postleitzahl</label>
+        <name>Zip_To_Align__c</name>
+    </fields>
+    <layouts>
+        <layout>AT Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Information --></label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training &amp; Consent Information --></label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AT Medical Facility Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AT Payor Layout</layout>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Required Documentation --></label>
+            <section>Required Documentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AT Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Double Opt In Information --></label>
+            <section>Email Double Opt In Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt Out Information --></label>
+            <section>Email Opt Out Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Out Information - SMS, Phone, Mail --></label>
+            <section>Opt In/Out Information - SMS, Phone, Mail</section>
+        </sections>
+        <sections>
+            <label><!-- Purchases Related Information --></label>
+            <section>Purchases Related Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Hospital Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Hospital Layout ReadOnly</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Payor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage, Docs &amp; Comms --></label>
+            <section>Coverage, Docs &amp; Comms</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Payor Layout ReadOnly</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage, Docs &amp; Comms --></label>
+            <section>Coverage, Docs &amp; Comms</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CA Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Section --></label>
+            <section>Contact Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Information --></label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Training &amp; Consent Information --></label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Medical Facility Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Payor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Required Documentation --></label>
+            <section>Required Documentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Consumer Layout For Field Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zur Gesundeitsversorgung</label>
+            <section>Health Care Information</section>
+        </sections>
+        <sections>
+            <label>Kostenträger Information</label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label>Medizinische Einrichtung&amp;Verordner Information</label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label>Technische Einweisung &amp; Einwilligung Daten Informationen</label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zur Gesundeitsversorgung</label>
+            <section>Health Care Information</section>
+        </sections>
+        <sections>
+            <label>Kostenträger Information</label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label>Medizinische Einrichtung&amp;Verordner Information</label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label>Technische Einweisung &amp; Einwilligung Daten Informationen</label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Consumer Layout For Inside Sales - Admin</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zur Gesundeitsversorgung</label>
+            <section>Health Care Information</section>
+        </sections>
+        <sections>
+            <label>Kostenträger Information</label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label>Medizinische Einrichtung&amp;Verordner Information</label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label>Technische Einweisung &amp; Einwilligung Daten Informationen</label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Hospital Layout</layout>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Medical Facility Layout</layout>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Payor Layout</layout>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Benötigte Dokumentation</label>
+            <section>Required Documentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DE Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Informationen zum Abgleich</label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt Informationen</label>
+            <section>Contact Section</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EU Consumer Layout For Tech Support</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Health Care Information --></label>
+            <section>Health Care Information</section>
+        </sections>
+        <sections>
+            <label><!-- Prescription Information --></label>
+            <section>Prescription Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training &amp; Consent Information --></label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Conversation View --></label>
+            <section>Conversation View</section>
+        </sections>
+        <sections>
+            <label><!-- Email Double Opt In Information --></label>
+            <section>Email Double Opt In Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt Out Information --></label>
+            <section>Email Opt Out Information</section>
+        </sections>
+        <sections>
+            <label><!-- Health Care Info --></label>
+            <section>Health Care Info</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Out Information - SMS, Phone, Mail --></label>
+            <section>Opt In/Out Information - SMS, Phone, Mail</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Information --></label>
+            <section>Oracle EBS Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Purchases Related Information --></label>
+            <section>Purchases Related Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Medical Facility Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Payor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Pharmacy Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GB Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Conversation View --></label>
+            <section>Conversation View</section>
+        </sections>
+        <sections>
+            <label><!-- Email Double Opt In Information --></label>
+            <section>Email Double Opt In Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt Out Information --></label>
+            <section>Email Opt Out Information</section>
+        </sections>
+        <sections>
+            <label><!-- Health Care Info --></label>
+            <section>Health Care Info</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Out Information - SMS, Phone, Mail --></label>
+            <section>Opt In/Out Information - SMS, Phone, Mail</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Information --></label>
+            <section>Oracle EBS Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Medical Facility Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Payor Information --></label>
+            <section>Payor Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Payor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Pharmacy Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IE Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>INTL Payor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>International Clinic Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>International Distributor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Pricebook Information --></label>
+            <section>Pricebook Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pharmacy Layout for TS</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Consumer Layout For Inside Sales</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Double Opt In Information --></label>
+            <section>Email Double Opt In Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Opt Out Information --></label>
+            <section>Email Opt Out Information</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Information --></label>
+            <section>Insurance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Facility &amp; Prescriber Information --></label>
+            <section>Medical Facility &amp; Prescriber Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training &amp; Consent Information --></label>
+            <section>Training &amp; Consent Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Medical Facility Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Payor Layout</layout>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Required Documentation --></label>
+            <section>Required Documentation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Pharmacy Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Prescriber Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alignment Information --></label>
+            <section>Alignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SI Wholesaler</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Oracle EBS Reference --></label>
+            <section>Oracle EBS Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Pricebook Information --></label>
+            <section>Pricebook Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>Create_CA_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_AT_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_AT_Sales_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_CH_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_CH_Sales_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Benefit --></label>
+        <name>New_Canada_Benefit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Benefit --></label>
+        <name>New_DE_Benefit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_DE_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_DE_Sales_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_DE_Tech_Support_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Sample Order --></label>
+        <name>New_DIST_Sample_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Tech Support Order --></label>
+        <name>New_DIST_Tech_Support_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_Dist_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_GB_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Cash --></label>
+        <name>New_GB_Order_Cash</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Multiple Funded --></label>
+        <name>New_GB_Order_Multiple_Funded</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_GB_Order_Org_Accounts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Prepaid --></label>
+        <name>New_GB_Order_Prepaid</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Sample --></label>
+        <name>New_GB_Order_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Single Funded --></label>
+        <name>New_GB_Order_Single_Funded</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_IE_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Cash --></label>
+        <name>New_IE_Order_Cash</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Multiple Funded --></label>
+        <name>New_IE_Order_Multiple_Funded</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_IE_Order_Org_Accounts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Prepaid --></label>
+        <name>New_IE_Order_Prepaid</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Sample --></label>
+        <name>New_IE_Order_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order - Single Funded --></label>
+        <name>New_IE_Order_Single_Funded</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_International_Clinical_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Return &amp; Credit Order --></label>
+        <name>New_International_Clinical_Return_Credit_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Sample Order --></label>
+        <name>New_International_Clinical_Sample_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Tech Support Order --></label>
+        <name>New_International_Clinical_Tech_Support_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_SI_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>New_SI_Sales_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Sample Order --></label>
+        <name>New_SI_Sample_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Order --></label>
+        <name>Newco_Tech_Order</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Token Email --></label>
+        <name>Send_Token_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send with DocuSign --></label>
+        <name>Send_with_DocuSign</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Austria Medical Facility or Hospital --></description>
+        <label><!-- AT Medical Facility --></label>
+        <name>AT_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in Austria --></description>
+        <label><!-- AT Payor --></label>
+        <name>AT_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- General Business Account --></description>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Canadian Medical Facility or Hospital --></description>
+        <label><!-- CA Medical Facility --></label>
+        <name>CA_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Canadian Insurance Payers including Government Payers. --></description>
+        <label><!-- CA Payor --></label>
+        <name>CA_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Switzerland Medical Facility or Hospital --></description>
+        <label><!-- CH Medical Facility --></label>
+        <name>CH_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in Switzerland --></description>
+        <label><!-- CH Payor --></label>
+        <name>CH_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Hospitals in Germany --></description>
+        <label><!-- DE Hospital --></label>
+        <name>DE_Hospital</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Medical Facilities in Germay --></description>
+        <label><!-- DE Medical Facility --></label>
+        <name>DE_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in Germany --></description>
+        <label><!-- DE Payor --></label>
+        <name>DE_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- GB Medical Facility or Hospital --></description>
+        <label><!-- GB Medical Facility --></label>
+        <name>GB_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in GB --></description>
+        <label><!-- GB Payor --></label>
+        <name>GB_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Pharmacies in Great Britin --></description>
+        <label><!-- GB Pharmacy --></label>
+        <name>GB_Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ireland Medical Facility or Hospital --></description>
+        <label><!-- IE Medical Facility --></label>
+        <name>IE_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in Ireland --></description>
+        <label><!-- IE Payor --></label>
+        <name>IE_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Pharmacies in Ireladn --></description>
+        <label><!-- IE Pharmacy --></label>
+        <name>IE_Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- International (OUS) Clinical Trials Customers. --></description>
+        <label><!-- INTL Clinical --></label>
+        <name>INTL_Clinical</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payor for International (OUS) Clinical Studies. For use with Funds. --></description>
+        <label><!-- INTL Payor --></label>
+        <name>INTL_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for International Distributors (OUS - both EU and non-EU). --></description>
+        <label><!-- International Distributor --></label>
+        <name>International_Distributor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Slovenia Medical Facility or Hospital --></description>
+        <label><!-- SI Medical Facility --></label>
+        <name>SI_Medical_Facility</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Payors in Slovenia --></description>
+        <label><!-- SI Payor --></label>
+        <name>SI_Payor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Pharmacies in Slovenia --></description>
+        <label><!-- SI Pharmacy --></label>
+        <name>SI_Pharmacy</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country on Billing address are required to create an Account. --></errorMessage>
+        <name>AT_Billing_Address_Required_For_All_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing Address Street should not start with a number. --></errorMessage>
+        <name>AT_CH_BillStreet_Shd_Start_With_Alpha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Address Street should not start with a number. --></errorMessage>
+        <name>AT_CH_ShipStreet_Shd_Start_With_Alpha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You dont have privilege to modify the account information, please contact your country Admin. --></errorMessage>
+        <name>AT_Chk_Admin_Privilage_For_Field_Sales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Address country is not valid for this Account. --></errorMessage>
+        <name>All_Account_Country_Selection_Chk</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Home Phone is required as &apos;Primary Phone Contact&apos; is selected as &apos;Home&apos;. --></errorMessage>
+        <name>All_Account_Home_Phone_Check_For_Primary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mobile Phone is required as &apos;Primary Phone Contact&apos; is selected as &apos;Mobile&apos;. --></errorMessage>
+        <name>All_Account_Mobile_Check_For_Primary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Other Phone is required as &apos;Primary Phone Contact&apos; is selected as &apos;Other&apos;. --></errorMessage>
+        <name>All_Account_Other_Phone_Check_For_Primar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone is required as &apos;Primary Phone Contact&apos; is selected as &apos;Work&apos;. --></errorMessage>
+        <name>All_Account_Phone_Check_For_Primary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Subtype cannot be blank, please select a valid Subtype. --></errorMessage>
+        <name>All_Account_Subtype_Req_Chk</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Birth date cannot be entered with a date in future. --></errorMessage>
+        <name>All_Birth_Date_Cannot_Be_In_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to change this field. Please use the &apos;Email Pending Opt In&apos; and &apos;Email Pending Opt Out&apos; checkboxes instead. --></errorMessage>
+        <name>All_Block_Email_Opt_In_List_Upda</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot perform this action. --></errorMessage>
+        <name>All_Cannot_Alter_Name_On_Admin_Accounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the name of the Payor, please contact your admin to make the Payor name change. --></errorMessage>
+        <name>All_Cannot_Change_Payor_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Address should be either completely filled in or should be left blank. --></errorMessage>
+        <name>All_Chk_If_Shipping_Addr_Is_Comp_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select unit of measure. --></errorMessage>
+        <name>All_Chk_If_UOM_Is_Selected_For_Weight</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Inactive Reason&apos; can be selected only for Inactive accounts. --></errorMessage>
+        <name>All_Chk_Inactive_Reason_For_Active_Accnt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Inactive Reason&apos; is required for Inactive account. --></errorMessage>
+        <name>All_Chk_Inactive_Reason_For_Inactive_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must select Email Opt In Method and Email Opt In Language --></errorMessage>
+        <name>All_Double_Opt_In_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Home Phone number. --></errorMessage>
+        <name>All_HomePhone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Mobile Phone number. --></errorMessage>
+        <name>All_MobilePhone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Other Phone number. --></errorMessage>
+        <name>All_OtherPhone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change Recordtype for Account Records. --></errorMessage>
+        <name>All_Prevent_Users_From_Changing_Acc_RT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lower case is not allowed in VAT Registration Number. --></errorMessage>
+        <name>All_VAT_Registration_Number_Val_Std</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Work Phone number. --></errorMessage>
+        <name>All_WorkPhone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing Address is needed. --></errorMessage>
+        <name>CA_Address_Required_for_Non_Consumers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Postal Code --></errorMessage>
+        <name>CA_Bill_To_ZipCode_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing Address or Shipping Address should be either completely filled in or should be left blank. --></errorMessage>
+        <name>CA_Chk_If_Bill_Ship_Addr_Is_Comp_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is required. --></errorMessage>
+        <name>CA_First_Name_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent/Guardian First and Last Name are required for Under 18 Patient. --></errorMessage>
+        <name>CA_Guardian_Required_For_Under18_Patient</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Postal Code --></errorMessage>
+        <name>CA_Ship_To_ZipCode_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country on Billing address are required to create an Account. --></errorMessage>
+        <name>CH_Billing_Address_Required_For_All_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing postal code should be 4 chars in length. --></errorMessage>
+        <name>CH_Billing_Zip_Should_Be_4_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You dont have privilege to modify the account information, please contact your country Admin. --></errorMessage>
+        <name>CH_Chk_Admin_Privilage_For_Field_Sales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You dont have privilege to modify the account information, please contact your country Admin. --></errorMessage>
+        <name>CH_Chk_Admin_Privilage_For_Inside_Sales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is required. --></errorMessage>
+        <name>CH_FirstName_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent/Guardian First and Last Name are required for Under 18 Patient. --></errorMessage>
+        <name>CH_Guardian_Required_For_Under18_Patient</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Medical Facility is required for Prescriber. --></errorMessage>
+        <name>CH_MedicalFacility_IsRequired_on_Prescr</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Preferred Language is required. --></errorMessage>
+        <name>CH_Preferred_Language_Required_For_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Salutation is required. --></errorMessage>
+        <name>CH_Salutation_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country on Billing address are required to create an Account. --></errorMessage>
+        <name>DE_Billing_Address_Required_For_All_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing postal code should be 5 chars in length. --></errorMessage>
+        <name>DE_Billing_Zip_Should_Be_5_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VIP field should be checked. --></errorMessage>
+        <name>DE_Cannot_Change_VIP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Insurance Company Contract Number&apos; should be 7 characters in length. --></errorMessage>
+        <name>DE_Ins_Comp_Contract_No_Should_B_7_Char</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Insurance Company Identification Number&apos; is required for Payors. --></errorMessage>
+        <name>DE_Ins_Company_Ident_Req_For_DE_Payor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Member Id&apos; should be 10 characters in Length. --></errorMessage>
+        <name>DE_Member_Id_Should_Be_10_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Prescriber ID is required for Prescriber. --></errorMessage>
+        <name>DE_Prescriber_ID_Required_For_DE_Prescri</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping postal code should be 5 chars in length. --></errorMessage>
+        <name>DE_Shipping_Zip_Should_B_5_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Street, City, Zip and Country on Billing address are required to create an Account. --></errorMessage>
+        <name>SI_Billing_Address_Required_For_All_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing postal code should be 4 chars in length. --></errorMessage>
+        <name>SI_Billing_Zip_Should_Be_4_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing Address or Shipping Address should be either completely filled in or should be left blank. --></errorMessage>
+        <name>SI_Chk_If_Bill_Ship_Addr_Is_Comp_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping postal code should be 4 chars in length. --></errorMessage>
+        <name>SI_Shipping_Zip_Should_B_4_Chars_In_Leng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You dont have privilege to modify the account information, please contact your country Admin. --></errorMessage>
+        <name>UK_Chk_Admin_Priv_For_MedFac_Account_Mod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You dont have privilege to modify the account information, please contact your country Admin. --></errorMessage>
+        <name>UK_Chk_Admin_Priv_For_Non_Cons_Pharm_Acc</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Aligned_Users --></label>
+        <name>Aligned_Users</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Documents --></label>
+        <name>Generate_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contract Date Validated --></label>
+        <name>Contract_Date_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract On File? --></label>
+        <name>Contract_On_File__c</name>
+    </fields>
+    <fields>
+        <label>Land</label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Agreement Date Validated --></label>
+        <name>Employer_Agreement_Date_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Agreement on File? --></label>
+        <name>Employer_Agreement_on_File__c</name>
+        <picklistValues>
+            <masterLabel>Freelancer</masterLabel>
+            <translation><!-- Freelancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Hauptfachgebiet</label>
+        <name>Primary_Specialty__c</name>
+        <picklistValues>
+            <masterLabel>DIABETOLOGE</masterLabel>
+            <translation><!-- DIABETOLOGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENDOCRINOLOGY</masterLabel>
+            <translation>Endokrinologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERNAL MEDICINE</masterLabel>
+            <translation>Innere Medizin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PADIATER</masterLabel>
+            <translation><!-- PADIATER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEDIATRIC ENDOCRINOLOGY</masterLabel>
+            <translation><!-- PEDIATRIC ENDOCRINOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIMARY CARE</masterLabel>
+            <translation><!-- PRIMARY CARE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Titel</label>
+        <name>Title__c</name>
+        <picklistValues>
+            <masterLabel>Values should be given</masterLabel>
+            <translation><!-- Values should be given --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Training Certificate Date Validated --></label>
+        <name>Training_Certificate_Date_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Certificate On File? --></label>
+        <name>Training_Certificate_On_File__c</name>
+    </fields>
+    <fields>
+        <label>Trainingspräferenz</label>
+        <name>Training_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Initial Training by Sales Rep</masterLabel>
+            <translation>Technische Einweisung durch Dexcom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Training done by Webinar</masterLabel>
+            <translation>Technische Einweisung per Webinar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Training in Doctors Office</masterLabel>
+            <translation>Technische Einweisung in Praxis</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validated Trainer? --></label>
+        <name>Validated_Trainer__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Austria Contacts --></description>
+        <label><!-- AT Contact --></label>
+        <name>AT_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Contact Associated with Canadian Organizations. --></description>
+        <label><!-- CA Contact --></label>
+        <name>CA_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Switzerland Contacts --></description>
+        <label><!-- CH Contact --></label>
+        <name>CH_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Germany Contacts --></description>
+        <label><!-- DE Contact --></label>
+        <name>DE_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GB Contact --></label>
+        <name>GB_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ireland contacts --></description>
+        <label><!-- IE Contact --></label>
+        <name>IE_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Slovenia Contact --></description>
+        <label><!-- SI Contact --></label>
+        <name>SI_Contact</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

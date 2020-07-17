@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IFU Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IFUs Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <picklistValues>
+            <masterLabel>A.IMPORT.CZ SPOL.S R.O.</masterLabel>
+            <translation><!-- A.IMPORT.CZ SPOL.S R.O. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL AMAD DRUGSTORE</masterLabel>
+            <translation><!-- AL AMAD DRUGSTORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUSTRALASIAN MEDICAL &amp; SCIENTIFIC LTD</masterLabel>
+            <translation><!-- AUSTRALASIAN MEDICAL &amp; SCIENTIFIC LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CELKI MEDICAL COMPANY</masterLabel>
+            <translation><!-- CELKI MEDICAL COMPANY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIGALAH GROUP WAREHOUSE</masterLabel>
+            <translation><!-- CIGALAH GROUP WAREHOUSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinno Sante</masterLabel>
+            <translation><!-- Dinno Sante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBN SINA MEDICAL</masterLabel>
+            <translation><!-- EBN SINA MEDICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETHITECH PTY LTD</masterLabel>
+            <translation><!-- ETHITECH PTY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (JULPHAR)</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (JULPHAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAMAD SALEH AL HOMAIZI</masterLabel>
+            <translation><!-- HAMAD SALEH AL HOMAIZI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAFFAR PHARMACY</masterLabel>
+            <translation><!-- JAFFAR PHARMACY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW ZEALAND MEDICAL &amp; SCIENTIFIC</masterLabel>
+            <translation><!-- NEW ZEALAND MEDICAL &amp; SCIENTIFIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Denmark)</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Denmark) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Finland)</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Finland) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Norway)</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Norway) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Sweden)</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Sweden) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOVALAB IBERICA SAL (SPAIN)</masterLabel>
+            <translation><!-- NOVALAB IBERICA SAL (SPAIN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERRIGO ISRAEL AGENCIES LTD</masterLabel>
+            <translation><!-- PERRIGO ISRAEL AGENCIES LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHARMANET DRUGSTORE</masterLabel>
+            <translation><!-- PHARMANET DRUGSTORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proglikemia Sp. Z o.o.</masterLabel>
+            <translation><!-- Proglikemia Sp. Z o.o. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCIENTIFIC PHARMACY</masterLabel>
+            <translation><!-- SCIENTIFIC PHARMACY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THERAS LIFETECH S.R.L</masterLabel>
+            <translation><!-- THERAS LIFETECH S.R.L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZKOPE HEALTH CARE</masterLabel>
+            <translation><!-- ZKOPE HEALTH CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zkope Health Care (Belgium)</masterLabel>
+            <translation><!-- Zkope Health Care (Belgium) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IFU --></label>
+        <name>IFU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricebook --></label>
+        <name>Pricebook__c</name>
+        <picklistValues>
+            <masterLabel>A.IMPORT.CZ, Czech Republic - STANDARD</masterLabel>
+            <translation><!-- A.IMPORT.CZ, Czech Republic - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMSL (AUSTRALASIAN MEDICAL &amp; SCIENTIFIC LTD) - STANDARD</masterLabel>
+            <translation><!-- AMSL (AUSTRALASIAN MEDICAL &amp; SCIENTIFIC LTD) - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celki Medical Company - STANDARD</masterLabel>
+            <translation><!-- Celki Medical Company - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DINNO SANTE - STANDARD</masterLabel>
+            <translation><!-- DINNO SANTE - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethitech Pty Ltd - STANDARD</masterLabel>
+            <translation><!-- Ethitech Pty Ltd - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Bahrain) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Bahrain) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Jordan) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Jordan) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (KSA) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (KSA) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Kuwait) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Kuwait) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Lebanon) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Lebanon) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Oman) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Oman) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (Qatar) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (Qatar) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GULF PHARMACEUTICAL INDUSTRIES (UAE) - Standard</masterLabel>
+            <translation><!-- GULF PHARMACEUTICAL INDUSTRIES (UAE) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW ZEALAND MEDICAL &amp; SCIENTIFIC LTD - STANDARD</masterLabel>
+            <translation><!-- NEW ZEALAND MEDICAL &amp; SCIENTIFIC LTD - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Denmark) - Standard</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Denmark) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Finland) - Standard</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Finland) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Norway) - Standard</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Norway) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDICINFU CARE AB (Sweden) - Standard</masterLabel>
+            <translation><!-- NORDICINFU CARE AB (Sweden) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Novalab Iberic S.A.L, Madrid, Spain - STANDARD</masterLabel>
+            <translation><!-- Novalab Iberic S.A.L, Madrid, Spain - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perrigo Israel Agencies LTD - STANDARD</masterLabel>
+            <translation><!-- Perrigo Israel Agencies LTD - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proglikemia Sp. Z o.o. - STANDARD</masterLabel>
+            <translation><!-- Proglikemia Sp. Z o.o. - STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THERAS LIFETECH S.R.L - Standard</masterLabel>
+            <translation><!-- THERAS LIFETECH S.R.L - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zkope Health Care (Belgium) - Standard</masterLabel>
+            <translation><!-- Zkope Health Care (Belgium) - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zkope Health Care - Standard</masterLabel>
+            <translation><!-- Zkope Health Care - Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SKU --></label>
+        <name>SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>CH STANDARD</masterLabel>
+            <translation><!-- CH STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIST SALES SAMPLE</masterLabel>
+            <translation><!-- DIST SALES SAMPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIST STANDARD</masterLabel>
+            <translation><!-- DIST STANDARD --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>IFU Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
