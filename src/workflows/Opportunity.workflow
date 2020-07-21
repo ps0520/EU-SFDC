@@ -55,9 +55,9 @@
     </fieldUpdates>
     <fieldUpdates>
         <fullName>Update_Customer_Docs_Collection_Status</fullName>
-        <description>Customer Docs Collection Status: &apos;All Docs Received&apos;</description>
+        <description>Customer Docs Collection Status: &apos;NOT REQUIRED&apos;</description>
         <field>CA_Customer_Docs_Collection_Status__c</field>
-        <literalValue>All Docs Received</literalValue>
+        <literalValue>Not Required</literalValue>
         <name>Update Customer Docs Collection Status</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
@@ -140,7 +140,7 @@
         <description>AT Populate Default Values
 Stage =Customer Doc Collection
 Health Insurance Approval: &quot;NOT REQUIRED&quot;
-Customer Docs Collection Status: &apos;All Docs Received&apos;</description>
+Customer Docs Collection Status: &apos;NOT REQUIRED&apos;</description>
         <formula>AND(
 BEGINS(RecordType.DeveloperName, &apos;AT&apos;),ISPICKVAL(StageName, &apos;Customer Doc Collection&apos;),ISPICKVAL(Type, &apos;Reorder&apos;))</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
