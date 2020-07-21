@@ -157,7 +157,7 @@ BEGINS(RecordType.DeveloperName, &apos;AT&apos;),ISPICKVAL(StageName, &apos;Cust
         <triggerType>onAllChanges</triggerType>
     </rules>
     <rules>
-        <fullName>DE_Update Rx Expiration Date On Opportunity</fullName>
+        <fullName>DE_Update Rx Expiration Date On opportunity</fullName>
         <actions>
             <name>Update_Rx_Expiration_Date_On_Opportunity</name>
             <type>FieldUpdate</type>
